@@ -16,6 +16,10 @@ var CORE = [
   './icon.svg',
   './icon-192.png',
   './icon-512.png',
+  './f/type.css',
+  './f/literata-300.woff2',
+  './f/literata-400.woff2',
+  './f/ibm-400.woff2',
   './read/hosts-guide',
   './read/keeping-people-safe',
   './read/why-this-exists'
@@ -58,7 +62,7 @@ self.addEventListener('fetch', function(e){
   if(url.origin !== location.origin) return;   // never touch anything third-party
 
   // documents: serve from cache if we have it, otherwise fetch and keep a copy
-  if(url.pathname.indexOf('/downloads/') !== -1 || url.pathname.indexOf('/read/') !== -1){
+  if(url.pathname.indexOf('/downloads/') !== -1 || url.pathname.indexOf('/read/') !== -1 || url.pathname.indexOf('/f/') !== -1){
     e.respondWith(
       caches.match(req).then(function(hit){
         if(hit) return hit;
