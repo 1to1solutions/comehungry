@@ -5,7 +5,7 @@
 
 // Bumped on every build. A new build gets fresh caches and the old ones are
 // deleted on activate, so nobody is ever served yesterday's page.
-var BUILD = '1307a2';
+var BUILD = '2eee92';
 var SHELL = 'ch-shell-' + BUILD;
 var DOCS  = 'ch-docs-' + BUILD;
 
@@ -16,10 +16,22 @@ var CORE = [
   './icon.svg',
   './icon-192.png',
   './icon-512.png',
-  './read/hosts-guide.html',
-  './read/keeping-people-safe.html',
-  './read/why-this-exists.html'
+  './read/hosts-guide',
+  './read/keeping-people-safe',
+  './read/why-this-exists'
 ];
+
+
+// Safari refuses a redirected response handed back by a service worker.
+// Cloudflare Pages redirects /x.html to /x, so rebuild those cleanly.
+function clean(res) {
+  if (!res || !res.redirected) return res;
+  return new Response(res.body, {
+    status: res.status,
+    statusText: res.statusText,
+    headers: res.headers
+  });
+}
 
 self.addEventListener('install', function(e){
   e.waitUntil(
@@ -51,7 +63,8 @@ self.addEventListener('fetch', function(e){
       caches.match(req).then(function(hit){
         if(hit) return hit;
         return fetch(req).then(function(res){
-          if(res && res.ok){
+          res = clean(res);
+          if(res && res.ok && !res.redirected){
             var copy = res.clone();
             caches.open(DOCS).then(function(c){ c.put(req, copy); });
           }
@@ -65,6 +78,7 @@ self.addEventListener('fetch', function(e){
   // the page itself: network first so edits appear, cache as the fallback
   e.respondWith(
     fetch(req).then(function(res){
+      res = clean(res);
       if(res && res.ok){
         var copy = res.clone();
         caches.open(SHELL).then(function(c){ c.put(req, copy); });
