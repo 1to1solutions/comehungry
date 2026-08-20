@@ -3272,7 +3272,7 @@ That's it. If the answers require changes, make them before launch, not after th
 
 ## The template child-safety policy (for churches that don't have one)
 
-*A starting framework. Have it reviewed by your insurer, your denomination's safeguarding office, or a local expert before adopting — child-protection law varies by state and this template is a floor, not a finished policy.*
+*A starting framework. Have it reviewed by your insurer, your denomination's safeguarding office, or a local expert before you adopt it — child-protection law varies by state, and this is where a policy starts, not where it ends.*
 
 1. **Screening.** Every adult in regular contact with minors completes an application, a national background check renewed every [2–3] years, and a reference check. No exceptions for tenure, family, or reputation — the policy protects the trusted, too.
 2. **The two-adult rule.** Two screened, unrelated adults present whenever minors are in the church's care, in any setting, including homes and vehicles.
