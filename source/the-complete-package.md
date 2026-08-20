@@ -1,7 +1,7 @@
 # THE COMPLETE SET
 ### Everything, in one document. Free, whole, and yours to keep.
 
-*Assembled August 18, 2026. This is every published document in the project, in the order a person meets them: why this exists, proof you're not alone, how to set a table, how to keep everyone safe, the fifty stories, and — for pastors and church leaders — the entire church wing. Nothing else exists behind a door somewhere. This is all of it.*
+*Assembled August 18, 2026. This is every published document in the project. It reads in the order a person meets them: why this exists, how to set a table, how to keep everyone safe, and — for pastors and church leaders — the entire church wing. The fifty story preps are at the back, where reference material belongs; you look things up in them rather than reading them through. Nothing else exists behind a door somewhere. This is all of it.*
 
 *Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it — us included.*
 
@@ -14,20 +14,12 @@
 3. The Host's Guide (launching a table, and year one)
 4. Keeping people safe
 
-**Part Two — The Stories**
-5. The Canon of Fifty (overview)
-6. Arc One — The Ones He Met
-7. Arc Two — The Ones He Told
-8. Arc Three — The Table
-9. Arc Four — The Power and the Mercy
-10. Arc Five — The Beginning and the End
-
-**Part Three — The Church Wing** *(fully open to everyone; written for pastors)*
-11. A Letter to the Pastor
-12. The Three Postures
-13. The Leadership Team Guide
-14. Start / Integration / Money / The First 90 Days
-15. Shepherding Tables
+**Part Two — The Church Wing** *(fully open to everyone; written for pastors)*
+4. A Letter to the Pastor
+5. The Three Postures
+6. The Leadership Team Guide
+7. Start / Integration / Money / The First 90 Days
+8. Shepherding Tables
 16. The Household Addendum & Safeguarding Pack
 
 
@@ -234,6 +226,12 @@ The story is *told*, never read. This is the part new hosts want to skip, and it
 Nobody's asking you to memorize a script. You prepare a story with the **5 Cs** — walk through its **Context** (what's happening as it opens), its **Characters** (who's there and what they want), its **Conflict** (what's wrong or at stake), its **Climax** (the moment it turns), and its **Change** (who's different at the end, and how). Know those five things and you know the story well enough to tell it in your own words — which is the only version anyone needs.
 
 The way in is **Recite, Retell, Recall.** Read the story out loud to yourself several times during the week — that's recite. Tell it in your own words with the text nearby to check yourself — that's retell. Then tell it without the text — recall. Twenty minutes across a week. The Canon of Fifty does the heavy lifting for you: every story comes fully prepped — the 5 Cs worked out, a sample telling to learn from, and the discussion already framed. You're not building this from scratch. You're practicing a story somebody already prepared.
+
+**If you can't get there, read it first.** Open the Bible, read the story out loud, close it, and then tell it. You have lost nothing. Everyone has heard it once, accurately, and now they hear it again in your own words — which is the version they will remember on Thursday.
+
+There is a second thing this does, and it might be the better reason. Tell the table plainly: *I just read it, now I am going to tell it, and if I drop something you caught, say so.* Suddenly six people are holding the story instead of one. Somebody will jump in with the detail you skipped, and that person has just done what you are doing — which is very often how a table finds its next host.
+
+Aim at telling it cold, because a told story lands differently than a read one; the room leans in, people look up, and it stops being a lesson. Some weeks you will get there and some weeks you will not. A story read and then told beats a story not told at all.
 
 After the story, four questions, always the same four, in order:
 
@@ -451,6 +449,457 @@ Nobody polices living rooms. Hosts do. These rules are short so that no host can
 
 
 ---
+---
+
+# A letter to the pastor holding this kit
+
+If you haven't read **Why this exists** yet — the founding document, at comehungry.org — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
+
+You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
+
+One more thing you should know about who's writing this. I've been a pastor for nearly forty years and I've served the same congregation for thirty. We started tables there, in our own church, ten years ago — before any of this was written down. So none of what follows is theory I'm asking you to try on your people first. We've been giving it away ever since, and it spreads for the least complicated reason there is: it works.
+
+So let's start with what this is not going to do.
+
+It will not grow your weekend attendance this year. It might eventually — tables have a way of filling rooms — but if that's the goal, this is the wrong tool and we'd rather tell you now. It will not replace your job; tables need shepherds more than programs ever did, not less. It will not run itself, impress your board by Christmas, or fix a budget. And it isn't new. It's very, very old — which is the reason it works.
+
+Here's what it is. This model turns your congregation into a church of small groups instead of a church with small groups. Little churches within your church: six to ten people around a table, weekly, who eat together, share life honestly, wrestle with the stories of Jesus told out loud, and end every gathering by doing something about it. Discipleship happens at the table. Care happens at the table. Service comes from the table. Sunday becomes what it was always meant to be — the celebration of a family that's been living as one all week.
+
+Your doctrine governs it. Your pulpit, your teaching, your convictions are the foundation under every table, and nothing in this kit asks you to soften a word of it. The tables simply keep their welcome wide — anyone can pull up a chair and meet Jesus in his own stories, the same way anyone can walk into your Sunday service. You already live that distinction. This just extends it to living rooms.
+
+And the tables multiply. Each one raises its next leader from inside itself — people learn to lead by doing, not by taking a class — and when a table is full and a new host is ready, it sends. That's your leadership pipeline and your growth strategy in one pattern, growing house by house at the speed of relationship, in rooms you'll never have to build or heat.
+
+Now the two questions you're actually asking.
+
+**What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a human to walk your launch with you, that exists too — the founder's professional practice, which lives entirely outside this project, under his own name, at timothyeldred.com — linked, never sold from inside the project. Paid church engagements there fund the same help for churches that can't pay, and no church is ever turned away for money. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
+
+**What's the catch?** There isn't one, and we know you won't believe that from a letter, so here's the whole arrangement in two sentences: everything here is free because giving it away is the mission, and the founder pays his bills with his own profession, outside this project, so the project never needs to sell you anything. Donations fund the work — plainly non-tax-deductible, and they buy nothing.
+
+Don't announce a new ministry. Don't print anything. Pick two hosts your people already trust, write your name and number on the front page of their guides — by hand, it matters — and let two tables start quietly. Your congregation will find out the way the early church's neighbors did: they'll catch people talking about it.
+
+Grace and peace to you and your church. You've been carrying a lot. This is lighter than it looks.
+
+— From one pastor to another
+
+
+---
+---
+
+# The Three Postures
+*One model, three ways in. Read the one that matches your church; the other two are here so you can see the whole map.*
+
+---
+
+# RENEW
+### For the church whose groups ministry is running on fumes.
+
+You have small groups. They meet around curriculum, they're led by the same eight exhausted volunteers, they swell in September and thin by February, and if you're honest, they exist mostly to close the back door of your weekend service. Renew doesn't fix that system. It replaces it — gradually, quietly, with tables that don't need you to program them.
+
+**What changes.** Groups stop being a delivery system for content and become little churches: discipleship, care, and service happening at the table, with your teaching as the foundation under all of it. The measure of a group stops being attendance and starts being health — are they together, are they growing, did one table become two.
+
+**Start fresh; don't convert.** The strong temptation is to hand this kit to your existing group leaders and relabel. Resist it. Existing groups carry existing habits — the teacher habit, the curriculum habit, the ninety-minutes-of-content habit — and habits outlast relabeling every time. Instead: pick two people (not necessarily your current leaders; look for the ones people already feel safe around), hand them the Host's Guide, and let two new tables begin alongside everything you already run. Existing groups can keep meeting exactly as they are. Some will ask to become tables when they see one up close. That's the transition working — by attraction, not decree.
+
+**Your first 90 days.**
+Weeks 1–3: choose two hosts, write your name and number in their guides, first tables gather.
+Weeks 4–8: stay close but stay out. Check in with hosts every couple of weeks — coffee, not meetings. Resist the urge to visit the tables; a pastor in the room turns a table back into a class for at least a month.
+Weeks 9–12: hosts will hit their first hard moments. This is the job now: you're the person on the front page of their guide. Answer fast, love them well, and notice who around each table people are starting to trust — those are your next hosts.
+
+**How your staff's job changes.** From programming groups to shepherding them. From producing curriculum to being the safety net under fifty living rooms. From recruiting leaders to recognizing them. It's less control and more actual pastoring, and most staff discover it's the job they thought they were signing up for originally.
+
+**The two ways Renew fails.**
+1. *The staff can't let go of content.* If someone insists on writing discussion guides for the tables, the tables become satellite classrooms and die the same February death as the old groups. The stories and four questions are the content. Trust them.
+2. *The old system and the new compete for the same calendar.* If people are asked to attend groups *and* tables *and* three other weeknight things, tables lose — they're the newest and least institutional. Prune as tables grow. Renew is a transfer of life, not an addition to the pile.
+
+**When to call for help.** If ninety days in neither table has found a rhythm, or your hosts keep turning gatherings into studies, that's a normal launch problem with known fixes, and it's worth an hour with someone who's watched fifty launches. The money page in this kit says where that kind of help lives.
+
+---
+
+# REBIRTH
+### For the plateaued or declining church ready to stop tinkering.
+
+This is the deepest posture and the slowest. Rebirth means the congregation reorganizes as churches-within-the-church: tables become the primary unit of belonging, discipleship, and care, and the weekend service becomes the celebration of what the tables live all week. It's not a program adoption. It's a change in what your church believes church is.
+
+**Say it plainly before you start:** Rebirth is a two-to-three-year turn. There is no fall-kickoff version of it. If your leadership needs visible results in twelve months, run Renew instead — it's the same road, entered gently, and it leaves you free to go further later.
+
+**Never announce a restructure.** This is the closest thing Rebirth has to an iron law. The day you stand up and declare "we're becoming a church of tables," you've created a referendum, and referendums on change in a plateaued church go one way. Instead: start tables the Renew way — two, then four, then eight — and let the structure become obvious before it becomes official. When a third of your congregation is at tables and the care ministry keeps discovering needs were already met before staff heard about them, the restructure isn't a proposal anymore. It's a description.
+
+**What dies and what doesn't.** Programs that exist to manufacture the connection tables now provide will fade — let them, gently, on their own schedule. What doesn't die: your worship gathering (it gets warmer — celebration is different when the family already knows each other), your teaching (tables run on it), your governance (this kit has no opinion about your polity), and your identity (Rebirth makes your church more itself, not something else wearing its name).
+
+**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when the structure has to catch up with what is actually happening. Staffing, budget, what to stop doing, what Sunday becomes. Those are hard calls to make on your own, so get through a healthy year one and then write hello@comehungry.org — somebody who has been through it will talk it over with you.
+
+**The two ways Rebirth fails.**
+1. *The language changes and the tables don't.* A church that adopts the vocabulary — starts saying "tables," puts "church of small groups" on the website — without the slow work of actual living rooms has just renamed its decline. The words are the last thing to change, not the first.
+2. *The pastor is the only believer.* If Rebirth lives solely in your conviction, it dies with your next call or your next burnout. Before you start, sit with three or four trusted people — staff, elders, the saints everyone actually listens to — and let them catch it or talk you out of it. If none of them catch it, the church isn't ready, and that's information, not failure.
+
+**When to ask for help.** Before year two. Every church that has made this turn had somebody outside it to talk to, and the ones that tried it alone are the cautionary tales.
+
+---
+
+# REPRODUCE
+### For the church that wants to expand without buying a building.
+
+The traditional church plant: a hired planter, a core team, a rented school, a launch Sunday, and a runway of several hundred thousand dollars — with a survival rate you already know. Reproduce runs the other way: seed tables in the target community, let them grow and multiply by sending, and let whatever the community needs to become emerge from what's actually alive there. You're not launching a service and hoping community forms around it. You're growing the community and letting it decide what it needs.
+
+**What the mothership provides.** Everything the tables can't do alone yet: pastoral backup when a table meets a moment beyond its skill, crisis care, host training, and a regular celebration — monthly at first, the tables from that community gathering with you, or eventually with each other. You're the trellis, not the vine.
+
+**What it costs.** A table costs a living room and a starter guide. Your real investment is people — a couple from your congregation who live in or love that community, willing to host the first table — and patience, because tables multiply at the speed of relationship, not the launch calendar. Budget in years and shepherding hours, not dollars. Compared to a traditional church plant, the money is a rounding error; the patience is the price.
+
+**Your first year.** One or two tables, hosted by your sent people, filled by *their* neighbors — not by commuters from your congregation, or you've planted a satellite small group, not a community of its own. Months 6–12: first multiplication, first community celebration, first crisis handled well (there will be one; it's how the community learns the mothership is real). Don't name it, brand it, or website it in year one. Let it be tables.
+
+**The hard question — answer it in writing before you send anyone.** Tables in that community will grow people, leaders, and convictions you didn't program. The day will come when the tables there are mature enough to need a structure of their own — and it may not look like a campus of yours. So decide now: *are you sending, or franchising?* If you can bless what it becomes — celebrate it, keep the relationship, hold it loosely — Reproduce will give your church the joy of parenthood. If you need it to become a satellite that runs your services and returns your metrics, plant a campus instead; that's a legitimate thing to build and this isn't the kit for it. Both answers are honest. Only one of them fits this pattern, and discovering which one you gave in year three, mid-conflict, is the expensive way to find out.
+
+**The two ways Reproduce fails.**
+1. *Colonization by kindness.* The mothership loves the new tables so much it staffs them, funds them, programs them, and visits them constantly — and the community's own leadership never has room to grow. Support looks like being reachable, not being present.
+2. *Abandonment dressed as trust.* The opposite failure: tables get sent and forgotten, hit their first crisis alone, and dissolve — the standalone death, wearing your church's blessing. The named contact, the celebration rhythm, and the fast crisis response aren't extras. They're the difference between sending and abandoning.
+
+**When to call for help.** Before you send the first couple. Reproduce has the fewest do-overs of the three postures — the sending conversation, the hard question, and the support rhythm are worth designing with someone who's watched it go both ways.
+
+
+---
+---
+
+# The Leadership Team Guide
+### How to walk your board, elders, or leadership team through this model in one sitting.
+
+You've read the founding document and the pastor's letter, and something in you said *this might be it.* Now comes the part nobody writes materials for: the room where it actually gets decided. This guide is that meeting, planned for you — what to send beforehand, how to run the conversation, the objections that will come up and the honest answers, and a decision framework that treats "not yet" as a legitimate outcome. Because it is.
+
+One conviction before you start: **don't sell this to your board.** You've all sat through pitches; your team can smell one. Put the thing on the table, let them poke it hard, and trust it. If this can't survive your leadership team's honest scrutiny, it won't survive your congregation's living rooms either — better to find out in the meeting.
+
+## Before the meeting
+
+**Two weeks out:** send each member two documents — the founding document and the pastor's letter — with one sentence: "Read these before our next meeting — I want your honest read, especially what worries you." Nothing else. No enthusiasm essay on top. The documents do their own work, and asking for worries up front turns your skeptics into contributors instead of opponents.
+
+**One week out:** your most theologically careful elder will want the biblical basis before the meeting, not a scramble during it. Send the passages themselves — Acts 2:42–47, Romans 16:3–5, Colossians 4:15, Philemon 1–2 — and let them do what careful elders do. The pattern's grounding is the text, not a paper about the text.
+
+**Don't send:** the whole kit. Drowning a board in documents reads as either overwhelm or snow job. Two documents, one question.
+
+## The meeting itself (plan 60–75 minutes)
+
+**1. Open with what it isn't (5 minutes).** Say it yourself, out loud: this will not grow Sunday attendance this year, will not run itself, and is not a program we're buying — it's free, and it's a change in how our people are the church between Sundays. Starting with the disclaimers does two things: it disarms the burned, and it signals you're not pitching.
+
+**2. Everyone's honest read (15–20 minutes).** Around the room, two questions each: *what landed, and what worries you?* Write the worries on a board, verbatim, without answering any of them yet. A worry that gets written down gets considered; a worry that gets rebutted on arrival goes underground and votes no later.
+
+**3. Work the worry list (20–30 minutes).** Take them one at a time. The objections section below covers the ones that come up in almost every room — but let your team answer each other before you answer them. The moment an elder answers another elder's objection, this stopped being your idea.
+
+**4. The scale question (5 minutes).** Make sure everyone hears this clearly, because it lowers the stakes as far as they go: **the proposal is two tables.** Not a restructure, not a new ministry, not a line item. Two hosts, two living rooms, a quiet ninety days, and this same room looks at what actually happened. Nobody is being asked to bet the church tonight.
+
+**5. Decide (10 minutes).** Use the framework at the end of this guide.
+
+## The objections, and the honest answers
+
+**"We've tried small groups. They died."** So did ours, in the old shape. The question worth asking is *why* they died — usually: curriculum-dependence, leader exhaustion, and existing to feed Sunday. This model removes all three by design: the stories are the content, hosts guide rather than teach, and the table is the point rather than the funnel. But don't take that as a promise — take it as the specific hypothesis two tables will test.
+
+**"Where's the biblical basis?"** House to house is not a strategy borrowed from a business book — it's Acts 2:42–47, Romans 16:3–5, Colossians 4:15, Philemon 1–2. They're short; read them together in the meeting if you want. We're not innovating. We're returning.
+
+**"Anyone can sit at a table without believing what we believe? That sounds like doctrinal drift."** It's the same policy we already run on Sunday morning: anyone can attend; not anyone can lead. Doctrine governs hosts and teaching; the chair stays open. And the content of every gathering is a gospel story with four questions that keep pulling the room back to the text — a table built on the stories of Jesus is a hard place to drift *away* from Jesus. Anything that genuinely needs settling routes to the pastor; that's written into the host guide.
+
+**"What does this cost us?"** Money: nothing, ever — everything is free and stays free, and if we ever want paid human help, it exists outside the project under the founder's own name, and choosing it is entirely ours. Pastor's time: about an hour a week. Risk: two living rooms and ninety days. The real cost is patience — this grows at the speed of relationship, and a board that needs a dashboard by Easter should say so now.
+
+**"Who's liable if something happens in someone's home?"** One phone call answers it before launch — the kit includes the two questions for our insurer. And the child-safety requirements are stricter than most of what we currently run: two screened adults at any gathering with minors, no exceptions, under our existing policy.
+
+**"Is this a franchise? What do they get out of it?"** It's given away — the model, the stories, the guides, all of it, free forever, under a license that keeps anyone from ever fencing it off and selling it back. The founder earns his living from his own profession, outside the project; the money page links to it and the project never sells from within. Donations fund the work. No license, no membership, no data harvesting, no revenue share. If any of that ever changes, we walk, owing nothing.
+
+**"What happens to our existing groups and programs?"** Nothing, yet. Two new tables start alongside everything we run. If tables prove healthier than what we have, that becomes a good problem for a future meeting — and the transition happens by attraction, not decree.
+
+**"Why haven't we heard of this?"** Because it isn't marketed, doesn't collect endorsements, and doesn't need churches to use its name. That's either a red flag or the most refreshing thing on the table — and the ninety-day pilot is how we find out which.
+
+## The decision framework
+
+Put three options on the table — all three are wins over an ambiguous "sure, whatever":
+
+**Yes — pilot.** Two hosts, two tables, ninety days, then this room reviews against the three signs of health (tables still meeting without being chased, stories retold outside the table, one act completed). Name the pastor's contact-person role and confirm the insurance call happens before the first gathering.
+
+**Not yet.** Legitimate. A church mid-crisis, mid-transition, or mid-conflict shouldn't add anything — even something light. Name what would need to be true, and put a date on when this room looks again. "Not yet" with a date is a decision; "not yet" without one is a pocket veto.
+
+**No.** Also legitimate, and better said plainly. If this room can't bless an open chair, or needs measurable Sunday impact inside a year, this isn't the tool — and discovering that in a meeting costs nothing, while discovering it in month six costs two hosts their morale.
+
+**What not to decide tonight:** anything past the pilot. No restructuring conversations, no budget lines, no announcements. Two tables, ninety days, and this room again. The best decisions about this are made by leadership teams looking at their own tables — not at our materials.
+
+---
+
+*One page to bring with you: the First 90 Days card — it's what "yes" commits everyone to, on a single sheet.*
+
+
+---
+---
+
+# START HERE
+### The whole launch on one page.
+
+**1. Pick two hosts.**
+Not necessarily your current leaders. Look for the people others already feel safe around — the ones who get told things. Two hosts, two tables; one table has no one to learn from.
+
+**2. Hand them the Host's Guide.**
+Write your name and phone number on the front page of each one, by hand, before you give it away. That line is a promise, and it's the most important thing in the kit.
+
+**3. Let them gather 3–6 people.**
+Friends, neighbors, coworkers, church people, not-church people. The hosts invite; you stay out of it. No sign-up sheet, no announcement, no bulletin.
+
+**4. First table within three weeks.**
+Food kept simple, ninety minutes, the rhythm in the guide: Meet, Share, Grow, Act. The guide walks them through the first four gatherings story by story.
+
+**5. Tell us it happened.**
+One line to hello@comehungry.org: "A table met." That's the only report we'll ever want, and even it is optional.
+
+That's the launch. No banners, no sermon series, no kickoff Sunday. Two tables, started quietly, and your congregation finds out the way neighbors found out about the early church — they catch people talking.
+
+---
+---
+
+# THE INTEGRATION PAGE
+### How tables fit the church you already lead.
+
+**Tables and Sunday.** Tables are not competition for your weekend gathering and not a funnel into it. They're where your people live as the church between Sundays — and Sunday becomes the celebration of a family that already knows each other. Expect worship to feel different within a year, in the direction you've always wanted it to.
+
+**Your teaching and the tables.** Your pulpit, classes, and convictions are the foundation tables stand on. At the table itself, the content is the stories of Jesus, told out loud and talked through with four questions — not a curriculum that competes with your teaching, and not a second pulpit. Hosts are guides, never teachers; when real theological questions surface at a table, the guide trains hosts to bring them to you. That's by design. You stay the teacher.
+
+**The open chair.** Anyone can sit at a table — the neighbor, the skeptic, the daughter who quit church at nineteen — without believing what your church believes. Belonging comes first; it's the same wisdom that lets anyone attend your service while only members lead it. Your doctrine shapes the hosts and the foundation. The welcome stays wide. That's not a loophole in the model. It's the point of it.
+
+**Care and crisis.** Tables will surface needs faster than any program you've run — that's a feature, and it needs a plan. The routing is simple and it's printed in every Host's Guide: the table loves people and walks with them; anything beyond a living room comes to the named contact on the guide's front page within a day. Decide who that person is before the first table meets. For emergencies, hosts are told plainly: emergency services first, then you.
+
+**Communion, baptism, kids.** Whether tables share communion, and how, and whether baptism ever happens outside your building — your tradition and polity decide, and the model has no opinion. Tell your hosts your church's practice before they ask. Children at tables: wonderful, and governed by your existing child-safety policy plus the two-adult rule, no exceptions — the safeguarding guide has the checklist, and the church kit includes a template policy if you need one — which must be reviewed by your insurer or a child-protection expert before you rely on it.
+
+**What makes these tables and not renamed small groups.** Five things: stories told, not lessons taught. Tables, not classrooms. Kids present, not programmed elsewhere. An act every rhythm — something done, not just discussed. And send, don't split — every table grows its next host and multiplies. A church can drop any of these and run perfectly good small groups. It just shouldn't expect the pattern's results without the pattern.
+
+---
+---
+
+# THE MONEY PAGE
+### Exactly how this is funded, and what will never cost you anything.
+**Free, forever, to any church:**
+The model. This kit. The Host's Guide. The Canon of Fifty and every story prep. The safeguarding guide. Updates to all of it. No license, no membership, no subscription, no tiers, no revenue share, no "free trial." If you were ever asked to pay for any of these, something has gone wrong — and you should say so, loudly.
+
+**So how does anyone afford to build this? Here's the honest answer.**
+The founder has been a pastor for nearly forty years and has served the same church for thirty. He started tables there, in his own congregation, before any of this was written down — so none of it is theory he is asking you to test on your people first. He also has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
+
+**Donations.**
+The project accepts them, and they fund the work. They're plainly non-tax-deductible, and they buy nothing — no influence, no naming rights, no thanks beyond these words.
+
+---
+---
+
+# THE FIRST 90 DAYS
+### A card for the pastor's desk.
+
+**Weeks 1–3 — Start.**
+Two hosts chosen. Your name handwritten in their guides. Tables gathered: 3–6 people each. First gathering happens. Imperfect is fine; met is the goal.
+
+**Weeks 4–12 — Protect the rhythm. Add nothing.**
+The whole job in one sentence: check in with your hosts every two weeks, stay out of their living rooms, and resist every idea that begins "you know what would make this even better." The rhythm needs repetitions, not additions.
+
+**The three signs of health** *(what to actually watch for)*:
+- People show up without being chased.
+- The stories get retold outside the table — kitchens, break rooms, cars.
+- One act got completed. Not planned. Completed.
+
+**The one question that matters at 90 days:** *is the table still meeting?* Everything else — size, growth, multiplication — has its season later. These are the signs we'd watch; what your church measures is your business.
+
+**When something's beyond a table:** the host calls you. When something's beyond you or the kit: call us. That's what we're for.
+
+
+---
+---
+
+# Shepherding Tables
+### The church guide: choosing hosts, the first year, and how staff support tables without programming them.
+
+---
+
+# Choosing Hosts
+### The most consequential decision of your launch, on two pages.
+
+Everything else in your launch is recoverable. A weak first gathering recovers. A slow start recovers. The wrong first hosts is the one launch mistake that usually doesn't — not because the people are bad, but because your first two tables become the congregation's mental picture of what a table is. Choose like it matters, because it's the thing that matters most.
+
+## What you're looking for
+
+Not your best teacher. Not your most available volunteer. Not the person who asks. You're looking for three things, in this order:
+
+**1. People feel safe around them.** This is the whole qualification, and you already know who they are: the ones people *tell things to.* The person others end up next to at the potluck, confiding in without planning to. Safety can't be trained into a host in ninety days; everything else can.
+
+**2. They show up.** Consistency over charisma, every time. A moderately warm host who is there every single week builds a table; a magnetic host who cancels twice a month buries one. Look at their track record with small, unglamorous commitments — that's the predictor.
+
+**3. They're honest about their own life.** The table will only ever be as real as its host. You need someone who can answer "how are you — actually?" truthfully in front of others, because they answer first, every week. Polished people who manage their image make polite tables. Honest people make real ones.
+
+Notice what's not on the list: Bible knowledge, teaching gifts, leadership experience, spiritual maturity as usually measured. Hosts don't teach — the story and the four questions carry the content. A newer believer with the three qualities above will out-host a seminary graduate without them, and it won't be close.
+
+## Who not to pick (and these will be the ones who volunteer)
+
+**The eager platform-seeker.** The person visibly excited to finally lead something. Wanting the front is precisely the disqualification — a table has no front, and a host who needs one will build one by February. If they push, give them a season at someone else's table first; genuine callings survive the wait, and appetites don't.
+
+**The over-committed faithful.** Your most reliable people are reliable because they already carry everything — and a host running on fumes produces a table running on fumes. If your instinct says "they'd be perfect but they're stretched," believe the second half. (Better: a table might be where they finally get fed instead of drained — as a member first.)
+
+**The fixer.** Deeply caring, and constitutionally unable to let a hard moment sit without solving it. Tables need hosts who can hold silence and pain without rushing in; fixers turn Share into a clinic. They make magnificent table members and exhausting hosts.
+
+**The theological enforcer.** Sound doctrine, zero tolerance for a wrong idea spoken aloud. The open chair requires a host who can hear the skeptic's honest take on question one without correcting it — the story does the correcting, slowly, which is the design. An enforcer at the table teaches everyone to stop being honest by week three.
+
+**The couple doing it to save something.** A struggling marriage hosting a table puts the struggle on stage weekly. Care for them first; host later.
+
+## How to actually ask
+
+Face to face, unhurried, and specifically — the ask itself models what hosting is. Something like:
+
+*"I've watched how people are around you — they trust you, and they tell you things. I'm starting something small: a few people around a table, a meal, one story of Jesus told out loud, honest conversation, and something we actually do about it. No teaching, no curriculum — I'd never ask you to teach. I'm asking because of who you already are, not something you'd have to become. I'll be behind you the whole way — my name and number go on the front of your guide, literally. Would you pray about hosting one?"*
+
+Then three things: give them the Host's Guide to read before answering (a real yes needs to know what it's saying yes to), give them a week (an instant yes from the right person is fine; a pressured yes from anyone is a resignation letter with a delay), and take a no gracefully — a no now is often a yes in year two, unless the ask went badly.
+
+## Two final rules
+
+**Start with two hosts, never one.** One table has no comparison, no companion, and no proof the model works beyond one personality. Two tables can learn from each other, and either can survive the other's stumble.
+
+**Their spouse or household has to be in.** Hosting happens in a home; a home hosts as a unit. An enthusiastic host with an unconsulted, reluctant spouse is a table with a countdown running. Ask about this directly — kindly, but directly.
+
+---
+---
+
+# The Year One Roadmap
+### Months 4–12: after the 90 Days card runs out.
+
+The First 90 Days card gets a table to steady. This is what the rest of the first year actually holds — the first multiplication, the first hard moment, the celebration rhythm, and the honest word about which stretches are easier with company.
+
+## Months 4–6: The middle, which is quieter than you'll like
+
+**What's happening:** the novelty is gone and the rhythm either is or isn't becoming culture. Tables that survive this stretch usually survive, period. Expect an attendance wobble around month four — spring sports, travel, life — and don't panic; the question isn't perfect attendance, it's whether people come *back.*
+
+**Your moves:**
+- Keep the biweekly host coffees, and change your question. Stop asking "how's the table going?" (you'll get "fine") and start asking "tell me about someone at your table." Hosts who light up talking about their people have healthy tables. Hosts who talk logistics are drifting toward running a meeting.
+- Watch for **content creep** — the host who starts supplementing the story with a podcast clip, a devotional, a worksheet. It's always well-intentioned and it's always the first step back toward the classroom. The story and the four questions are the content. Gently prune.
+- Around month five, ask each host the year's most important question: **"Who at your table could host?"** Not to act on yet — to start both of you watching. Multiplication in month nine is decided by who got developed in month five.
+- Start feeding Sunday quietly: a line in a pastoral prayer about "our tables," a story (with permission) in a sermon. Not promotion — evidence. The congregation should start hearing that something is alive before it's ever announced.
+
+**The month-6 checkpoint (with your leadership team):** are both tables still meeting without being chased? Has each completed acts? Is at least one future host visible somewhere? Two yeses of three means proceed. Less than that means diagnose before adding anything — and a wobble at month six has about four usual causes — an hour with someone who's watched fifty tables spots yours in one conversation. The money page says where that kind of help lives.
+
+## Months 6–9: The first hard moment, and the first apprentices
+
+**What's happening:** by now a table has been together long enough that real life has arrived at it — a diagnosis, a job loss, a marriage strain, a grief. This is not the model failing. This is the model *working*: the table caught something that would otherwise have been carried alone. But it's the first true test of the care routing, and hosts will feel out of their depth precisely because they are — by design.
+
+**Your moves:**
+- When the first hard moment comes, **your response time is the whole lesson.** The host calls the name on the front of the guide; if that call gets a same-day response and real care, every host learns the net is real and the model becomes trustworthy. If it rings into a busy week, they learn to stop calling — and start carrying things alone, which is how tables (and hosts) break. Guard this above everything else in year one.
+- Begin **apprenticing** the future hosts identified at month five — informally, invisibly. The current host hands them the story one week. The questions another. The follow-up on acts a third. No title, no announcement; leadership here is learned by doing and conferred by trust. By month nine they've been hosting in pieces for a season without the weight of the name.
+- If a table includes kids, this is also when the household rhythms mature — the retelling roles, the act-reminders. Check the safeguarding basics are still crisp (two adults, every time); month seven is when "just this once" tries to happen.
+
+## Months 9–12: The first sending, and the first celebration
+
+**What's happening:** at least one table is likely full (8–10) with an apprentice ready. This is the moment every predecessor model fumbled — Western groups historically refuse to multiply because the relationships are the product — so it gets done with weight and joy or it doesn't get done at all.
+
+**Your moves:**
+- **Never split; send.** The table doesn't divide in half like an amoeba. A pair — usually the apprentice and their household — is *blessed out* to start the next table, at a gathering built for the purpose: the story told (story 50, "Do you love me?", exists for this night), hands laid on if that's your church's way, real food, real tears, real joy. The sent pair's names get spoken on Sunday. Make sending the most honored thing that happens in your church this year, because whatever you celebrate, you'll get more of.
+- **Start the celebration rhythm:** all tables together, quarterly to start — a shared meal, stories from the tables told out loud, the sent ones honored, and worship if it's natural. This is Acts 2:46's other half: house to house *and* together. The celebration is what keeps multiplication from feeling like loss — nobody said goodbye; the family just got a bigger table.
+- **The year-one review with leadership:** tables meeting, acts completed, hosts developed, one sending done or scheduled. Then the year-two question, which is a real fork: stay at this scale and deepen, add tables at the same quiet pace, or begin the Rebirth conversation. That decision deserves outside eyes more than any other moment in the model — we'll say that plainly rather than pretend otherwise. The money page says where to find them. But the tables are yours either way, and so is the pace.
+
+## The honest failure notes for year one
+
+Three ways first years actually go wrong, so you can see them coming: **the pastor disappears** (the hour a week quietly stops, hosts stop calling, tables drift — the fix is a calendar, not a recommitment); **success gets announced too early** (a pulpit campaign in month five floods the tables with attenders before hosts exist to receive them — growth outrunning leadership is how models die of their own momentum); and **the first sending gets postponed** ("they're not quite ready" in month ten becomes "we don't do that" by year two — send at readiness, and remember readiness was never going to feel ready).
+
+---
+---
+
+# Shepherding Tables
+### The staff guide: how to support tables without programming them.
+
+This is for the associate pastor, the discipleship director, the staff member whose job description just quietly changed. If your instincts were trained in program ministry — and whose weren't — this new work will feel like doing less. It isn't. It's doing the original job.
+
+## The one-sentence job change
+
+**You are no longer the producer of group life. You are the safety net under it and the gardener around it.** Producers create content, schedule meetings, recruit leaders, and push. Gardeners water, prune, watch for disease, and trust growth they didn't manufacture. The tables run themselves by design — your job is everything that makes that safe: knowing the hosts, catching the crises, developing the apprentices, and keeping the church connected to its tables.
+
+## What you do (the actual week)
+
+- **Know your hosts as people.** The biweekly coffee is the core discipline of this whole role — not a check-in meeting, a friendship with intent. You're listening for three things: how the host is actually doing (hosts burn quietly), who at their table they light up about (that's your future host list), and anything drifting (content creep, hospitality creep, a dominating voice).
+- **Be reachable, and be fast.** Your name may be the one handwritten on the front of hosts' guides. That line is a covenant: same-day response to a host's real call, every time. Speed of care is the currency of the entire model — hosts who trust the net take healthy risks; hosts who don't start carrying people alone.
+- **Run the care routing.** When a table surfaces a crisis — and healthy tables surface them *earlier* than programs ever did; that's a feature that will initially feel like an increase in problems — the host loves and walks alongside, and everything beyond a living room comes to you. Receive it as the system working, never as the host failing.
+- **Develop, don't recruit.** Your leadership pipeline is now sitting at tables being watched by hosts. Your job is to help hosts see them, apprentice them in pieces, and get the sending right when it comes. You'll never run another leader-recruitment campaign; you'll never need to.
+- **Carry tables to Sunday.** You're the bridge: stories from the tables (always with permission) into services, the celebration gatherings organized, the sent ones honored publicly. The congregation should feel the tables' pulse without the tables becoming a promotion.
+
+## What you don't do (and will be tempted to weekly)
+
+- **Don't produce content.** No discussion guides, no supplemental videos, no "this month's theme." The canon and the four questions are the content. Every resource you add teaches hosts they need resources, and re-trains tables to be classrooms. Your restraint *is* the resourcing.
+- **Don't visit the tables.** A staff member in the room turns a table back into a program for at least a month — people perform for the professional. Visit only by a table's invitation, rarely, as a guest who mostly listens. Your absence from living rooms is a discipline, not a neglect.
+- **Don't manage by dashboard.** No attendance reports, no metrics submissions, no host paperwork. The three signs of health (meeting without being chased, stories retold outside the table, acts completed) are read through relationship — through the coffees — not through forms. The moment hosts report to you, you've built a program with extra steps.
+- **Don't rescue too fast.** A wobbling table is usually a table about to learn something. Distinguish wobble (attendance dip, a flat month, an awkward stretch) from wound (crisis, conflict, safeguarding). Wounds get you immediately. Wobbles get a good question at coffee and room to self-correct.
+- **Don't skip your own table.** Staff who shepherd tables without sitting at one become producers again within a year — it's the only outcome. Be a member (not the host) of a table yourself. It will keep the work honest, and it might keep you whole; this model was built partly because of what program ministry does to the people running it.
+
+## How you'll know it's working
+
+Your calendar has fewer meetings and more coffees. Problems reach you earlier and smaller. You hear stories secondhand about your congregation loving people, and you had nothing to do with it. Leaders emerge you didn't recruit. And the strange one that means the most: the church needs you differently — less as its engine, more as its shepherd. That's not your role shrinking. That's the role, recovered.
+
+
+---
+---
+
+# THE HOUSEHOLD ADDENDUM
+### Kids at the table.
+
+The early church met in households. Children weren't sent to another room while the adults did church — they were at the table from the beginning, and their absence from most modern group models is a corruption of the original pattern, not a feature of it. A table with kids at it isn't a complicated table. It's the original kind.
+
+**Nothing about the rhythm changes.** Meet, Share, Grow, Act — same four movements, mixed ages. Gatherings might run shorter and louder. That's not a problem to solve.
+
+**Kids get real roles, not childcare:**
+- **Story-retellers.** Recite/Retell/Recall is a children's game adults forgot. After the host tells the story, let a kid retell it. Two things happen: the child learns the story for life, and the adults hear it fresh — details children keep are details adults have stopped noticing.
+- **Question-askers.** Kids ask the questions adults are too polite or too churched to ask. "Why did the father run?" is a better discussion starter than anything in a curriculum. Let them ask; don't rush to answer for the table.
+- **Act-reminders.** Give the kids the job of remembering what everyone committed to. "Dad, you said you'd check on Mr. Bailey — how'd it go?" Children keep a table honest, and they learn that faith is something families do, not something adults believe.
+
+**When the conversation goes deep.** Some Share moments and some stories touch heavy things. Use judgment the way a healthy family does: some conversations happen with everyone at the table, some after the kids drift to the other room. The host doesn't need a policy for this — parents at the table will show you where the line is.
+
+**Milestones.** As household tables mature, they'll want to mark things — a new baby, a child ready to own their faith, a graduation, a move. How these are celebrated, and how baptism and dedication work, follows your church's practice and polity. Bring milestone moments to your church contact early; these are the moments your church most wants to share, not just permit.
+
+**The non-negotiables.** Two adults present at every gathering that includes minors — always, no exceptions, no "just this once." Your church's child-safety policy covers household tables exactly as it covers everything else the church does; hosts get a copy before the first mixed-age gathering. If your church doesn't have a policy yet, the safeguarding pack includes a template — adopt one before any household table launches. This is the one part of the model with no flexibility in it, and a host who finds it inconvenient is a host who shouldn't have kids at their table.
+
+---
+---
+
+# THE SAFEGUARDING PACK
+### Protection is part of the welcome.
+
+Open doors mean more protection, not less. A model that gathers people — including children and hurting adults — in private homes owes them more vigilance than a building with hallways and windows, not less. None of this is bureaucracy. It's what love looks like when it's thought ahead.
+
+## The host checklist (one page, every host, before the first gathering)
+
+**For every table:**
+- [ ] The church contact's name and number are written in your Host's Guide.
+- [ ] You know your church's reporting path for abuse disclosures (below) — before you need it.
+- [ ] Money never changes hands at the table. No collections, no fundraising among members, no lending inside the group. (Group service projects with a budget run through the church.)
+- [ ] Nobody's attendance, struggles, or stories leave the table without their permission. Confidentiality has exactly two exceptions: harm to self, harm to others — those go to your church contact immediately, and hosts say this out loud at the first gathering so nobody is surprised later.
+
+**Additionally, for any table that includes minors:**
+- [ ] Two unrelated adults present at every gathering. Always. A gathering where the second adult cancels is a gathering that reschedules.
+- [ ] Every adult regularly present has been screened under the church's child-safety policy (background check included).
+- [ ] No adult is ever alone with a child who isn't theirs — including rides, bathrooms, and "helping in the kitchen."
+- [ ] Parents know exactly where their kids are and what a gathering involves. No surprises, ever.
+- [ ] Anything a child discloses about harm goes to the church contact the same day — and hosts understand that in most places, reporting suspected child abuse to authorities is a legal obligation, not a judgment call. The church contact helps navigate; the host never sits on it.
+
+## If someone discloses abuse — the one-page path
+
+1. **Listen. Believe. Don't investigate.** Your job is to be safe, not to be the detective. Don't press for details, don't interview, don't confront anyone.
+2. **Say what happens next, honestly.** "Thank you for telling me. I have to bring in [church contact] so we can keep you safe." Never promise secrecy you can't keep.
+3. **If a child is involved or anyone is in immediate danger: emergency services first.** Then the church contact. Suspected child abuse gets reported to the authorities per your state's law — the church contact helps you do it right, the same day.
+4. **Write down what was said, in their words, dated.** Facts, not interpretation.
+5. **Stay their friend.** The table's job doesn't end when the professionals arrive. Reporting is an act of love; so is still being there next week.
+
+## The two questions for your insurer
+
+One phone call, before the first gathering. Ten minutes. Write the answers down and put them in the launch file.
+
+1. *"Our church is starting small weekly gatherings in members' homes — shared meals, conversation, sometimes with children present, hosted by our people. Does our current general liability coverage extend to regular church-connected activities in private homes, or do we need an endorsement for off-site ministry?"*
+
+2. *"For home gatherings that include minors, what does our abuse-and-molestation coverage require of us — screening, two-adult rules, training — so those gatherings are covered exactly like activities in our building?"*
+
+That's it. If the answers require changes, make them before launch, not after the first hard moment.
+
+## The template child-safety policy (for churches that don't have one)
+
+*A starting framework. Have it reviewed by your insurer, your denomination's safeguarding office, or a local expert before you adopt it — child-protection law varies by state, and this is where a policy starts, not where it ends.*
+
+1. **Screening.** Every adult in regular contact with minors completes an application, a national background check renewed every [2–3] years, and a reference check. No exceptions for tenure, family, or reputation — the policy protects the trusted, too.
+2. **The two-adult rule.** Two screened, unrelated adults present whenever minors are in the church's care, in any setting, including homes and vehicles.
+3. **Visibility.** No closed, unobservable one-on-one settings between an adult and a minor. Doors open, spaces visible.
+4. **Communication.** Adults don't have private digital communication with minors; anything necessary includes a parent.
+5. **Reporting.** Any suspicion or disclosure of abuse is reported to [named church safeguarding officer] the same day, and to civil authorities as state law requires. The church never conducts its own investigation in place of the authorities, and never handles an allegation "internally."
+6. **Response.** An accused person is removed from contact with minors immediately and pending resolution — a safety measure, not a verdict.
+7. **Training.** Every screened adult receives basic awareness training: recognizing grooming, boundary violations, and the reporting path.
+8. **Review.** The policy is reviewed annually and every incident triggers a review.
+
+*Before your church relies on this, have it reviewed by someone with real child-protection credentials — your insurer, your denomination's safeguarding office, or an organization like GRACE. What follows is a sound starting point, not a certified policy.*
+
 ---
 
 # The Canon of Fifty
@@ -2865,452 +3314,3 @@ What now? Go around again — these stories don't run out; a second year lands d
 
 ---
 ---
-
-# A letter to the pastor holding this kit
-
-If you haven't read **Why this exists** yet — the founding document, at comehungry.org — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
-
-You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
-
-One more thing you should know about who's writing this. I've been a pastor for nearly forty years and I've served the same congregation for thirty. We started tables there, in our own church, ten years ago — before any of this was written down. So none of what follows is theory I'm asking you to try on your people first. We've been giving it away ever since, and it spreads for the least complicated reason there is: it works.
-
-So let's start with what this is not going to do.
-
-It will not grow your weekend attendance this year. It might eventually — tables have a way of filling rooms — but if that's the goal, this is the wrong tool and we'd rather tell you now. It will not replace your job; tables need shepherds more than programs ever did, not less. It will not run itself, impress your board by Christmas, or fix a budget. And it isn't new. It's very, very old — which is the reason it works.
-
-Here's what it is. This model turns your congregation into a church of small groups instead of a church with small groups. Little churches within your church: six to ten people around a table, weekly, who eat together, share life honestly, wrestle with the stories of Jesus told out loud, and end every gathering by doing something about it. Discipleship happens at the table. Care happens at the table. Service comes from the table. Sunday becomes what it was always meant to be — the celebration of a family that's been living as one all week.
-
-Your doctrine governs it. Your pulpit, your teaching, your convictions are the foundation under every table, and nothing in this kit asks you to soften a word of it. The tables simply keep their welcome wide — anyone can pull up a chair and meet Jesus in his own stories, the same way anyone can walk into your Sunday service. You already live that distinction. This just extends it to living rooms.
-
-And the tables multiply. Each one raises its next leader from inside itself — people learn to lead by doing, not by taking a class — and when a table is full and a new host is ready, it sends. That's your leadership pipeline and your growth strategy in one pattern, growing house by house at the speed of relationship, in rooms you'll never have to build or heat.
-
-Now the two questions you're actually asking.
-
-**What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a human to walk your launch with you, that exists too — the founder's professional practice, which lives entirely outside this project, under his own name, at timothyeldred.com — linked, never sold from inside the project. Paid church engagements there fund the same help for churches that can't pay, and no church is ever turned away for money. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
-
-**What's the catch?** There isn't one, and we know you won't believe that from a letter, so here's the whole arrangement in two sentences: everything here is free because giving it away is the mission, and the founder pays his bills with his own profession, outside this project, so the project never needs to sell you anything. Donations fund the work — plainly non-tax-deductible, and they buy nothing.
-
-Don't announce a new ministry. Don't print anything. Pick two hosts your people already trust, write your name and number on the front page of their guides — by hand, it matters — and let two tables start quietly. Your congregation will find out the way the early church's neighbors did: they'll catch people talking about it.
-
-Grace and peace to you and your church. You've been carrying a lot. This is lighter than it looks.
-
-— From one pastor to another
-
-
----
----
-
-# The Three Postures
-*One model, three ways in. Read the one that matches your church; the other two are here so you can see the whole map.*
-
----
-
-# RENEW
-### For the church whose groups ministry is running on fumes.
-
-You have small groups. They meet around curriculum, they're led by the same eight exhausted volunteers, they swell in September and thin by February, and if you're honest, they exist mostly to close the back door of your weekend service. Renew doesn't fix that system. It replaces it — gradually, quietly, with tables that don't need you to program them.
-
-**What changes.** Groups stop being a delivery system for content and become little churches: discipleship, care, and service happening at the table, with your teaching as the foundation under all of it. The measure of a group stops being attendance and starts being health — are they together, are they growing, did one table become two.
-
-**Start fresh; don't convert.** The strong temptation is to hand this kit to your existing group leaders and relabel. Resist it. Existing groups carry existing habits — the teacher habit, the curriculum habit, the ninety-minutes-of-content habit — and habits outlast relabeling every time. Instead: pick two people (not necessarily your current leaders; look for the ones people already feel safe around), hand them the Host's Guide, and let two new tables begin alongside everything you already run. Existing groups can keep meeting exactly as they are. Some will ask to become tables when they see one up close. That's the transition working — by attraction, not decree.
-
-**Your first 90 days.**
-Weeks 1–3: choose two hosts, write your name and number in their guides, first tables gather.
-Weeks 4–8: stay close but stay out. Check in with hosts every couple of weeks — coffee, not meetings. Resist the urge to visit the tables; a pastor in the room turns a table back into a class for at least a month.
-Weeks 9–12: hosts will hit their first hard moments. This is the job now: you're the person on the front page of their guide. Answer fast, love them well, and notice who around each table people are starting to trust — those are your next hosts.
-
-**How your staff's job changes.** From programming groups to shepherding them. From producing curriculum to being the safety net under fifty living rooms. From recruiting leaders to recognizing them. It's less control and more actual pastoring, and most staff discover it's the job they thought they were signing up for originally.
-
-**The two ways Renew fails.**
-1. *The staff can't let go of content.* If someone insists on writing discussion guides for the tables, the tables become satellite classrooms and die the same February death as the old groups. The stories and four questions are the content. Trust them.
-2. *The old system and the new compete for the same calendar.* If people are asked to attend groups *and* tables *and* three other weeknight things, tables lose — they're the newest and least institutional. Prune as tables grow. Renew is a transfer of life, not an addition to the pile.
-
-**When to call for help.** If ninety days in neither table has found a rhythm, or your hosts keep turning gatherings into studies, that's a normal launch problem with known fixes, and it's worth an hour with someone who's watched fifty launches. The money page in this kit says where that kind of help lives.
-
----
-
-# REBIRTH
-### For the plateaued or declining church ready to stop tinkering.
-
-This is the deepest posture and the slowest. Rebirth means the congregation reorganizes as churches-within-the-church: tables become the primary unit of belonging, discipleship, and care, and the weekend service becomes the celebration of what the tables live all week. It's not a program adoption. It's a change in what your church believes church is.
-
-**Say it plainly before you start:** Rebirth is a two-to-three-year turn. There is no fall-kickoff version of it. If your leadership needs visible results in twelve months, run Renew instead — it's the same road, entered gently, and it leaves you free to go further later.
-
-**Never announce a restructure.** This is the closest thing Rebirth has to an iron law. The day you stand up and declare "we're becoming a church of tables," you've created a referendum, and referendums on change in a plateaued church go one way. Instead: start tables the Renew way — two, then four, then eight — and let the structure become obvious before it becomes official. When a third of your congregation is at tables and the care ministry keeps discovering needs were already met before staff heard about them, the restructure isn't a proposal anymore. It's a description.
-
-**What dies and what doesn't.** Programs that exist to manufacture the connection tables now provide will fade — let them, gently, on their own schedule. What doesn't die: your worship gathering (it gets warmer — celebration is different when the family already knows each other), your teaching (tables run on it), your governance (this kit has no opinion about your polity), and your identity (Rebirth makes your church more itself, not something else wearing its name).
-
-**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when the structure has to catch up with what is actually happening. Staffing, budget, what to stop doing, what Sunday becomes. Those are hard calls to make on your own, so get through a healthy year one and then write hello@comehungry.org — somebody who has been through it will talk it over with you.
-
-**The two ways Rebirth fails.**
-1. *The language changes and the tables don't.* A church that adopts the vocabulary — starts saying "tables," puts "church of small groups" on the website — without the slow work of actual living rooms has just renamed its decline. The words are the last thing to change, not the first.
-2. *The pastor is the only believer.* If Rebirth lives solely in your conviction, it dies with your next call or your next burnout. Before you start, sit with three or four trusted people — staff, elders, the saints everyone actually listens to — and let them catch it or talk you out of it. If none of them catch it, the church isn't ready, and that's information, not failure.
-
-**When to ask for help.** Before year two. Every church that has made this turn had somebody outside it to talk to, and the ones that tried it alone are the cautionary tales.
-
----
-
-# REPRODUCE
-### For the church that wants to expand without buying a building.
-
-The traditional church plant: a hired planter, a core team, a rented school, a launch Sunday, and a runway of several hundred thousand dollars — with a survival rate you already know. Reproduce runs the other way: seed tables in the target community, let them grow and multiply by sending, and let whatever the community needs to become emerge from what's actually alive there. You're not launching a service and hoping community forms around it. You're growing the community and letting it decide what it needs.
-
-**What the mothership provides.** Everything the tables can't do alone yet: pastoral backup when a table meets a moment beyond its skill, crisis care, host training, and a regular celebration — monthly at first, the tables from that community gathering with you, or eventually with each other. You're the trellis, not the vine.
-
-**What it costs.** A table costs a living room and a starter guide. Your real investment is people — a couple from your congregation who live in or love that community, willing to host the first table — and patience, because tables multiply at the speed of relationship, not the launch calendar. Budget in years and shepherding hours, not dollars. Compared to a traditional church plant, the money is a rounding error; the patience is the price.
-
-**Your first year.** One or two tables, hosted by your sent people, filled by *their* neighbors — not by commuters from your congregation, or you've planted a satellite small group, not a community of its own. Months 6–12: first multiplication, first community celebration, first crisis handled well (there will be one; it's how the community learns the mothership is real). Don't name it, brand it, or website it in year one. Let it be tables.
-
-**The hard question — answer it in writing before you send anyone.** Tables in that community will grow people, leaders, and convictions you didn't program. The day will come when the tables there are mature enough to need a structure of their own — and it may not look like a campus of yours. So decide now: *are you sending, or franchising?* If you can bless what it becomes — celebrate it, keep the relationship, hold it loosely — Reproduce will give your church the joy of parenthood. If you need it to become a satellite that runs your services and returns your metrics, plant a campus instead; that's a legitimate thing to build and this isn't the kit for it. Both answers are honest. Only one of them fits this pattern, and discovering which one you gave in year three, mid-conflict, is the expensive way to find out.
-
-**The two ways Reproduce fails.**
-1. *Colonization by kindness.* The mothership loves the new tables so much it staffs them, funds them, programs them, and visits them constantly — and the community's own leadership never has room to grow. Support looks like being reachable, not being present.
-2. *Abandonment dressed as trust.* The opposite failure: tables get sent and forgotten, hit their first crisis alone, and dissolve — the standalone death, wearing your church's blessing. The named contact, the celebration rhythm, and the fast crisis response aren't extras. They're the difference between sending and abandoning.
-
-**When to call for help.** Before you send the first couple. Reproduce has the fewest do-overs of the three postures — the sending conversation, the hard question, and the support rhythm are worth designing with someone who's watched it go both ways.
-
-
----
----
-
-# The Leadership Team Guide
-### How to walk your board, elders, or leadership team through this model in one sitting.
-
-You've read the founding document and the pastor's letter, and something in you said *this might be it.* Now comes the part nobody writes materials for: the room where it actually gets decided. This guide is that meeting, planned for you — what to send beforehand, how to run the conversation, the objections that will come up and the honest answers, and a decision framework that treats "not yet" as a legitimate outcome. Because it is.
-
-One conviction before you start: **don't sell this to your board.** You've all sat through pitches; your team can smell one. Put the thing on the table, let them poke it hard, and trust it. If this can't survive your leadership team's honest scrutiny, it won't survive your congregation's living rooms either — better to find out in the meeting.
-
-## Before the meeting
-
-**Two weeks out:** send each member two documents — the founding document and the pastor's letter — with one sentence: "Read these before our next meeting — I want your honest read, especially what worries you." Nothing else. No enthusiasm essay on top. The documents do their own work, and asking for worries up front turns your skeptics into contributors instead of opponents.
-
-**One week out:** your most theologically careful elder will want the biblical basis before the meeting, not a scramble during it. Send the passages themselves — Acts 2:42–47, Romans 16:3–5, Colossians 4:15, Philemon 1–2 — and let them do what careful elders do. The pattern's grounding is the text, not a paper about the text.
-
-**Don't send:** the whole kit. Drowning a board in documents reads as either overwhelm or snow job. Two documents, one question.
-
-## The meeting itself (plan 60–75 minutes)
-
-**1. Open with what it isn't (5 minutes).** Say it yourself, out loud: this will not grow Sunday attendance this year, will not run itself, and is not a program we're buying — it's free, and it's a change in how our people are the church between Sundays. Starting with the disclaimers does two things: it disarms the burned, and it signals you're not pitching.
-
-**2. Everyone's honest read (15–20 minutes).** Around the room, two questions each: *what landed, and what worries you?* Write the worries on a board, verbatim, without answering any of them yet. A worry that gets written down gets considered; a worry that gets rebutted on arrival goes underground and votes no later.
-
-**3. Work the worry list (20–30 minutes).** Take them one at a time. The objections section below covers the ones that come up in almost every room — but let your team answer each other before you answer them. The moment an elder answers another elder's objection, this stopped being your idea.
-
-**4. The scale question (5 minutes).** Make sure everyone hears this clearly, because it lowers the stakes as far as they go: **the proposal is two tables.** Not a restructure, not a new ministry, not a line item. Two hosts, two living rooms, a quiet ninety days, and this same room looks at what actually happened. Nobody is being asked to bet the church tonight.
-
-**5. Decide (10 minutes).** Use the framework at the end of this guide.
-
-## The objections, and the honest answers
-
-**"We've tried small groups. They died."** So did ours, in the old shape. The question worth asking is *why* they died — usually: curriculum-dependence, leader exhaustion, and existing to feed Sunday. This model removes all three by design: the stories are the content, hosts guide rather than teach, and the table is the point rather than the funnel. But don't take that as a promise — take it as the specific hypothesis two tables will test.
-
-**"Where's the biblical basis?"** House to house is not a strategy borrowed from a business book — it's Acts 2:42–47, Romans 16:3–5, Colossians 4:15, Philemon 1–2. They're short; read them together in the meeting if you want. We're not innovating. We're returning.
-
-**"Anyone can sit at a table without believing what we believe? That sounds like doctrinal drift."** It's the same policy we already run on Sunday morning: anyone can attend; not anyone can lead. Doctrine governs hosts and teaching; the chair stays open. And the content of every gathering is a gospel story with four questions that keep pulling the room back to the text — a table built on the stories of Jesus is a hard place to drift *away* from Jesus. Anything that genuinely needs settling routes to the pastor; that's written into the host guide.
-
-**"What does this cost us?"** Money: nothing, ever — everything is free and stays free, and if we ever want paid human help, it exists outside the project under the founder's own name, and choosing it is entirely ours. Pastor's time: about an hour a week. Risk: two living rooms and ninety days. The real cost is patience — this grows at the speed of relationship, and a board that needs a dashboard by Easter should say so now.
-
-**"Who's liable if something happens in someone's home?"** One phone call answers it before launch — the kit includes the two questions for our insurer. And the child-safety requirements are stricter than most of what we currently run: two screened adults at any gathering with minors, no exceptions, under our existing policy.
-
-**"Is this a franchise? What do they get out of it?"** It's given away — the model, the stories, the guides, all of it, free forever, under a license that keeps anyone from ever fencing it off and selling it back. The founder earns his living from his own profession, outside the project; the money page links to it and the project never sells from within. Donations fund the work. No license, no membership, no data harvesting, no revenue share. If any of that ever changes, we walk, owing nothing.
-
-**"What happens to our existing groups and programs?"** Nothing, yet. Two new tables start alongside everything we run. If tables prove healthier than what we have, that becomes a good problem for a future meeting — and the transition happens by attraction, not decree.
-
-**"Why haven't we heard of this?"** Because it isn't marketed, doesn't collect endorsements, and doesn't need churches to use its name. That's either a red flag or the most refreshing thing on the table — and the ninety-day pilot is how we find out which.
-
-## The decision framework
-
-Put three options on the table — all three are wins over an ambiguous "sure, whatever":
-
-**Yes — pilot.** Two hosts, two tables, ninety days, then this room reviews against the three signs of health (tables still meeting without being chased, stories retold outside the table, one act completed). Name the pastor's contact-person role and confirm the insurance call happens before the first gathering.
-
-**Not yet.** Legitimate. A church mid-crisis, mid-transition, or mid-conflict shouldn't add anything — even something light. Name what would need to be true, and put a date on when this room looks again. "Not yet" with a date is a decision; "not yet" without one is a pocket veto.
-
-**No.** Also legitimate, and better said plainly. If this room can't bless an open chair, or needs measurable Sunday impact inside a year, this isn't the tool — and discovering that in a meeting costs nothing, while discovering it in month six costs two hosts their morale.
-
-**What not to decide tonight:** anything past the pilot. No restructuring conversations, no budget lines, no announcements. Two tables, ninety days, and this room again. The best decisions about this are made by leadership teams looking at their own tables — not at our materials.
-
----
-
-*One page to bring with you: the First 90 Days card — it's what "yes" commits everyone to, on a single sheet.*
-
-
----
----
-
-# START HERE
-### The whole launch on one page.
-
-**1. Pick two hosts.**
-Not necessarily your current leaders. Look for the people others already feel safe around — the ones who get told things. Two hosts, two tables; one table has no one to learn from.
-
-**2. Hand them the Host's Guide.**
-Write your name and phone number on the front page of each one, by hand, before you give it away. That line is a promise, and it's the most important thing in the kit.
-
-**3. Let them gather 3–6 people.**
-Friends, neighbors, coworkers, church people, not-church people. The hosts invite; you stay out of it. No sign-up sheet, no announcement, no bulletin.
-
-**4. First table within three weeks.**
-Food kept simple, ninety minutes, the rhythm in the guide: Meet, Share, Grow, Act. The guide walks them through the first four gatherings story by story.
-
-**5. Tell us it happened.**
-One line to hello@comehungry.org: "A table met." That's the only report we'll ever want, and even it is optional.
-
-That's the launch. No banners, no sermon series, no kickoff Sunday. Two tables, started quietly, and your congregation finds out the way neighbors found out about the early church — they catch people talking.
-
----
----
-
-# THE INTEGRATION PAGE
-### How tables fit the church you already lead.
-
-**Tables and Sunday.** Tables are not competition for your weekend gathering and not a funnel into it. They're where your people live as the church between Sundays — and Sunday becomes the celebration of a family that already knows each other. Expect worship to feel different within a year, in the direction you've always wanted it to.
-
-**Your teaching and the tables.** Your pulpit, classes, and convictions are the foundation tables stand on. At the table itself, the content is the stories of Jesus, told out loud and talked through with four questions — not a curriculum that competes with your teaching, and not a second pulpit. Hosts are guides, never teachers; when real theological questions surface at a table, the guide trains hosts to bring them to you. That's by design. You stay the teacher.
-
-**The open chair.** Anyone can sit at a table — the neighbor, the skeptic, the daughter who quit church at nineteen — without believing what your church believes. Belonging comes first; it's the same wisdom that lets anyone attend your service while only members lead it. Your doctrine shapes the hosts and the foundation. The welcome stays wide. That's not a loophole in the model. It's the point of it.
-
-**Care and crisis.** Tables will surface needs faster than any program you've run — that's a feature, and it needs a plan. The routing is simple and it's printed in every Host's Guide: the table loves people and walks with them; anything beyond a living room comes to the named contact on the guide's front page within a day. Decide who that person is before the first table meets. For emergencies, hosts are told plainly: emergency services first, then you.
-
-**Communion, baptism, kids.** Whether tables share communion, and how, and whether baptism ever happens outside your building — your tradition and polity decide, and the model has no opinion. Tell your hosts your church's practice before they ask. Children at tables: wonderful, and governed by your existing child-safety policy plus the two-adult rule, no exceptions — the safeguarding guide has the checklist, and the church kit includes a template policy if you need one — which must be reviewed by your insurer or a child-protection expert before you rely on it.
-
-**What makes these tables and not renamed small groups.** Five things: stories told, not lessons taught. Tables, not classrooms. Kids present, not programmed elsewhere. An act every rhythm — something done, not just discussed. And send, don't split — every table grows its next host and multiplies. A church can drop any of these and run perfectly good small groups. It just shouldn't expect the pattern's results without the pattern.
-
----
----
-
-# THE MONEY PAGE
-### Exactly how this is funded, and what will never cost you anything.
-**Free, forever, to any church:**
-The model. This kit. The Host's Guide. The Canon of Fifty and every story prep. The safeguarding guide. Updates to all of it. No license, no membership, no subscription, no tiers, no revenue share, no "free trial." If you were ever asked to pay for any of these, something has gone wrong — and you should say so, loudly.
-
-**So how does anyone afford to build this? Here's the honest answer.**
-The founder has been a pastor for nearly forty years and has served the same church for thirty. He started tables there, in his own congregation, before any of this was written down — so none of it is theory he is asking you to test on your people first. He also has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
-
-**Donations.**
-The project accepts them, and they fund the work. They're plainly non-tax-deductible, and they buy nothing — no influence, no naming rights, no thanks beyond these words.
-
----
----
-
-# THE FIRST 90 DAYS
-### A card for the pastor's desk.
-
-**Weeks 1–3 — Start.**
-Two hosts chosen. Your name handwritten in their guides. Tables gathered: 3–6 people each. First gathering happens. Imperfect is fine; met is the goal.
-
-**Weeks 4–12 — Protect the rhythm. Add nothing.**
-The whole job in one sentence: check in with your hosts every two weeks, stay out of their living rooms, and resist every idea that begins "you know what would make this even better." The rhythm needs repetitions, not additions.
-
-**The three signs of health** *(what to actually watch for)*:
-- People show up without being chased.
-- The stories get retold outside the table — kitchens, break rooms, cars.
-- One act got completed. Not planned. Completed.
-
-**The one question that matters at 90 days:** *is the table still meeting?* Everything else — size, growth, multiplication — has its season later. These are the signs we'd watch; what your church measures is your business.
-
-**When something's beyond a table:** the host calls you. When something's beyond you or the kit: call us. That's what we're for.
-
-
----
----
-
-# Shepherding Tables
-### The church guide: choosing hosts, the first year, and how staff support tables without programming them.
-
----
-
-# Choosing Hosts
-### The most consequential decision of your launch, on two pages.
-
-Everything else in your launch is recoverable. A weak first gathering recovers. A slow start recovers. The wrong first hosts is the one launch mistake that usually doesn't — not because the people are bad, but because your first two tables become the congregation's mental picture of what a table is. Choose like it matters, because it's the thing that matters most.
-
-## What you're looking for
-
-Not your best teacher. Not your most available volunteer. Not the person who asks. You're looking for three things, in this order:
-
-**1. People feel safe around them.** This is the whole qualification, and you already know who they are: the ones people *tell things to.* The person others end up next to at the potluck, confiding in without planning to. Safety can't be trained into a host in ninety days; everything else can.
-
-**2. They show up.** Consistency over charisma, every time. A moderately warm host who is there every single week builds a table; a magnetic host who cancels twice a month buries one. Look at their track record with small, unglamorous commitments — that's the predictor.
-
-**3. They're honest about their own life.** The table will only ever be as real as its host. You need someone who can answer "how are you — actually?" truthfully in front of others, because they answer first, every week. Polished people who manage their image make polite tables. Honest people make real ones.
-
-Notice what's not on the list: Bible knowledge, teaching gifts, leadership experience, spiritual maturity as usually measured. Hosts don't teach — the story and the four questions carry the content. A newer believer with the three qualities above will out-host a seminary graduate without them, and it won't be close.
-
-## Who not to pick (and these will be the ones who volunteer)
-
-**The eager platform-seeker.** The person visibly excited to finally lead something. Wanting the front is precisely the disqualification — a table has no front, and a host who needs one will build one by February. If they push, give them a season at someone else's table first; genuine callings survive the wait, and appetites don't.
-
-**The over-committed faithful.** Your most reliable people are reliable because they already carry everything — and a host running on fumes produces a table running on fumes. If your instinct says "they'd be perfect but they're stretched," believe the second half. (Better: a table might be where they finally get fed instead of drained — as a member first.)
-
-**The fixer.** Deeply caring, and constitutionally unable to let a hard moment sit without solving it. Tables need hosts who can hold silence and pain without rushing in; fixers turn Share into a clinic. They make magnificent table members and exhausting hosts.
-
-**The theological enforcer.** Sound doctrine, zero tolerance for a wrong idea spoken aloud. The open chair requires a host who can hear the skeptic's honest take on question one without correcting it — the story does the correcting, slowly, which is the design. An enforcer at the table teaches everyone to stop being honest by week three.
-
-**The couple doing it to save something.** A struggling marriage hosting a table puts the struggle on stage weekly. Care for them first; host later.
-
-## How to actually ask
-
-Face to face, unhurried, and specifically — the ask itself models what hosting is. Something like:
-
-*"I've watched how people are around you — they trust you, and they tell you things. I'm starting something small: a few people around a table, a meal, one story of Jesus told out loud, honest conversation, and something we actually do about it. No teaching, no curriculum — I'd never ask you to teach. I'm asking because of who you already are, not something you'd have to become. I'll be behind you the whole way — my name and number go on the front of your guide, literally. Would you pray about hosting one?"*
-
-Then three things: give them the Host's Guide to read before answering (a real yes needs to know what it's saying yes to), give them a week (an instant yes from the right person is fine; a pressured yes from anyone is a resignation letter with a delay), and take a no gracefully — a no now is often a yes in year two, unless the ask went badly.
-
-## Two final rules
-
-**Start with two hosts, never one.** One table has no comparison, no companion, and no proof the model works beyond one personality. Two tables can learn from each other, and either can survive the other's stumble.
-
-**Their spouse or household has to be in.** Hosting happens in a home; a home hosts as a unit. An enthusiastic host with an unconsulted, reluctant spouse is a table with a countdown running. Ask about this directly — kindly, but directly.
-
----
----
-
-# The Year One Roadmap
-### Months 4–12: after the 90 Days card runs out.
-
-The First 90 Days card gets a table to steady. This is what the rest of the first year actually holds — the first multiplication, the first hard moment, the celebration rhythm, and the honest word about which stretches are easier with company.
-
-## Months 4–6: The middle, which is quieter than you'll like
-
-**What's happening:** the novelty is gone and the rhythm either is or isn't becoming culture. Tables that survive this stretch usually survive, period. Expect an attendance wobble around month four — spring sports, travel, life — and don't panic; the question isn't perfect attendance, it's whether people come *back.*
-
-**Your moves:**
-- Keep the biweekly host coffees, and change your question. Stop asking "how's the table going?" (you'll get "fine") and start asking "tell me about someone at your table." Hosts who light up talking about their people have healthy tables. Hosts who talk logistics are drifting toward running a meeting.
-- Watch for **content creep** — the host who starts supplementing the story with a podcast clip, a devotional, a worksheet. It's always well-intentioned and it's always the first step back toward the classroom. The story and the four questions are the content. Gently prune.
-- Around month five, ask each host the year's most important question: **"Who at your table could host?"** Not to act on yet — to start both of you watching. Multiplication in month nine is decided by who got developed in month five.
-- Start feeding Sunday quietly: a line in a pastoral prayer about "our tables," a story (with permission) in a sermon. Not promotion — evidence. The congregation should start hearing that something is alive before it's ever announced.
-
-**The month-6 checkpoint (with your leadership team):** are both tables still meeting without being chased? Has each completed acts? Is at least one future host visible somewhere? Two yeses of three means proceed. Less than that means diagnose before adding anything — and a wobble at month six has about four usual causes — an hour with someone who's watched fifty tables spots yours in one conversation. The money page says where that kind of help lives.
-
-## Months 6–9: The first hard moment, and the first apprentices
-
-**What's happening:** by now a table has been together long enough that real life has arrived at it — a diagnosis, a job loss, a marriage strain, a grief. This is not the model failing. This is the model *working*: the table caught something that would otherwise have been carried alone. But it's the first true test of the care routing, and hosts will feel out of their depth precisely because they are — by design.
-
-**Your moves:**
-- When the first hard moment comes, **your response time is the whole lesson.** The host calls the name on the front of the guide; if that call gets a same-day response and real care, every host learns the net is real and the model becomes trustworthy. If it rings into a busy week, they learn to stop calling — and start carrying things alone, which is how tables (and hosts) break. Guard this above everything else in year one.
-- Begin **apprenticing** the future hosts identified at month five — informally, invisibly. The current host hands them the story one week. The questions another. The follow-up on acts a third. No title, no announcement; leadership here is learned by doing and conferred by trust. By month nine they've been hosting in pieces for a season without the weight of the name.
-- If a table includes kids, this is also when the household rhythms mature — the retelling roles, the act-reminders. Check the safeguarding basics are still crisp (two adults, every time); month seven is when "just this once" tries to happen.
-
-## Months 9–12: The first sending, and the first celebration
-
-**What's happening:** at least one table is likely full (8–10) with an apprentice ready. This is the moment every predecessor model fumbled — Western groups historically refuse to multiply because the relationships are the product — so it gets done with weight and joy or it doesn't get done at all.
-
-**Your moves:**
-- **Never split; send.** The table doesn't divide in half like an amoeba. A pair — usually the apprentice and their household — is *blessed out* to start the next table, at a gathering built for the purpose: the story told (story 50, "Do you love me?", exists for this night), hands laid on if that's your church's way, real food, real tears, real joy. The sent pair's names get spoken on Sunday. Make sending the most honored thing that happens in your church this year, because whatever you celebrate, you'll get more of.
-- **Start the celebration rhythm:** all tables together, quarterly to start — a shared meal, stories from the tables told out loud, the sent ones honored, and worship if it's natural. This is Acts 2:46's other half: house to house *and* together. The celebration is what keeps multiplication from feeling like loss — nobody said goodbye; the family just got a bigger table.
-- **The year-one review with leadership:** tables meeting, acts completed, hosts developed, one sending done or scheduled. Then the year-two question, which is a real fork: stay at this scale and deepen, add tables at the same quiet pace, or begin the Rebirth conversation. That decision deserves outside eyes more than any other moment in the model — we'll say that plainly rather than pretend otherwise. The money page says where to find them. But the tables are yours either way, and so is the pace.
-
-## The honest failure notes for year one
-
-Three ways first years actually go wrong, so you can see them coming: **the pastor disappears** (the hour a week quietly stops, hosts stop calling, tables drift — the fix is a calendar, not a recommitment); **success gets announced too early** (a pulpit campaign in month five floods the tables with attenders before hosts exist to receive them — growth outrunning leadership is how models die of their own momentum); and **the first sending gets postponed** ("they're not quite ready" in month ten becomes "we don't do that" by year two — send at readiness, and remember readiness was never going to feel ready).
-
----
----
-
-# Shepherding Tables
-### The staff guide: how to support tables without programming them.
-
-This is for the associate pastor, the discipleship director, the staff member whose job description just quietly changed. If your instincts were trained in program ministry — and whose weren't — this new work will feel like doing less. It isn't. It's doing the original job.
-
-## The one-sentence job change
-
-**You are no longer the producer of group life. You are the safety net under it and the gardener around it.** Producers create content, schedule meetings, recruit leaders, and push. Gardeners water, prune, watch for disease, and trust growth they didn't manufacture. The tables run themselves by design — your job is everything that makes that safe: knowing the hosts, catching the crises, developing the apprentices, and keeping the church connected to its tables.
-
-## What you do (the actual week)
-
-- **Know your hosts as people.** The biweekly coffee is the core discipline of this whole role — not a check-in meeting, a friendship with intent. You're listening for three things: how the host is actually doing (hosts burn quietly), who at their table they light up about (that's your future host list), and anything drifting (content creep, hospitality creep, a dominating voice).
-- **Be reachable, and be fast.** Your name may be the one handwritten on the front of hosts' guides. That line is a covenant: same-day response to a host's real call, every time. Speed of care is the currency of the entire model — hosts who trust the net take healthy risks; hosts who don't start carrying people alone.
-- **Run the care routing.** When a table surfaces a crisis — and healthy tables surface them *earlier* than programs ever did; that's a feature that will initially feel like an increase in problems — the host loves and walks alongside, and everything beyond a living room comes to you. Receive it as the system working, never as the host failing.
-- **Develop, don't recruit.** Your leadership pipeline is now sitting at tables being watched by hosts. Your job is to help hosts see them, apprentice them in pieces, and get the sending right when it comes. You'll never run another leader-recruitment campaign; you'll never need to.
-- **Carry tables to Sunday.** You're the bridge: stories from the tables (always with permission) into services, the celebration gatherings organized, the sent ones honored publicly. The congregation should feel the tables' pulse without the tables becoming a promotion.
-
-## What you don't do (and will be tempted to weekly)
-
-- **Don't produce content.** No discussion guides, no supplemental videos, no "this month's theme." The canon and the four questions are the content. Every resource you add teaches hosts they need resources, and re-trains tables to be classrooms. Your restraint *is* the resourcing.
-- **Don't visit the tables.** A staff member in the room turns a table back into a program for at least a month — people perform for the professional. Visit only by a table's invitation, rarely, as a guest who mostly listens. Your absence from living rooms is a discipline, not a neglect.
-- **Don't manage by dashboard.** No attendance reports, no metrics submissions, no host paperwork. The three signs of health (meeting without being chased, stories retold outside the table, acts completed) are read through relationship — through the coffees — not through forms. The moment hosts report to you, you've built a program with extra steps.
-- **Don't rescue too fast.** A wobbling table is usually a table about to learn something. Distinguish wobble (attendance dip, a flat month, an awkward stretch) from wound (crisis, conflict, safeguarding). Wounds get you immediately. Wobbles get a good question at coffee and room to self-correct.
-- **Don't skip your own table.** Staff who shepherd tables without sitting at one become producers again within a year — it's the only outcome. Be a member (not the host) of a table yourself. It will keep the work honest, and it might keep you whole; this model was built partly because of what program ministry does to the people running it.
-
-## How you'll know it's working
-
-Your calendar has fewer meetings and more coffees. Problems reach you earlier and smaller. You hear stories secondhand about your congregation loving people, and you had nothing to do with it. Leaders emerge you didn't recruit. And the strange one that means the most: the church needs you differently — less as its engine, more as its shepherd. That's not your role shrinking. That's the role, recovered.
-
-
----
----
-
-# THE HOUSEHOLD ADDENDUM
-### Kids at the table.
-
-The early church met in households. Children weren't sent to another room while the adults did church — they were at the table from the beginning, and their absence from most modern group models is a corruption of the original pattern, not a feature of it. A table with kids at it isn't a complicated table. It's the original kind.
-
-**Nothing about the rhythm changes.** Meet, Share, Grow, Act — same four movements, mixed ages. Gatherings might run shorter and louder. That's not a problem to solve.
-
-**Kids get real roles, not childcare:**
-- **Story-retellers.** Recite/Retell/Recall is a children's game adults forgot. After the host tells the story, let a kid retell it. Two things happen: the child learns the story for life, and the adults hear it fresh — details children keep are details adults have stopped noticing.
-- **Question-askers.** Kids ask the questions adults are too polite or too churched to ask. "Why did the father run?" is a better discussion starter than anything in a curriculum. Let them ask; don't rush to answer for the table.
-- **Act-reminders.** Give the kids the job of remembering what everyone committed to. "Dad, you said you'd check on Mr. Bailey — how'd it go?" Children keep a table honest, and they learn that faith is something families do, not something adults believe.
-
-**When the conversation goes deep.** Some Share moments and some stories touch heavy things. Use judgment the way a healthy family does: some conversations happen with everyone at the table, some after the kids drift to the other room. The host doesn't need a policy for this — parents at the table will show you where the line is.
-
-**Milestones.** As household tables mature, they'll want to mark things — a new baby, a child ready to own their faith, a graduation, a move. How these are celebrated, and how baptism and dedication work, follows your church's practice and polity. Bring milestone moments to your church contact early; these are the moments your church most wants to share, not just permit.
-
-**The non-negotiables.** Two adults present at every gathering that includes minors — always, no exceptions, no "just this once." Your church's child-safety policy covers household tables exactly as it covers everything else the church does; hosts get a copy before the first mixed-age gathering. If your church doesn't have a policy yet, the safeguarding pack includes a template — adopt one before any household table launches. This is the one part of the model with no flexibility in it, and a host who finds it inconvenient is a host who shouldn't have kids at their table.
-
----
----
-
-# THE SAFEGUARDING PACK
-### Protection is part of the welcome.
-
-Open doors mean more protection, not less. A model that gathers people — including children and hurting adults — in private homes owes them more vigilance than a building with hallways and windows, not less. None of this is bureaucracy. It's what love looks like when it's thought ahead.
-
-## The host checklist (one page, every host, before the first gathering)
-
-**For every table:**
-- [ ] The church contact's name and number are written in your Host's Guide.
-- [ ] You know your church's reporting path for abuse disclosures (below) — before you need it.
-- [ ] Money never changes hands at the table. No collections, no fundraising among members, no lending inside the group. (Group service projects with a budget run through the church.)
-- [ ] Nobody's attendance, struggles, or stories leave the table without their permission. Confidentiality has exactly two exceptions: harm to self, harm to others — those go to your church contact immediately, and hosts say this out loud at the first gathering so nobody is surprised later.
-
-**Additionally, for any table that includes minors:**
-- [ ] Two unrelated adults present at every gathering. Always. A gathering where the second adult cancels is a gathering that reschedules.
-- [ ] Every adult regularly present has been screened under the church's child-safety policy (background check included).
-- [ ] No adult is ever alone with a child who isn't theirs — including rides, bathrooms, and "helping in the kitchen."
-- [ ] Parents know exactly where their kids are and what a gathering involves. No surprises, ever.
-- [ ] Anything a child discloses about harm goes to the church contact the same day — and hosts understand that in most places, reporting suspected child abuse to authorities is a legal obligation, not a judgment call. The church contact helps navigate; the host never sits on it.
-
-## If someone discloses abuse — the one-page path
-
-1. **Listen. Believe. Don't investigate.** Your job is to be safe, not to be the detective. Don't press for details, don't interview, don't confront anyone.
-2. **Say what happens next, honestly.** "Thank you for telling me. I have to bring in [church contact] so we can keep you safe." Never promise secrecy you can't keep.
-3. **If a child is involved or anyone is in immediate danger: emergency services first.** Then the church contact. Suspected child abuse gets reported to the authorities per your state's law — the church contact helps you do it right, the same day.
-4. **Write down what was said, in their words, dated.** Facts, not interpretation.
-5. **Stay their friend.** The table's job doesn't end when the professionals arrive. Reporting is an act of love; so is still being there next week.
-
-## The two questions for your insurer
-
-One phone call, before the first gathering. Ten minutes. Write the answers down and put them in the launch file.
-
-1. *"Our church is starting small weekly gatherings in members' homes — shared meals, conversation, sometimes with children present, hosted by our people. Does our current general liability coverage extend to regular church-connected activities in private homes, or do we need an endorsement for off-site ministry?"*
-
-2. *"For home gatherings that include minors, what does our abuse-and-molestation coverage require of us — screening, two-adult rules, training — so those gatherings are covered exactly like activities in our building?"*
-
-That's it. If the answers require changes, make them before launch, not after the first hard moment.
-
-## The template child-safety policy (for churches that don't have one)
-
-*A starting framework. Have it reviewed by your insurer, your denomination's safeguarding office, or a local expert before you adopt it — child-protection law varies by state, and this is where a policy starts, not where it ends.*
-
-1. **Screening.** Every adult in regular contact with minors completes an application, a national background check renewed every [2–3] years, and a reference check. No exceptions for tenure, family, or reputation — the policy protects the trusted, too.
-2. **The two-adult rule.** Two screened, unrelated adults present whenever minors are in the church's care, in any setting, including homes and vehicles.
-3. **Visibility.** No closed, unobservable one-on-one settings between an adult and a minor. Doors open, spaces visible.
-4. **Communication.** Adults don't have private digital communication with minors; anything necessary includes a parent.
-5. **Reporting.** Any suspicion or disclosure of abuse is reported to [named church safeguarding officer] the same day, and to civil authorities as state law requires. The church never conducts its own investigation in place of the authorities, and never handles an allegation "internally."
-6. **Response.** An accused person is removed from contact with minors immediately and pending resolution — a safety measure, not a verdict.
-7. **Training.** Every screened adult receives basic awareness training: recognizing grooming, boundary violations, and the reporting path.
-8. **Review.** The policy is reviewed annually and every incident triggers a review.
-
-*Before your church relies on this, have it reviewed by someone with real child-protection credentials — your insurer, your denomination's safeguarding office, or an organization like GRACE. What follows is a sound starting point, not a certified policy.*

@@ -5,24 +5,21 @@
 
 // Bumped on every build. A new build gets fresh caches and the old ones are
 // deleted on activate, so nobody is ever served yesterday's page.
-var BUILD = 'a16c64';
+var BUILD = 'ad5e3d';
 var SHELL = 'ch-shell-' + BUILD;
 var DOCS  = 'ch-docs-' + BUILD;
 
-var CORE = [
-  './',
-  './index.html',
-  './manifest.webmanifest',
-  './icon.svg',
-  './icon-192.png',
-  './icon-512.png',
-  './f/type.css',
-  './f/literata-300.woff2',
-  './f/literata-400.woff2',
-  './f/ibm-400.woff2',
-  './read/hosts-guide',
-  './read/keeping-people-safe',
-  './read/why-this-exists'
+// The page itself. If this cannot be cached there is nothing to do offline
+// anyway, so it is the only thing the install waits on.
+var CORE = ['./', './index.html'];
+
+// Worth having offline, but never worth failing an install over. Any of these
+// may be absent on a partially uploaded site, and a missing file must not be
+// able to take the whole worker down.
+var EXTRA = [
+  './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png',
+  './f/type.css', './f/literata-300.woff2', './f/literata-400.woff2', './f/ibm-400.woff2',
+  './read/hosts-guide', './read/keeping-people-safe', './read/why-this-exists'
 ];
 
 
@@ -39,8 +36,17 @@ function clean(res) {
 
 self.addEventListener('install', function(e){
   e.waitUntil(
-    caches.open(SHELL).then(function(c){ return c.addAll(CORE); })
-      .then(function(){ return self.skipWaiting(); })
+    caches.open(SHELL).then(function(c){
+      // each item on its own, so one 404 cannot reject the whole install
+      var core = CORE.map(function(u){
+        return c.add(u).catch(function(){ /* the page will still load from the network */ });
+      });
+      return Promise.all(core).then(function(){
+        // these fill in quietly afterwards and are never waited on
+        EXTRA.forEach(function(u){ c.add(u).catch(function(){}); });
+      });
+    }).then(function(){ return self.skipWaiting(); })
+      .catch(function(){ return self.skipWaiting(); })
   );
 });
 

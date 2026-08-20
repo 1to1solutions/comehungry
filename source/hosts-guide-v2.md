@@ -67,6 +67,12 @@ Nobody's asking you to memorize a script. You prepare a story with the **5 Cs** 
 
 The way in is **Recite, Retell, Recall.** Read the story out loud to yourself several times during the week — that's recite. Tell it in your own words with the text nearby to check yourself — that's retell. Then tell it without the text — recall. Twenty minutes across a week. The Canon of Fifty does the heavy lifting for you: every story comes fully prepped — the 5 Cs worked out, a sample telling to learn from, and the discussion already framed. You're not building this from scratch. You're practicing a story somebody already prepared.
 
+**If you can't get there, read it first.** Open the Bible, read the story out loud, close it, and then tell it. You have lost nothing. Everyone has heard it once, accurately, and now they hear it again in your own words — which is the version they will remember on Thursday.
+
+There is a second thing this does, and it might be the better reason. Tell the table plainly: *I just read it, now I am going to tell it, and if I drop something you caught, say so.* Suddenly six people are holding the story instead of one. Somebody will jump in with the detail you skipped, and that person has just done what you are doing — which is very often how a table finds its next host.
+
+Aim at telling it cold, because a told story lands differently than a read one; the room leans in, people look up, and it stops being a lesson. Some weeks you will get there and some weeks you will not. A story read and then told beats a story not told at all.
+
 After the story, four questions, always the same four, in order:
 
 **1. What stood out to you?**
