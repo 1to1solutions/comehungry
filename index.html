@@ -824,7 +824,7 @@ a.ref:hover{color:var(--lamp)}
 @media (hover:hover){.pdfalt:hover{border-color:var(--gold);color:var(--gold)}}
 
 
-.label.handStart{margin-top:2.6rem}
+.label.handStart,.label.spaced{margin-top:2.8rem}
 
 /* --- routes --- */
 .route{display:none}
@@ -873,7 +873,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it &mdash; us&nbsp;included.</p>
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build e39a9c &middot; 2026-08-20 16:53 UTC</p>
+      <p class="stamp">build 17861b &middot; 2026-08-20 17:43 UTC</p>
     </div>
   </div>
 </nav>
@@ -996,6 +996,10 @@ a.ref:hover{color:var(--lamp)}
         <button class="send" id="askSend" type="button">Ask it</button>
       </div>
       <p class="beat askNote">Nothing you type is stored or logged. If it can't help, write <a class="ref" href="mailto:hello@comehungry.org">hello@comehungry.org</a> &mdash; it can take a week; there are only a few of&nbsp;us.</p>
+      <div class="files">
+        <a class="file" href="#library"><b>The library</b><small>Every document, free, no email</small></a>
+        <a class="file" href="#hand"><b>Ask for a hand</b><small>A person writes back. It can take a week.</small></a>
+      </div>
     </section>
 
   </div>
@@ -1265,7 +1269,14 @@ a.ref:hover{color:var(--lamp)}
   </section>
 
   <section class="card" aria-label="11">
-    <div class="label">Take it with you</div>
+          <div class="label spaced">Take it with you</div>
+      <div class="files">
+        <div class="filerow"><a class="file" href="read/hosts-guide"><b>The Host&rsquo;s Guide</b><small>The whole thing &mdash; launching, and the first year</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/hosts-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>Read this before anyone sits down</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <a class="file" href="downloads/table-card.pdf" target="_blank" rel="noopener"><b>The table card</b><small>One page for the table itself</small></a>
+        <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>Or all of it in one file</b><small>The host pack &mdash; 40 pages, everything above</small></a>
+      </div>
+<div class="label spaced">And when you do</div>
     <div>
         <a class="door" href="#hand">Tell us you're&nbsp;starting<small>A person writes back. Not a newsletter.</small></a>
     </div>
@@ -1312,12 +1323,29 @@ a.ref:hover{color:var(--lamp)}
     <section class="card">
       <div class="label">Or take the lot</div>
       <div class="files">
+        <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>The host pack</b><small>Four documents in one file: why, how, safety, and the table card &mdash; 40 pages</small></a>
+        <a class="file" href="downloads/the-church-pack.pdf" target="_blank" rel="noopener"><b>The church pack</b><small>Seven documents in one file, everything a church needs &mdash; 61 pages</small></a>
         <a class="file" href="downloads/everything.pdf" target="_blank" rel="noopener"><b>Everything</b><small>Every document above, in one file.</small></a>
       </div>
       <p class="beat">Print it, copy it, translate it, hand it to somebody. No email, no account, no&nbsp;form.</p>
       <p class="beat">These print like anything else &mdash; standard letter paper, ordinary margins. Read one here in the browser, or take the&nbsp;PDF.</p>
     </section>
     
+    <section class="card">
+      <div class="label">Keep it on your phone</div>
+      <h2 class="line">Put it on your home&nbsp;screen.</h2>
+      <p class="line quiet">It opens like an app, and it works with no signal &mdash; which matters, because a table happens in somebody&rsquo;s kitchen once a week and the signal in there is whatever it&nbsp;is.</p>
+      <div id="installWrap" hidden><button class="send" id="installBtn" type="button">Install it</button></div>
+      <div id="installIOS" hidden>
+        <ul class="setting">
+          <li data-n="01">Tap the share button at the bottom of Safari &mdash; the square with an arrow coming out of&nbsp;it.</li>
+          <li data-n="02">Scroll down and tap <b>Add to Home&nbsp;Screen</b>.</li>
+          <li data-n="03">Tap <b>Add</b>. It&rsquo;s on your home screen like any other&nbsp;app.</li>
+        </ul>
+      </div>
+      <p class="beat" id="installNote">Nothing is installed from a store, nothing runs in the background, and it takes no more room than a few&nbsp;photos.</p>
+    </section>
+
   </div>
 
   <div class="route" id="stories" data-title="The fifty stories" data-parent="home">
@@ -4068,6 +4096,9 @@ a.ref:hover{color:var(--lamp)}
       <div>
         <a class="door" href="#stories">The fifty stories<small>Every one prepped for you</small></a>
       </div>
+            <div class="files">
+        <div class="filerow"><a class="file" href="read/why-this-exists"><b>Why this exists</b><small>The whole argument, and the guardrails</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/why-this-exists.pdf" target="_blank" rel="noopener">PDF</a></div>
+      </div>
       <a class="onward" href="#table">
         <span>Next</span>
         <b>Start a table</b>
@@ -4675,6 +4706,36 @@ a.ref:hover{color:var(--lamp)}
       if(e.key === 'Enter' && (e.metaKey || e.ctrlKey)){ e.preventDefault(); ask(); }
     });
   }
+
+
+  // ---------- install ----------
+  // Chrome and Edge hand us an install prompt; Safari has no such API, so iOS
+  // gets the three taps instead. Nobody sees instructions for a device they
+  // are not holding.
+  try{ (function(){
+    var wrap = document.getElementById('installWrap');
+    var ios  = document.getElementById('installIOS');
+    var note = document.getElementById('installNote');
+    if(!wrap) return;
+    var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches)
+                     || window.navigator.standalone || false;
+    if(standalone){
+      note.textContent = 'You already have it installed \u2014 this is the app.';
+      return;
+    }
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+                (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if(isIOS){ ios.hidden = false; return; }
+    var deferred = null;
+    window.addEventListener('beforeinstallprompt', function(e){
+      e.preventDefault(); deferred = e; wrap.hidden = false;
+    });
+    document.getElementById('installBtn').addEventListener('click', function(){
+      if(!deferred) return;
+      deferred.prompt();
+      deferred.userChoice.then(function(){ deferred = null; wrap.hidden = true; });
+    });
+  })(); }catch(err){ /* an install prompt is a nicety; never let it break the deck */ }
 
   var start = {id:'home', n:0};
   try{
