@@ -93,6 +93,7 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
 .also{margin-top:2.4rem}
 .also a{display:block;padding:.85rem 0;border-bottom:1px solid var(--rule);
   font-family:"Literata",Georgia,serif;font-size:1rem;color:var(--lamp);text-decoration:none}
+.also a b{display:block;font-weight:400}
 .also a small{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;
   font-size:.76rem;color:var(--dim);margin-top:.15rem}
 @media (hover:hover){.also a:hover{color:var(--gold)}}
@@ -166,8 +167,8 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
 <p>Write <strong>hello@comehungry.org</strong>, or say you're starting at comehungry.org — name, email, where you are. Somebody who has done this writes back. It can take a week. That is the only reason we ask: so we can help. Nothing is sold, nothing is mailed at you, and nothing here was ever gated behind giving us anything.</p>
 
   <div class="also">
-    <a href="/">Back to comehungry.org<small>The practice, the fifty stories, and everything else</small></a>
-    <a href="/downloads/church-6-shepherding-tables.pdf" download>Download this as a PDF<small>Letter size, prints as it reads</small></a>
+    <a href="/" id="back"><b id="backl">Back to comehungry.org</b><small id="backs">The practice, the fifty stories, and everything else</small></a>
+    <a href="/downloads/church-6-shepherding-tables.pdf" download><b>Download this as a PDF</b><small>Letter size, prints as it reads</small></a>
   </div>
 
   <footer class="foot">
@@ -176,5 +177,19 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
   </footer>
 
 </div>
+<script>
+// If they came from somewhere on the site, send them back there rather than to
+// the front card — most people arrive here from Downloads or the church section.
+(function(){
+  var a = document.getElementById('back');
+  if(!a) return;
+  var sameSite = document.referrer && document.referrer.indexOf(location.origin) === 0;
+  if(sameSite && history.length > 1){
+    document.getElementById('backl').textContent = 'Back to where you were';
+    document.getElementById('backs').textContent = 'The page you came from';
+    a.addEventListener('click', function(e){ e.preventDefault(); history.back(); });
+  }
+})();
+</script>
 </body>
 </html>
