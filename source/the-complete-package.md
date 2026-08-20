@@ -322,6 +322,36 @@ Once there are two tables, don't drift apart — **stay family.** Eat together o
 
 Which is the last thing: **when you send a host, you become to them what this guide has been to you.** The call they make on a bad Tuesday, the coffee every couple of weeks, the person who asks "tell me about someone at your table" and listens. It's not a title. It's just the next size of the same love. That's the whole model, all the way up: tables sending tables, people staying family, nobody doing any of it alone.
 
+## Is this a church?
+
+Somebody will ask, usually in the first few months, and usually because they are trying to work out whether they can stop going somewhere else.
+
+The honest answer is that it is not our call to make. A table is people gathering around Jesus, eating together, hearing the stories, and acting on them. Whether that adds up to a church is a question your tradition answers, not one we answer for you.
+
+What we will say: don't use the ambiguity to pull people out of a congregation. If somebody at your table is part of a church, the table should make them a better member of it, not a quieter one. And if somebody at your table has no church and no plans to find one, they are still fully welcome here, for as long as they want to come.
+
+When the harder version arrives — somebody wants to be baptized, somebody wants communion at the table, somebody asks who is in charge — that is the moment to bring in the people on your list. Those questions have real answers in every tradition, and none of them should be improvised by a host at nine on a Tuesday.
+
+## Week two, when it's awkward
+
+The first night usually goes well. Week two is where hosts quit.
+
+The novelty is gone, two people can't make it, the story lands flat, somebody checks their phone, and the silence after question three lasts long enough that you start talking just to end it. You will drive to work the next morning wondering if you have wasted everybody's time.
+
+You haven't. This is what week two is. Almost every table has one, and the ones that survive it are the ones where the host did nothing clever — just showed up the next week and did the same four movements again.
+
+Three things that help, none of them impressive. Cook something easier than you did the first week, so you are not exhausted before anyone arrives. Ask about last week's acts by name, even if only one person did theirs, because that is the moment people learn this is real. And let the silence be long. Count to ten. What somebody says after a real silence is almost always the truest thing said that night.
+
+If it is still flat at week five, that is information rather than failure — write hello@comehungry.org and somebody who has been there will talk it through with you.
+
+## When a table ends
+
+Tables end. People move, jobs change, a season closes. Some tables run for eight years and some run for five months, and the short ones are not failures.
+
+Let it end cleanly rather than letting it fade. Say out loud that it is finishing, do one last night, and ask the same four questions about the whole run of it: what stood out, what did this show us about Jesus, where are you now, what are we going to do. People need the ending marked or they carry it as a loss instead of a season.
+
+Then tell them plainly that any one of them can set a table themselves, and that everything they would need is free and already in their hands. More tables have started from an ending than from a launch.
+
 ## When it gets heavy
 
 A word about you, because hosts burn quietly. You'll notice it in small ways first: relief when somebody cancels, dread on the afternoon of table night, the feeling that the evening is something you produce instead of something you're part of. None of that means you're failing or that the table is dying. It usually means one thing: you've been carrying too much of it alone, which — you may notice — is the exact disease this whole thing exists to cure. Hosts are not exempt from the cure.
@@ -2838,7 +2868,7 @@ What now? Go around again — these stories don't run out; a second year lands d
 
 # A letter to the pastor holding this kit
 
-If you haven't read the founding document yet, stop and read it first — it's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
+If you haven't read **Why this exists** yet — the founding document, at comehungry.org — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
 
 You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
 
