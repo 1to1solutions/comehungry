@@ -221,11 +221,12 @@ div:has(> .door){margin-top:2.6rem}
 
 /* ---- the only chrome ---- */
 .nav{
-  display:flex;align-items:center;gap:.35rem;margin-top:2.9rem;
+  display:flex;align-items:center;flex-wrap:wrap;gap:.35rem .5rem;margin-top:2.9rem;
   animation:arrive .7s cubic-bezier(.16,.8,.3,1) both;animation-delay:.85s;
 }
 #prev{
   display:inline-flex;align-items:center;gap:.55rem;
+  flex:0 0 auto;white-space:nowrap;
   min-height:46px;padding:.7rem 1rem .7rem .85rem;
   background:transparent;border:0;border-radius:3px;
   font-family:"IBM Plex Sans",system-ui,sans-serif;
@@ -235,9 +236,10 @@ div:has(> .door){margin-top:2.6rem}
 @media (hover:hover){#prev:hover{color:var(--lamp)}}
 #prev:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
 #prev.gone{display:none}
-#prev .chev.back{transform:rotate(135deg);animation:none;width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor}
+#prev .chev.back{flex:none;transform:rotate(135deg);animation:none;width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor}
 #next{
   display:inline-flex;align-items:center;gap:.7rem;
+  flex:0 0 auto;white-space:nowrap;
   min-height:46px;padding:.7rem 1.35rem;
   background:transparent;border:1px solid var(--rule);border-radius:3px;
   font-family:"IBM Plex Sans",system-ui,sans-serif;
@@ -249,7 +251,7 @@ div:has(> .door){margin-top:2.6rem}
 #next:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
 #next.gone{display:none}
 #next .chev{
-  width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+  flex:none;width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
   transform:rotate(-45deg);animation:nudge 2.6s ease-in-out infinite;
 }
 @keyframes nudge{0%,100%{transform:rotate(-45deg) translate(0,0);opacity:.65}50%{transform:rotate(-45deg) translate(2px,2px);opacity:1}}
@@ -789,8 +791,9 @@ a.ref:hover{color:var(--lamp)}
 .askDot:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .askDot.gone{opacity:0;pointer-events:none}
 
+.pastorDoor[hidden]{display:none}
 .pastorDoor{
-  display:block;margin-top:2.3rem;padding:1rem 1.2rem;
+  display:block;max-width:32rem;margin:2.6rem auto 0;padding:1rem 1.2rem;
   border:1px solid var(--rule);border-radius:3px;text-decoration:none;
   background:rgba(242,234,220,.035);transition:border-color .25s,background .25s;
 }
@@ -821,6 +824,8 @@ a.ref:hover{color:var(--lamp)}
 @media (hover:hover){.pdfalt:hover{border-color:var(--gold);color:var(--gold)}}
 
 
+.label.handStart{margin-top:2.6rem}
+
 /* --- routes --- */
 .route{display:none}
 .route.live{display:block}
@@ -848,12 +853,13 @@ a.ref:hover{color:var(--lamp)}
     <div class="wayGroup">
       <h3>For anyone</h3>
       <a class="way" href="#why">Why this exists<small>The short version, and the long one</small></a>
-      <a class="way" href="#library">Downloads<small>Every document, free, no email</small></a>
+      <a class="way" href="#library">The library<small>Every document, free, no email</small></a>
     </div>
     <div class="wayGroup">
       <h3>If you're hosting</h3>
       <a class="way" href="#tonight">Run tonight's table<small>The four movements, and last week's acts</small></a>
-      <a class="way" href="#table">Start a table<small>How to run the first one</small></a>
+      <a class="way" href="#table">Start a table<small>Walk through the first one, screen by screen</small></a>
+    <a class="way" href="read/hosts-guide">The Host&rsquo;s Guide<small>The whole thing, read it here</small></a>
       <a class="way" href="#stories">The fifty stories<small>Every one prepped for you</small></a>
       <a class="way" href="#ask">Questions<small>Answered from the documents, right now</small></a>
     <a class="way" href="#hand">Ask for a hand<small>A person writes back. It can take a week.</small></a>
@@ -867,7 +873,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it &mdash; us&nbsp;included.</p>
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 2eee92 &middot; 2026-08-20 13:31 UTC</p>
+      <p class="stamp">build 8542c6 &middot; 2026-08-20 14:37 UTC</p>
     </div>
   </div>
 </nav>
@@ -909,7 +915,6 @@ a.ref:hover{color:var(--lamp)}
       </svg>
     </div>
     <p class="orient">It's called a table. A few people, a real meal, one story about Jesus, four honest questions. Once a&nbsp;week.</p>
-    <a class="pastorDoor" href="#church"><b>I lead a church</b><small>There's a whole section for you &rarr;</small></a>
   </section>
 
   <section class="card" aria-label="2">
@@ -998,15 +1003,11 @@ a.ref:hover{color:var(--lamp)}
   <div class="route" id="hand" data-title="Starting a table" data-parent="home">
 
     <section class="card on">
-      <div class="label">If you're starting a table</div>
       <h2 class="line">Tell us, and a person will write&nbsp;back.</h2>
       <p class="line quiet">Not a newsletter, not a sequence, not a sales call. Somebody who has hosted a table reading your name and answering&nbsp;you.</p>
       <p class="beat">Fair warning: this is a small number of people who host tables themselves, not a support desk. A reply can take a week. If something is urgent or somebody is in danger, don't wait on us &mdash; call your local emergency number or a crisis line, and read <a class="ref" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">Keeping people safe</a>&nbsp;first.</p>
       <p class="beat">You don't have to do this. Everything here is yours already &mdash; every document, all fifty stories, no account, no gate. This is only for people who want a human on the other&nbsp;end.</p>
-    </section>
-
-    <section class="card">
-      <div class="label">Three things</div>
+      <div class="label handStart">Three things</div>
       <form id="handForm" novalidate>
         <div class="field">
           <label for="fName">Your name</label>
@@ -1276,20 +1277,8 @@ a.ref:hover{color:var(--lamp)}
   </section>
   </div>
 
-  <div class="route" id="library" data-title="Downloads" data-parent="home">
+  <div class="route" id="library" data-title="The library" data-parent="home">
     <section class="card on">
-      <div class="label">Downloads</div>
-      <h2 class="line">Take any of it. Take all of&nbsp;it.</h2>
-      <p class="beat">Print it, copy it, translate it, hand it to somebody. No email, no account, no form &mdash; the sense of joining comes from welcome, never from filling something&nbsp;out.</p>
-    </section>
-
-    <section class="card">
-      <div class="label">If you're printing these</div>
-      <h2 class="line">They print like anything&nbsp;else.</h2>
-      <p class="beat">Standard letter paper, ordinary margins, type set to be read across a table at eleven at night. Hit print and it comes out&nbsp;right.</p>
-      <p class="beat">Double-sided saves paper if your printer does it. The type is embedded, so a copy shop can run any of these without substituting a&nbsp;thing.</p>
-    </section>
-    <section class="card">
       <div class="label">Start here</div>
       <div class="files">
         <div class="filerow"><a class="file" href="read/why-this-exists"><b>Why this exists</b><small>The whole reason this exists, and the guardrails that keep it honest.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/why-this-exists.pdf" target="_blank" rel="noopener">PDF</a></div>
@@ -1325,19 +1314,10 @@ a.ref:hover{color:var(--lamp)}
       <div class="files">
         <a class="file" href="downloads/everything.pdf" target="_blank" rel="noopener"><b>Everything</b><small>Every document above, in one file.</small></a>
       </div>
+      <p class="beat">Print it, copy it, translate it, hand it to somebody. No email, no account, no&nbsp;form.</p>
+      <p class="beat">These print like anything else &mdash; standard letter paper, ordinary margins. Read one here in the browser, or take the&nbsp;PDF.</p>
     </section>
-    <section class="card">
-      <div class="label">One more thing</div>
-      <h2 class="line">Everything here is yours to&nbsp;keep.</h2>
-      <p class="beat">Copy it, translate it, print it, put your own church's name on it, never mention where you got it. The one thing nobody may do is sell it &mdash; us&nbsp;included.</p>
-      <div>
-      </div>
-      <a class="onward" href="#table">
-        <span>Next</span>
-        <b>Start a table</b>
-        <small>How to run the first&nbsp;one</small>
-      </a>
-    </section>
+    
   </div>
 
   <div class="route" id="stories" data-title="The fifty stories" data-parent="home">
@@ -4100,8 +4080,14 @@ a.ref:hover{color:var(--lamp)}
 
     <section class="card on">
       <div class="label">For churches</div>
+      <h2 class="line">I&rsquo;ve been a pastor for thirty&nbsp;years.</h2>
+      <p class="line quiet">Same church the whole time. We started tables there ten years ago, in living rooms, with people who&rsquo;d stopped coming and people who never&nbsp;had.</p>
+      <p class="beat">This is that practice, written down and given away. It isn&rsquo;t a program and there&rsquo;s nothing to&nbsp;buy.</p>
+    </section>
+
+    <section class="card">
       <h2 class="line">You already know the people this is&nbsp;for.</h2>
-      <p class="line quiet">They're in your pews on Sunday and gone by Thursday. They're the ones who left and still text you at Christmas. This is somewhere to send&nbsp;them.</p>
+      <p class="line quiet">They&rsquo;re in your pews on Sunday and gone by Thursday. They&rsquo;re the ones who left and still text you at Christmas. This is somewhere to send&nbsp;them.</p>
     </section>
 
     <section class="card">
@@ -4176,7 +4162,7 @@ a.ref:hover{color:var(--lamp)}
         <div class="filerow"><a class="file" href="read/shepherding-tables"><b>Shepherding tables</b><small>Choosing hosts, walking the first year</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-6-shepherding-tables.pdf" target="_blank" rel="noopener">PDF</a></div>
         <div class="filerow"><a class="file" href="read/household-and-safeguarding"><b>Household and safeguarding</b><small>Have the template reviewed before you rely on it</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-4-household-and-safeguarding.pdf" target="_blank" rel="noopener">PDF</a></div>
         <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>What every table owes the people at it</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <a class="file" href="#library"><b>Everything else</b><small>The host material, the fifty stories, and the complete set</small></a>
+        <a class="file" href="#library"><b>The library</b><small>The host material, the fifty stories, and the complete set</small></a>
       </div>
       <a class="onward" href="#hand">
         <span>Next</span>
@@ -4195,6 +4181,10 @@ a.ref:hover{color:var(--lamp)}
       <span>Continue</span><i class="chev" aria-hidden="true"></i>
     </button>
   </div>
+
+  <a class="pastorDoor" id="pastorDoor" href="#church" hidden>
+    <b>Do you lead a church?</b><small>There&rsquo;s a whole section for you &rarr;</small>
+  </a>
 
 </div>
 </main>
@@ -4257,19 +4247,25 @@ a.ref:hover{color:var(--lamp)}
     deck.scrollTop = 0;
     track.style.width = last ? (i / last * 100) + '%' : '0%';
     next.classList.toggle('gone', i >= last);
-    prev.classList.toggle('gone', trail.length === 0 && i === 0 && here === 'home');
+    prev.classList.toggle('gone', here === 'home' && i === 0);
     var say = cards[i] && cards[i].querySelector('h2, h1, blockquote');
     var ann = document.getElementById('announce');
     if(ann) ann.textContent = (say ? say.textContent.trim() : '') +
       (last ? '  —  ' + (i + 1) + ' of ' + (last + 1) : '');
     showUpto();
     if(dot) dot.classList.toggle('gone', !worksHere(here) || !sheet.hidden);
+    var pd = document.getElementById('pastorDoor');
+    if(pd) pd.hidden = !(here === 'home' && i === 0);
   }
 
-  function sync(){
+  var depth = 0;   // how many history entries we own
+  function sync(push){
     if(!urlOK) return;
-    try{ history.replaceState({id:here,n:i}, '', '#' + here + (i ? '/' + i : '')); }
-    catch(err){ urlOK = false; }
+    var url = '#' + here + (i ? '/' + i : '');
+    try{
+      if(push){ history.pushState({id:here,n:i,ch:1}, '', url); depth++; }
+      else     { history.replaceState({id:here,n:i,ch:1}, '', url); }
+    }catch(err){ urlOK = false; }
   }
 
   // remember: true = this is a step forward, log where we were first
@@ -4291,7 +4287,7 @@ a.ref:hover{color:var(--lamp)}
     i = Math.max(0, Math.min(n, last));
     paint(animate !== false);
     if(i !== was || id !== here) lamp();
-    sync();
+    sync(remember === true);
   }
 
   // exactly one step backward through what you actually did
@@ -4302,6 +4298,7 @@ a.ref:hover{color:var(--lamp)}
   // walk the trail if there is one; otherwise go up a level, so a shared
   // link or a cold arrival is never a dead end
   function back(){
+    if(depth > 0 && urlOK){ history.back(); return; }
     if(trail.length){ var p = trail.pop(); go(p.id, p.n, false, true); return; }
     if(i > 0){ go(here, i - 1, false, true); return; }
     if(here !== 'home'){ go(parentOf(here), 0, false, true); }
@@ -4374,11 +4371,30 @@ a.ref:hover{color:var(--lamp)}
     x0 = y0 = null;
   }, {passive:true});
 
-  // phone/browser back gesture walks the same trail
-  window.addEventListener('popstate', function(){ if(trail.length) back(); });
+  // the browser's back and forward buttons, and the phone's back gesture
+  var fromPop = false;
+  window.addEventListener('popstate', function(e){
+    fromPop = true;
+    setTimeout(function(){ fromPop = false; }, 60);
+    origin = null;                 // browser navigation: nothing to "return" to
+    var st = e.state;
+    if(st && st.ch){
+      if(depth > 0) depth--;
+      if(trail.length) trail.pop();
+      go(st.id, st.n, false, true);
+      return;
+    }
+    // no state of ours: fall back to reading the address
+    var h = (location.hash || '').replace('#','').split('/');
+    var id = routes[h[0]] ? h[0] : 'home';
+    if(depth > 0) depth--;
+    go(id, parseInt(h[1], 10) || 0, false, true);
+  });
 
   // a link followed while the page is already open, or an address typed by hand
   window.addEventListener('hashchange', function(){
+    if(fromPop) return;            // the popstate handler already dealt with it
+    origin = null;                 // typed or followed from outside
     var h = (location.hash || '').replace('#','').split('/');
     var id = routes[h[0]] ? h[0] : 'home';
     var n = parseInt(h[1], 10) || 0;
