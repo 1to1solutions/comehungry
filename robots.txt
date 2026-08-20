@@ -1,0 +1,5 @@
+# Everything here is free to take. Crawl it.
+User-agent: *
+Allow: /
+
+Sitemap: https://comehungry.org/sitemap.xml

@@ -5,7 +5,7 @@
 
 // Bumped on every build. A new build gets fresh caches and the old ones are
 // deleted on activate, so nobody is ever served yesterday's page.
-var BUILD = '8207cc';
+var BUILD = '1307a2';
 var SHELL = 'ch-shell-' + BUILD;
 var DOCS  = 'ch-docs-' + BUILD;
 
@@ -15,7 +15,10 @@ var CORE = [
   './manifest.webmanifest',
   './icon.svg',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './read/hosts-guide.html',
+  './read/keeping-people-safe.html',
+  './read/why-this-exists.html'
 ];
 
 self.addEventListener('install', function(e){
@@ -43,7 +46,7 @@ self.addEventListener('fetch', function(e){
   if(url.origin !== location.origin) return;   // never touch anything third-party
 
   // documents: serve from cache if we have it, otherwise fetch and keep a copy
-  if(url.pathname.indexOf('/downloads/') !== -1){
+  if(url.pathname.indexOf('/downloads/') !== -1 || url.pathname.indexOf('/read/') !== -1){
     e.respondWith(
       caches.match(req).then(function(hit){
         if(hit) return hit;

@@ -1,8 +1,6 @@
 # Shepherding Tables
 ### The church guide: choosing hosts, the first year, and how staff support tables without programming them.
 
-*v1 — August 18, 2026. This is the church-wing survivor of the old kit-6: the host-facing half now lives in the Host's Guide; everything pastor- and staff-facing lives here, swept per the addendum.*
-
 ---
 
 # Choosing hosts

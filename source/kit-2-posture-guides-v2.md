@@ -1,6 +1,4 @@
 # The Three Postures
-*v2 — August 18, 2026. Language sweep per the addendum.*
-
 *One model, three ways in. Read the one that matches your church; the other two are here so you can see the whole map.*
 
 ---
@@ -40,13 +38,13 @@ This is the deepest posture and the slowest. Rebirth means the congregation reor
 
 **What dies and what doesn't.** Programs that exist to manufacture the connection tables now provide will fade — let them, gently, on their own schedule. What doesn't die: your worship gathering (it gets warmer — celebration is different when the family already knows each other), your teaching (tables run on it), your governance (this kit has no opinion about your polity), and your identity (Rebirth makes your church more itself, not something else wearing its name).
 
-**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when structure starts following reality. Get to year one healthy and call — the year-two decisions (staff roles, budget, what to prune, how celebration changes) are the ones worth having company for.
+**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when the structure has to catch up with what is actually happening. Staffing, budget, what to stop doing, what Sunday becomes. Those are hard calls to make on your own, so get through a healthy year one and then write hello@comehungry.org — somebody who has been through it will talk it over with you.
 
 **The two ways Rebirth fails.**
 1. *The language changes and the tables don't.* A church that adopts the vocabulary — starts saying "tables," puts "church of small groups" on the website — without the slow work of actual living rooms has just renamed its decline. The words are the last thing to change, not the first.
 2. *The pastor is the only believer.* If Rebirth lives solely in your conviction, it dies with your next call or your next burnout. Before you start, sit with three or four trusted people — staff, elders, the saints everyone actually listens to — and let them catch it or talk you out of it. If none of them catch it, the church isn't ready, and that's information, not failure.
 
-**When to call for help.** Before year two. Every church that has made this turn needed company for it, and the ones that pretended otherwise are the cautionary tales.
+**When to ask for help.** Before year two. Every church that has made this turn had somebody outside it to talk to, and the ones that tried it alone are the cautionary tales.
 
 ---
 

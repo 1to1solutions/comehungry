@@ -11,7 +11,6 @@
 
 **Part One — Home**
 1. Why this exists (the founding document)
-2. The Commons
 3. The Host's Guide (launching a table, and year one)
 4. Keeping people safe
 
@@ -166,67 +165,9 @@ That's the whole vision. Everything else in this document just protects it.
 ---
 ---
 
-# The Commons Wall — v1
-### Seven voices, roughed back toward speech. Banked quotes listed at bottom for rotation.
-
-**Provenance line (appears with the wall):**
-These are real voices from real tables around the world, gathered over the last few years. Names and places left off to protect people.
-
----
-
-"I left church years ago. I never stopped missing Jesus. I didn't know those were two different things."
-
----
-
-"The surprise wasn't anything I learned. It was finding out I wasn't the only one — the doubt, the disappointment, the hope, all at the same time. I'd been carrying that alone for years."
-
----
-
-"Nobody tried to fix me. Nobody argued with me. They just made room. Somewhere around that table I figured out I hadn't lost Jesus — I'd lost my way home."
-
----
-
-"I told the truth about my story for the first time. Nobody flinched. Nobody tried to rescue me. They stayed."
-
----
-
-"I expected another Bible study. I got friends. We laugh way more than I expected. We cry more than I planned on, too. Somewhere in there, following Jesus got joyful again. I didn't see that coming."
-
----
-
-"Decades in church. Nobody at this table cared about my title or what I know. For the first time in years I wasn't leading anything. I was just growing."
-
----
-
-"I moved halfway around the world and never really belonged anywhere. Here it didn't matter where I'm from or what language I grew up speaking. They didn't treat me like a guest. They treated me like family."
-
----
-
-## Banked for rotation (original wording, to be roughed if promoted)
-
-- "I came because I was exhausted. I stayed because I finally found people who weren't pretending..."
-- "I didn't need another sermon. I needed someone to look me in the eye, ask how I was really doing, and wait for the answer..."
-- "Growing up, faith always felt like trying harder. Here I discovered something different..."
-- "Nobody handed me a checklist. Nobody pressured me to agree with everything..."
-- "I've called myself a Christian for most of my life, but I don't think I'd ever really slowed down long enough to notice Jesus..."
-- "What healed me wasn't a brilliant teacher or a perfect answer..."
-- "I came looking for answers. Instead, I found a table..."
-- "Somewhere along the way I stopped asking, 'What do I have to believe?' and started asking, 'How do I become more like Jesus?'..."
-
-## The channel
-
-Has your table met? One line to **hello@comehungry.org**: *"A table met."* That's the whole report, and even it is optional. Add a story if you want — first names or no names, rough words welcome. Stories land on this wall by hand, one at a time. Nothing to fill out, and no name unless you want to give one.
-
-**Editing rule for this wall (locked):** vary the lengths, keep the speech rough, no two quotes ending on the same cadence, and never sand one into a tagline. If a quote starts sounding like copy, bank it.
-
-
----
----
 
 # The Host's Guide
 ### Everything you need to set a table and keep it alive for a year. One document, two parts. Free, like all of it.
-
-*v2.1 — August 18, 2026. Bench, crisis-line, and send-prayer language updated per the addendum. The question-two flex ("about God") is ruled and stays — the built-in give is part of the design.*
 
 ---
 
@@ -348,6 +289,18 @@ That local list is your first bench — local is always first, because crises ar
 **If someone discloses abuse** — theirs or a child's — the path is short and it isn't optional: Listen. Believe them. Don't investigate — no pressing for details, no confronting anyone; you're the safe person, not the detective. Never promise secrecy you can't keep — say honestly, "thank you for telling me; here's what has to happen next." If a child is involved or anyone's in immediate danger, emergency services come first, and know that reporting suspected child abuse is, in most places, a legal obligation, not a judgment call. Write down what was said, in their words, dated. And then stay their friend — the table's job doesn't end when the professionals arrive.
 
 If your table includes kids at all, the safeguarding guide isn't optional reading — it's the one part of this whole model with no flexibility in it, and it's short. Read it before the first gathering that includes a minor.
+
+## Hand the story around
+
+You tell the first few. A new table needs a steady voice while people work out whether this is safe, and that's your job for three or four weeks.
+
+Then start handing it over. Ask somebody at the table to take next week's story. Give them the prep a week early, tell them Recite, Retell, Recall, and let them do it badly if that's how it goes — a story told badly by a nervous friend does more for a table than a story told well by the same person every week.
+
+**The reason is not the workload.** It's that the person who tells a story is the person who could host a table. Nobody becomes ready by watching someone else be ready. By the time your table is big enough to send people out, you want three or four people who have already stood in front of the room with the text closed — and the only way to get them is to have handed them the story months earlier.
+
+A table where one person always tells has an audience. A table where five people have each told has five people who could start the next one.
+
+Two things that make it work. Ask privately, not in front of everyone, so nobody is cornered. And when they're done, don't correct them — thank them, and ask the four questions like you always do.
 
 ## The send, and why ready never feels ready
 
@@ -605,9 +558,9 @@ These were the last cuts. Any of them can swap in; here's what each would cost a
 
 ---
 
-## Honesty notes (publish these with the preps)
+## Two stories need a word of warning
 
-The audience we serve fact-checks. Two stories need a plain sentence of honesty shipped inside their prep, so nobody discovers it on Reddit instead of from us:
+Somebody at your table will have read a study Bible. Two of the fifty carry something a reader might already know, and a host who hasn't heard it gets blindsided in front of the room:
 
 - **#6, the woman caught in the middle:** the earliest manuscripts of John don't include this story; it was preserved by the early church and added later. We tell it anyway and say so — because the church that kept it clearly knew it sounded exactly like him. One honest sentence in the prep. Hiding it would cost more than it saves.
 - **#43, the wilderness:** the tellings in Matthew and Luke order the three temptations differently. Trivial, but a fact-checker will find it; one line in the prep ("the Gospels order these differently") closes the gap.
@@ -2885,13 +2838,11 @@ What now? Go around again — these stories don't run out; a second year lands d
 
 # A letter to the pastor holding this kit
 
-*v2 — August 18, 2026. Swept per the addendum: former brand removed, money rewritten to the firewall, opening restructured per the July 16 ruling.*
-
 If you haven't read the founding document yet, stop and read it first — it's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
 
 You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
 
-One more thing you should know about who's writing this. I've pastored the same congregation for thirty years. We piloted this model in our own church ten years ago, and we've been giving it away ever since. It spreads for the least complicated reason there is: it works.
+One more thing you should know about who's writing this. I've been a pastor for nearly forty years and I've served the same congregation for thirty. We started tables there, in our own church, ten years ago — before any of this was written down. So none of what follows is theory I'm asking you to try on your people first. We've been giving it away ever since, and it spreads for the least complicated reason there is: it works.
 
 So let's start with what this is not going to do.
 
@@ -2915,15 +2866,11 @@ Grace and peace to you and your church. You've been carrying a lot. This is ligh
 
 — From one pastor to another
 
-*(Open decision, founder's call: whether this signs with his actual name and "pastor for thirty years." A letter with an I in it that signs anonymously pulls some of its own punch; founder-light says his name must never be load-bearing. Both are defensible. His ruling.)*
-
 
 ---
 ---
 
 # The Three Postures
-*v2 — August 18, 2026. Language sweep per the addendum.*
-
 *One model, three ways in. Read the one that matches your church; the other two are here so you can see the whole map.*
 
 ---
@@ -2963,13 +2910,13 @@ This is the deepest posture and the slowest. Rebirth means the congregation reor
 
 **What dies and what doesn't.** Programs that exist to manufacture the connection tables now provide will fade — let them, gently, on their own schedule. What doesn't die: your worship gathering (it gets warmer — celebration is different when the family already knows each other), your teaching (tables run on it), your governance (this kit has no opinion about your polity), and your identity (Rebirth makes your church more itself, not something else wearing its name).
 
-**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when structure starts following reality. Get to year one healthy and call — the year-two decisions (staff roles, budget, what to prune, how celebration changes) are the ones worth having company for.
+**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when the structure has to catch up with what is actually happening. Staffing, budget, what to stop doing, what Sunday becomes. Those are hard calls to make on your own, so get through a healthy year one and then write hello@comehungry.org — somebody who has been through it will talk it over with you.
 
 **The two ways Rebirth fails.**
 1. *The language changes and the tables don't.* A church that adopts the vocabulary — starts saying "tables," puts "church of small groups" on the website — without the slow work of actual living rooms has just renamed its decline. The words are the last thing to change, not the first.
 2. *The pastor is the only believer.* If Rebirth lives solely in your conviction, it dies with your next call or your next burnout. Before you start, sit with three or four trusted people — staff, elders, the saints everyone actually listens to — and let them catch it or talk you out of it. If none of them catch it, the church isn't ready, and that's information, not failure.
 
-**When to call for help.** Before year two. Every church that has made this turn needed company for it, and the ones that pretended otherwise are the cautionary tales.
+**When to ask for help.** Before year two. Every church that has made this turn had somebody outside it to talk to, and the ones that tried it alone are the cautionary tales.
 
 ---
 
@@ -2998,8 +2945,6 @@ The traditional church plant: a hired planter, a core team, a rented school, a l
 
 # The Leadership Team Guide
 ### How to walk your board, elders, or leadership team through this model in one sitting.
-
-*v2.1 — August 18, 2026. Swept per the addendum: former brand removed, document references updated, money answers rewritten to the firewall, biblical-basis answer made self-contained.*
 
 You've read the founding document and the pastor's letter, and something in you said *this might be it.* Now comes the part nobody writes materials for: the room where it actually gets decided. This guide is that meeting, planned for you — what to send beforehand, how to run the conversation, the objections that will come up and the honest answers, and a decision framework that treats "not yet" as a legitimate outcome. Because it is.
 
@@ -3066,8 +3011,6 @@ Put three options on the table — all three are wins over an ambiguous "sure, w
 # START HERE
 ### The whole launch on one page.
 
-*v2 — August 18, 2026. Swept per the addendum: former brand removed, money page rewritten to the firewall (Style C, founder's final rewrite pending).*
-
 **1. Pick two hosts.**
 Not necessarily your current leaders. Look for the people others already feel safe around — the ones who get told things. Two hosts, two tables; one table has no one to learn from.
 
@@ -3112,7 +3055,7 @@ That's the launch. No banners, no sermon series, no kickoff Sunday. Two tables, 
 The model. This kit. The Host's Guide. The Canon of Fifty and every story prep. The safeguarding guide. Updates to all of it. No license, no membership, no subscription, no tiers, no revenue share, no "free trial." If you were ever asked to pay for any of these, something has gone wrong — and you should say so, loudly.
 
 **So how does anyone afford to build this? Here's the honest answer.**
-The founder has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com, or write contact@timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
+The founder has been a pastor for nearly forty years and has served the same church for thirty. He started tables there, in his own congregation, before any of this was written down — so none of it is theory he is asking you to test on your people first. He also has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
 
 **Donations.**
 The project accepts them, and they fund the work. They're plainly non-tax-deductible, and they buy nothing — no influence, no naming rights, no thanks beyond these words.
@@ -3144,8 +3087,6 @@ The whole job in one sentence: check in with your hosts every two weeks, stay ou
 
 # Shepherding Tables
 ### The church guide: choosing hosts, the first year, and how staff support tables without programming them.
-
-*v1 — August 18, 2026. This is the church-wing survivor of the old kit-6: the host-facing half now lives in the Host's Guide; everything pastor- and staff-facing lives here, swept per the addendum.*
 
 ---
 
@@ -3273,8 +3214,6 @@ Your calendar has fewer meetings and more coffees. Problems reach you earlier an
 # THE HOUSEHOLD ADDENDUM
 ### Kids at the table.
 
-*v2 — August 18, 2026. Swept per the addendum; the two insurer questions added (kit-5 references them). The expert-review flag on the template stands until satisfied.*
-
 The early church met in households. Children weren't sent to another room while the adults did church — they were at the table from the beginning, and their absence from most modern group models is a corruption of the original pattern, not a feature of it. A table with kids at it isn't a complicated table. It's the original kind.
 
 **Nothing about the rhythm changes.** Meet, Share, Grow, Act — same four movements, mixed ages. Gatherings might run shorter and louder. That's not a problem to solve.
@@ -3344,4 +3283,4 @@ That's it. If the answers require changes, make them before launch, not after th
 7. **Training.** Every screened adult receives basic awareness training: recognizing grooming, boundary violations, and the reporting path.
 8. **Review.** The policy is reviewed annually and every incident triggers a review.
 
-*[FLAG FOR TIM: this template needs a pass from someone with real child-protection credentials before any church relies on it — insurer, denominational safeguarding office, or an organization like GRACE. I drafted the rules; an expert should certify them. Do not ship without that review.]*
+*Before your church relies on this, have it reviewed by someone with real child-protection credentials — your insurer, your denomination's safeguarding office, or an organization like GRACE. What follows is a sound starting point, not a certified policy.*

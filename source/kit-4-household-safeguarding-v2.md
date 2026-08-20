@@ -1,8 +1,6 @@
 # THE HOUSEHOLD ADDENDUM
 ### Kids at the table.
 
-*v2 — August 18, 2026. Swept per the addendum; the two insurer questions added (kit-5 references them). The expert-review flag on the template stands until satisfied.*
-
 The early church met in households. Children weren't sent to another room while the adults did church — they were at the table from the beginning, and their absence from most modern group models is a corruption of the original pattern, not a feature of it. A table with kids at it isn't a complicated table. It's the original kind.
 
 **Nothing about the rhythm changes.** Meet, Share, Grow, Act — same four movements, mixed ages. Gatherings might run shorter and louder. That's not a problem to solve.
@@ -72,4 +70,4 @@ That's it. If the answers require changes, make them before launch, not after th
 7. **Training.** Every screened adult receives basic awareness training: recognizing grooming, boundary violations, and the reporting path.
 8. **Review.** The policy is reviewed annually and every incident triggers a review.
 
-*[FLAG FOR TIM: this template needs a pass from someone with real child-protection credentials before any church relies on it — insurer, denominational safeguarding office, or an organization like GRACE. I drafted the rules; an expert should certify them. Do not ship without that review.]*
+*Before your church relies on this, have it reviewed by someone with real child-protection credentials — your insurer, your denomination's safeguarding office, or an organization like GRACE. What follows is a sound starting point, not a certified policy.*

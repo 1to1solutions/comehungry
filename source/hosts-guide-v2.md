@@ -1,8 +1,6 @@
 # The Host's Guide
 ### Everything you need to set a table and keep it alive for a year. One document, two parts. Free, like all of it.
 
-*v2.1 — August 18, 2026. Bench, crisis-line, and send-prayer language updated per the addendum. The question-two flex ("about God") is ruled and stays — the built-in give is part of the design.*
-
 ---
 
 ## Before anything else
@@ -123,6 +121,18 @@ That local list is your first bench — local is always first, because crises ar
 **If someone discloses abuse** — theirs or a child's — the path is short and it isn't optional: Listen. Believe them. Don't investigate — no pressing for details, no confronting anyone; you're the safe person, not the detective. Never promise secrecy you can't keep — say honestly, "thank you for telling me; here's what has to happen next." If a child is involved or anyone's in immediate danger, emergency services come first, and know that reporting suspected child abuse is, in most places, a legal obligation, not a judgment call. Write down what was said, in their words, dated. And then stay their friend — the table's job doesn't end when the professionals arrive.
 
 If your table includes kids at all, the safeguarding guide isn't optional reading — it's the one part of this whole model with no flexibility in it, and it's short. Read it before the first gathering that includes a minor.
+
+## Hand the story around
+
+You tell the first few. A new table needs a steady voice while people work out whether this is safe, and that's your job for three or four weeks.
+
+Then start handing it over. Ask somebody at the table to take next week's story. Give them the prep a week early, tell them Recite, Retell, Recall, and let them do it badly if that's how it goes — a story told badly by a nervous friend does more for a table than a story told well by the same person every week.
+
+**The reason is not the workload.** It's that the person who tells a story is the person who could host a table. Nobody becomes ready by watching someone else be ready. By the time your table is big enough to send people out, you want three or four people who have already stood in front of the room with the text closed — and the only way to get them is to have handed them the story months earlier.
+
+A table where one person always tells has an audience. A table where five people have each told has five people who could start the next one.
+
+Two things that make it work. Ask privately, not in front of everyone, so nobody is cornered. And when they're done, don't correct them — thank them, and ask the four questions like you always do.
 
 ## The send, and why ready never feels ready
 

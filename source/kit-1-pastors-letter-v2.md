@@ -1,12 +1,10 @@
 # A letter to the pastor holding this kit
 
-*v2 — August 18, 2026. Swept per the addendum: former brand removed, money rewritten to the firewall, opening restructured per the July 16 ruling.*
-
 If you haven't read the founding document yet, stop and read it first — it's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
 
 You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
 
-One more thing you should know about who's writing this. I've pastored the same congregation for thirty years. We piloted this model in our own church ten years ago, and we've been giving it away ever since. It spreads for the least complicated reason there is: it works.
+One more thing you should know about who's writing this. I've been a pastor for nearly forty years and I've served the same congregation for thirty. We started tables there, in our own church, ten years ago — before any of this was written down. So none of what follows is theory I'm asking you to try on your people first. We've been giving it away ever since, and it spreads for the least complicated reason there is: it works.
 
 *"I left church years ago. I never stopped missing Jesus. I didn't know those were two different things."*
 
@@ -33,8 +31,6 @@ Don't announce a new ministry. Don't print anything. Pick two hosts your people 
 Grace and peace to you and your church. You've been carrying a lot. This is lighter than it looks.
 
 — From one pastor to another
-
-*(Open decision, founder's call: whether this signs with his actual name and "pastor for thirty years." A letter with an I in it that signs anonymously pulls some of its own punch; founder-light says his name must never be load-bearing. Both are defensible. His ruling.)*
 
 ---
 

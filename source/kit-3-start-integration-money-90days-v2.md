@@ -1,8 +1,6 @@
 # START HERE
 ### The whole launch on one page.
 
-*v2 — August 18, 2026. Swept per the addendum: former brand removed, money page rewritten to the firewall (Style C, founder's final rewrite pending).*
-
 **1. Pick two hosts.**
 Not necessarily your current leaders. Look for the people others already feel safe around — the ones who get told things. Two hosts, two tables; one table has no one to learn from.
 
@@ -47,7 +45,7 @@ That's the launch. No banners, no sermon series, no kickoff Sunday. Two tables, 
 The model. This kit. The Host's Guide. The Canon of Fifty and every story prep. The safeguarding guide. Updates to all of it. No license, no membership, no subscription, no tiers, no revenue share, no "free trial." If you were ever asked to pay for any of these, something has gone wrong — and you should say so, loudly.
 
 **So how does anyone afford to build this? Here's the honest answer.**
-The founder has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com, or write contact@timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
+The founder has been a pastor for nearly forty years and has served the same church for thirty. He started tables there, in his own congregation, before any of this was written down — so none of it is theory he is asking you to test on your people first. He also has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
 
 **Donations.**
 The project accepts them, and they fund the work. They're plainly non-tax-deductible, and they buy nothing — no influence, no naming rights, no thanks beyond these words.

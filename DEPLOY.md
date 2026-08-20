@@ -89,4 +89,4 @@ Adding either makes that false, and it would mean handing a third party the
 browsing of people reading a page about leaving church.
 
 If you ever need to know whether anyone is out there, Cloudflare's server-side
-request counts tell you that without a script in anyone's browser. 
+request counts tell you that without a script in anyone's browser.

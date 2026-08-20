@@ -1,8 +1,6 @@
 # The Leadership Team Guide
 ### How to walk your board, elders, or leadership team through this model in one sitting.
 
-*v2.1 — August 18, 2026. Swept per the addendum: former brand removed, document references updated, money answers rewritten to the firewall, biblical-basis answer made self-contained.*
-
 You've read the founding document and the pastor's letter, and something in you said *this might be it.* Now comes the part nobody writes materials for: the room where it actually gets decided. This guide is that meeting, planned for you — what to send beforehand, how to run the conversation, the objections that will come up and the honest answers, and a decision framework that treats "not yet" as a legitimate outcome. Because it is.
 
 One conviction before you start: **don't sell this to your board.** You've all sat through pitches; your team can smell one. Put the thing on the table, let them poke it hard, and trust it. If this can't survive your leadership team's honest scrutiny, it won't survive your congregation's living rooms either — better to find out in the meeting.
