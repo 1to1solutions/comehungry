@@ -138,6 +138,22 @@ body.tapped .glow b{opacity:.72;transition:opacity .35s}
   to{opacity:1;transform:none}
 }
 .card.on .setting li,.card.on .qs li,.card.on .door{animation:arrive .6s cubic-bezier(.16,.8,.3,1) both}
+/* anything that navigates carries the same mark on its right edge */
+.file{position:relative;padding-right:2.4rem}
+.filerow{position:relative}
+.door::after,.file::after,.st::after,.pastorDoor::after{
+  content:"";position:absolute;right:.45rem;top:50%;
+  width:7px;height:7px;margin-top:-4px;
+  border-right:1.5px solid var(--dim);border-bottom:1.5px solid var(--dim);
+  transform:rotate(-45deg);transition:border-color .2s,right .2s;
+}
+.door.primary::after{border-color:rgba(23,19,15,.55)}
+@media (hover:hover){
+  .door:hover::after,.file:hover::after,.st:hover::after,.pastorDoor:hover::after{
+    border-color:var(--gold);right:.2rem;
+  }
+  .door.primary:hover::after{border-color:rgba(23,19,15,.8)}
+}
 .card.on .setting li:nth-child(1),.card.on .qs li:nth-child(1),.card.on .door:nth-child(1){animation-delay:.30s}
 .card.on .setting li:nth-child(2),.card.on .qs li:nth-child(2),.card.on .door:nth-child(2){animation-delay:.42s}
 .card.on .setting li:nth-child(3),.card.on .qs li:nth-child(3),.card.on .door:nth-child(3){animation-delay:.54s}
@@ -204,6 +220,7 @@ div:has(> .door){margin-top:2.6rem}
   padding:1.35rem 0;border-bottom:1px solid var(--rule);
   font-size:clamp(1.18rem,4.9vw,1.45rem);font-weight:400;
 }
+.door,.st,.pastorDoor{position:relative;padding-right:2rem}
 .door:last-of-type{border-bottom:0}
 .door small{
   display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;
@@ -421,13 +438,13 @@ a.ref:hover{color:var(--lamp)}
 .files{margin-top:2.2rem}
 .file{
   display:block;text-decoration:none;color:var(--lamp);
-  padding:1.05rem 0 1.05rem 1.5rem;border-bottom:1px solid var(--rule);
+  padding:1.05rem 2.4rem 1.05rem 0;border-bottom:1px solid var(--rule);
   position:relative;transition:color .2s;
 }
 .file:last-child{border-bottom:0}
 @media (hover:hover){.file:hover{color:var(--gold)}
 .file::before{
-  content:"";position:absolute;left:0;top:1.5rem;
+  content:none;
   width:7px;height:7px;border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);
   transform:rotate(45deg);
 }}
@@ -814,14 +831,14 @@ a.ref:hover{color:var(--lamp)}
 .pastorDoor:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 
 .filerow{position:relative}
-.filerow .file{padding-right:3.8rem}
+.filerow .file{padding-right:4.6rem}
 .file .alt{
   display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-style:normal;
   font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
   color:var(--gold);margin-top:.4rem;
 }
 .pdfalt{
-  position:absolute;right:0;top:50%;transform:translateY(-50%);
+  position:absolute;right:1.6rem;top:50%;transform:translateY(-50%);
   padding:.45rem .6rem;border:1px solid var(--rule);border-radius:3px;
   font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.62rem;font-weight:600;
   letter-spacing:.12em;color:var(--dim);text-decoration:none;
@@ -882,7 +899,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 303efd &middot; 2026-08-20 18:42 UTC</p>
+      <p class="stamp">build a16c64 &middot; 2026-08-20 18:57 UTC</p>
     </div>
   </div>
 </nav>
