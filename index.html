@@ -1000,7 +1000,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 9e7972 &middot; 2026-08-21 17:44 UTC</p>
+      <p class="stamp">build 5f5179 &middot; 2026-08-21 18:00 UTC</p>
     </div>
   </div>
 </nav>
@@ -4635,6 +4635,7 @@ a.ref:hover{color:var(--lamp)}
       (last ? '  —  ' + (i + 1) + ' of ' + (last + 1) : '');
     showUpto();
     if(dot) dot.classList.toggle('gone', !worksHere(here) || !sheet.hidden);
+    if(window.chSeen) try{ window.chSeen(here, i); }catch(e){}
     // the runner's final card means tonight actually happened
     if(here === 'tonight' && i === last && typeof tellDone === 'function') tellDone();
     if(here === 'tonight' && i === 0 && typeof paintFollowup === 'function') paintFollowup();
@@ -5336,6 +5337,55 @@ a.ref:hover{color:var(--lamp)}
     if(window.requestAnimationFrame) requestAnimationFrame(toTop); else setTimeout(toTop, 0);
     window.addEventListener('load', toTop);
   }catch(err){ /* starting at the top is a nicety; never let it break the deck */ }
+
+
+  // ---------- counting use, not people ----------
+  // Aggregate only: how many visits, roughly how long, which sections were
+  // reached, which documents were opened. No identifier of any kind is
+  // created, stored, or sent — there is nothing here that could be tied back
+  // to a person, and the country is worked out at the edge, never asked for.
+  (function(){
+    var ENDPOINT = 'https://comehungry-count.timothyeldred.workers.dev/e';
+    if(location.hostname !== 'comehungry.org' && location.hostname !== 'www.comehungry.org') return;
+    try{
+      var began = Date.now();
+      var seen  = {};
+      var docs  = {};
+      var deepest = 0;
+      var sent = false;
+
+      window.chSeen = function(routeId, cardIndex){
+        if(routeId) seen[routeId] = 1;
+        if(routeId === 'home' && cardIndex > deepest) deepest = cardIndex;
+      };
+      document.addEventListener('click', function(e){
+        var a = e.target && e.target.closest && e.target.closest('a[href]');
+        if(!a) return;
+        var h = a.getAttribute('href') || '';
+        var m = h.match(/(?:downloads|read)\/([\w\-.]+)/);
+        if(m) docs[m[1].replace(/\.pdf$/,'')] = 1;
+      }, true);
+
+      function send(){
+        if(sent) return; sent = true;
+        var body = JSON.stringify({
+          v: 1,
+          s: Math.round((Date.now() - began) / 1000),
+          r: Object.keys(seen),
+          d: Object.keys(docs),
+          p: deepest
+        });
+        try{
+          if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT, new Blob([body], {type:'text/plain'}));
+          else fetch(ENDPOINT, {method:'POST', body:body, keepalive:true});
+        }catch(e){}
+      }
+      window.addEventListener('pagehide', send);
+      document.addEventListener('visibilitychange', function(){
+        if(document.visibilityState === 'hidden') send();
+      });
+    }catch(err){ /* counting is a nicety; never let it break the deck */ }
+  })();
 
   var start = {id:'home', n:0};
   try{
