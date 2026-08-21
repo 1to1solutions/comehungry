@@ -785,7 +785,7 @@ a.ref:hover{color:var(--lamp)}
 .askBox textarea::placeholder{color:var(--dim)}
 .askBox textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-color:var(--gold)}
 .askBox .send{margin-top:.9rem}
-#installWrap{margin-top:2.8rem}
+#installWrap,#shareWrap{margin-top:2.8rem}
 #installIOS{margin-top:1.6rem}
 #installOther{margin-top:1.8rem}
 .askNote{margin-top:1.6rem}
@@ -848,6 +848,32 @@ a.ref:hover{color:var(--lamp)}
 
 .label.handStart,.label.spaced{margin-top:2.8rem}
 
+.finder{margin:2.2rem 0 .6rem}
+.finder input{
+  width:100%;background:rgba(242,234,220,.05);color:var(--lamp);
+  border:1px solid var(--rule);border-radius:3px;padding:.8rem 1rem;
+  font-family:"Literata",Georgia,serif;font-size:1rem;
+}
+.finder input::placeholder{color:var(--dim)}
+.finder input:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-color:var(--gold)}
+.found{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.78rem;color:var(--dim);margin-top:.7rem}
+.hits{margin:.4rem 0 1.6rem}
+.hits[hidden]{display:none}
+.hit{
+  display:block;text-decoration:none;color:var(--lamp);position:relative;
+  padding:.85rem 2rem .85rem 0;border-bottom:1px solid var(--rule);transition:color .2s;
+}
+.hit b{display:block;font-family:"Literata",Georgia,serif;font-weight:400;font-size:1.02rem}
+.hit small{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.74rem;color:var(--dim);margin-top:.15rem}
+.hit.hide{display:none}
+.hit::after{
+  content:"";position:absolute;right:.45rem;top:50%;width:7px;height:7px;margin-top:-4px;
+  border-right:1.5px solid var(--dim);border-bottom:1.5px solid var(--dim);transform:rotate(-45deg);
+}
+@media (hover:hover){.hit:hover{color:var(--gold)}.hit:hover::after{border-color:var(--gold)}}
+
+.arc.hide{display:none}
+
 /* --- routes --- */
 .route{display:none}
 .route.live{display:block}
@@ -875,6 +901,7 @@ a.ref:hover{color:var(--lamp)}
     <div class="wayGroup">
       <h3>For anyone</h3>
       <a class="way" href="#why">Why this exists<small>The short version, and the long one</small></a>
+    <a class="way" href="#pass">I&rsquo;m not the one to lead it<small>What to do if you won&rsquo;t be the host</small></a>
       <a class="way" href="#library">The library<small>Every document, free, no email</small></a>
     </div>
     <div class="wayGroup">
@@ -899,7 +926,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build ad5e3d &middot; 2026-08-20 20:29 UTC</p>
+      <p class="stamp">build 1f0c70 &middot; 2026-08-21 11:27 UTC</p>
     </div>
   </div>
 </nav>
@@ -995,7 +1022,8 @@ a.ref:hover{color:var(--lamp)}
     <div class="label">So where do you want to start</div>
     <div>
       <a class="door primary" href="#table">Start a&nbsp;table<small>Everything you need to run the first&nbsp;one</small></a>
-      <a class="door" href="#hand">Or tell us you're&nbsp;starting<small>A person writes back. Not a newsletter.</small></a>
+      <a class="door" href="#pass">I&rsquo;m not the one to lead&nbsp;it<small>You don&rsquo;t have to. Here&rsquo;s what else you can do.</small></a>
+        <a class="door" href="#hand">Or tell us you're&nbsp;starting<small>A person writes back. Not a newsletter.</small></a>
       <a class="door" href="#why">Read why this&nbsp;exists<small>The long version, if you want&nbsp;it</small></a>
       <a class="door" href="#church">I'm a&nbsp;pastor<small>How this works inside a church. Nothing to&nbsp;buy.</small></a>
     </div>
@@ -1004,6 +1032,49 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. Say it at <a href="mailto:hello@comehungry.org">hello@comehungry.org</a>, or on the page for&nbsp;it.</p>
     </div>
   </section>
+  </div>
+
+  <div class="route" id="pass" data-title="Not the one to lead it" data-parent="home">
+
+    <section class="card on">
+      <div class="label">If you're not the host</div>
+      <h2 class="line">You don&rsquo;t have to run&nbsp;anything.</h2>
+      <p class="line quiet">Most people who find this are not going to start a table, and that is completely fine. It still&nbsp;works.</p>
+      <p class="beat">There are two things you can do from here, and one of them takes about a&nbsp;minute.</p>
+    </section>
+
+    <section class="card">
+      <div class="label">The one-minute version</div>
+      <h2 class="line">Send it to the person who&nbsp;would.</h2>
+      <p class="line quiet">You already know who. The friend whose house people end up at. The one who cooks too much food. The one who asks the question everybody else is&nbsp;thinking.</p>
+      <p class="beat">Send them the link and say something like&nbsp;this:</p>
+      <blockquote>Found this and thought of you. It&rsquo;s a way to have a few people over once a week &mdash; dinner, one story about Jesus, four questions, nothing to sign up for. It&rsquo;s free and nobody&rsquo;s selling anything. You&rsquo;d be good at&nbsp;it.</blockquote>
+      <div id="shareWrap"><button class="send" id="shareBtn" type="button">Send this to someone</button></div>
+      <p class="beat" id="shareNote">If they say yes, tell them you&rsquo;ll come. A host with one person already coming is a host who&nbsp;starts.</p>
+    </section>
+
+    <section class="card">
+      <div class="label">Or the smaller version</div>
+      <h2 class="line">You and one&nbsp;friend.</h2>
+      <p class="line quiet">A table starts at two or three people, including you. That is not a compromise while you wait for more &mdash; it is the&nbsp;design.</p>
+      <p class="beat">So the smallest true version of this is you, one other person, dinner, and one story. No group to organize, nobody to lead, nothing to announce. If a third person turns up in a month, you have a&nbsp;table.</p>
+      <p class="beat">Nobody has to be in charge of that. Somebody just has to&nbsp;cook.</p>
+      <div>
+        <a class="door primary" href="#table">Alright, show me how<small>The first night, and what to say</small></a>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="label">And if neither is you</div>
+      <h2 class="line">Then just take the&nbsp;stories.</h2>
+      <p class="line quiet">Fifty stories about Jesus, each one prepped &mdash; the passage, how to learn it, four questions, and something to do about it. Free, no account, yours to&nbsp;keep.</p>
+      <p class="beat">People have used these alone, with one friend, at a kitchen table with their kids, and on a commute. None of that requires anybody&rsquo;s&nbsp;permission.</p>
+      <div class="files">
+        <a class="file" href="#stories"><b>The fifty stories</b><small>Every one prepped for you</small></a>
+        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>Or all fifty as one book</b><small>156 pages, free</small></a>
+      </div>
+    </section>
+
   </div>
 
   <div class="route" id="ask" data-title="Questions" data-parent="home">
@@ -1108,6 +1179,14 @@ a.ref:hover{color:var(--lamp)}
           <a class="door" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">Keeping people safe<small>Read this before anyone sits down</small></a>
         </div>
       </div>
+      <div class="label spaced">What happens now</div>
+      <ul class="setting">
+        <li data-n="01">A person reads it. Not a system, and not a sequence &mdash; somebody who hosts a table&nbsp;themselves.</li>
+        <li data-n="02">They write back within about a week. Sometimes sooner, occasionally longer if it&rsquo;s&nbsp;busy.</li>
+        <li data-n="03">It&rsquo;s a real reply to what you actually said. If you asked a question, they answer&nbsp;it.</li>
+        <li data-n="04">Nothing else arrives. No newsletter, no follow-up sequence, no second&nbsp;email.</li>
+      </ul>
+      <p class="beat">Meanwhile you don&rsquo;t have to wait on us for anything. Everything is already yours, and the guide is one tap&nbsp;away.</p>
     </section>
 
   </div>
@@ -1268,6 +1347,8 @@ a.ref:hover{color:var(--lamp)}
     <div class="label">What to say</div>
     <p class="said">I'm starting something small at my place — dinner, once a week, a few people. We eat, somebody tells one of the stories about Jesus, and we talk about it honestly. No lectures, nobody has to believe anything, nobody's signing up for anything. I thought of you. Want to come&nbsp;eat?</p>
     <p class="beat">Say it in your own words. Don't hide the Jesus part — an invitation that buries it is bait, and bait breaks trust the second it's&nbsp;found.</p>
+      <p class="beat">If they want to know more before saying yes, hand them <a class="ref" href="read/invited">the invitation page</a> &mdash; one page on what happens, what doesn&rsquo;t, and the questions people are too polite to ask out&nbsp;loud.</p>
+      <p class="beat">And if you want something to pin up or leave in a stack, there&rsquo;s <a class="ref" href="downloads/invite-poster.pdf" target="_blank" rel="noopener">a one-page invitation</a> and <a class="ref" href="downloads/invite-cards.pdf" target="_blank" rel="noopener">cards, eight to a&nbsp;sheet</a>.</p>
   </section>
 
   <section class="card" aria-label="5">
@@ -1346,8 +1427,12 @@ a.ref:hover{color:var(--lamp)}
       <div class="files">
         <div class="filerow"><a class="file" href="read/hosts-guide"><b>The Host&rsquo;s Guide</b><small>The whole thing &mdash; launching, and the first year</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/hosts-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
         <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>Read this before anyone sits down</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <a class="file" href="downloads/table-card.pdf" target="_blank" rel="noopener"><b>The table card</b><small>One page for the table itself</small></a>
+        <div class="filerow"><a class="file" href="read/the-table-card"><b>The table card</b><small>One page for the table itself</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/table-card.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <a class="file" href="downloads/invited.pdf" target="_blank" rel="noopener"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask. What happens, what doesn&rsquo;t, and the honest answers.</small></a>
+        <a class="file" href="downloads/invite-poster.pdf" target="_blank" rel="noopener"><b>An invitation, one page</b><small>For a noticeboard, a staff room, a church foyer. Print and pin&nbsp;it.</small></a>
+        <a class="file" href="downloads/invite-cards.pdf" target="_blank" rel="noopener"><b>Invitation cards, eight to a sheet</b><small>Cut them up. Leave one somewhere, or hand one across a&nbsp;fence.</small></a>
         <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>Or all of it in one file</b><small>The host pack &mdash; 39 pages, everything above plus the table card</small></a>
+        <a class="file" href="downloads/invited.pdf" target="_blank" rel="noopener"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask. What happens, what doesn&rsquo;t, and the honest answers.</small></a>
         <a class="file" href="#install"><b>Put this on your phone</b><small>It opens like an app and works with no signal</small></a>
       </div>
 <div class="label spaced">And when you do</div>
@@ -1367,7 +1452,10 @@ a.ref:hover{color:var(--lamp)}
       <div class="label">Start here</div>
       <div class="files">
         <div class="filerow"><a class="file" href="read/why-this-exists"><b>Why this exists</b><small>The whole reason this exists, and the guardrails that keep it honest.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/why-this-exists.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <a class="file" href="downloads/table-card.pdf" target="_blank" rel="noopener"><b>The table card</b><small>One page for the table itself. The four movements and the four questions.</small></a>
+        <div class="filerow"><a class="file" href="read/the-table-card"><b>The table card</b><small>One page for the table itself. The four movements and the four questions.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/table-card.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/invited"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask. What happens, what doesn&rsquo;t, and the honest&nbsp;answers.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/invited.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <a class="file" href="downloads/invite-poster.pdf" target="_blank" rel="noopener"><b>An invitation, one page</b><small>For a noticeboard, a staff room, a church foyer. Print and pin&nbsp;it.</small></a>
+        <a class="file" href="downloads/invite-cards.pdf" target="_blank" rel="noopener"><b>Invitation cards, eight to a sheet</b><small>Cut them up. Leave one somewhere, or hand one across a&nbsp;fence.</small></a>
         <div class="filerow"><a class="file" href="read/hosts-guide"><b>The Host&rsquo;s Guide</b><small>Launching a table, and the first year. The one document a host actually needs.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/hosts-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
         <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>What every table owes the people at it, especially the kids.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
               </div>
@@ -1412,6 +1500,63 @@ a.ref:hover{color:var(--lamp)}
     <section class="card on">
       <div class="label">The fifty stories</div>
       <h2 class="line">Fifty stories about&nbsp;Jesus.</h2>
+      <div class="finder">
+        <label class="sr" for="storyFind">Find a story</label>
+        <input id="storyFind" type="search" placeholder="Type a name &mdash; Zacchaeus, the well, prodigal&hellip;" autocomplete="off">
+        <p class="found" id="storyFound" hidden></p>
+      </div>
+      <div class="hits" id="storyHits" hidden>
+        <a class="hit" href="#s1" data-find="the fishermen leave their nets the ones he met luke 5:1–11 calling the first disciples fishers of men peter simon andrew james john"><b>1. The Fishermen Leave Their Nets</b><small>The Ones He Met &middot; Luke 5:1–11</small></a>
+        <a class="hit" href="#s2" data-find="nicodemus comes at night the ones he met john 3:1–21 born again nicodemus pharisee night"><b>2. Nicodemus Comes at Night</b><small>The Ones He Met &middot; John 3:1–21</small></a>
+        <a class="hit" href="#s3" data-find="the woman at the well the ones he met john 4:1–30 samaritan woman well living water john 4"><b>3. The Woman at the Well</b><small>The Ones He Met &middot; John 4:1–30</small></a>
+        <a class="hit" href="#s4" data-find="zacchaeus the ones he met luke 19:1–10 tax collector sycamore tree short jericho"><b>4. Zacchaeus</b><small>The Ones He Met &middot; Luke 19:1–10</small></a>
+        <a class="hit" href="#s5" data-find="the rich young man the ones he met mark 10:17–27 rich young ruler camel needle eye"><b>5. The Rich Young Man</b><small>The Ones He Met &middot; Mark 10:17–27</small></a>
+        <a class="hit" href="#s6" data-find="the woman caught in the middle the ones he met john 8:1–11 adulterous woman adultery stone cast the first stone"><b>6. The Woman Caught in the Middle</b><small>The Ones He Met &middot; John 8:1–11</small></a>
+        <a class="hit" href="#s7" data-find="the mother who wouldn&#x27;t quit the ones he met mark 7:24–30 syrophoenician canaanite woman crumbs dogs gentile"><b>7. The Mother Who Wouldn't Quit</b><small>The Ones He Met &middot; Mark 7:24–30</small></a>
+        <a class="hit" href="#s8" data-find="mary, martha, and the one thing the ones he met luke 10:38–42 martha busy sitting at his feet better part"><b>8. Mary, Martha, and the One Thing</b><small>The Ones He Met &middot; Luke 10:38–42</small></a>
+        <a class="hit" href="#s9" data-find="the children they tried to block the ones he met mark 10:13–16 let the little children suffer the children"><b>9. The Children They Tried to Block</b><small>The Ones He Met &middot; Mark 10:13–16</small></a>
+        <a class="hit" href="#s10" data-find="the widow&#x27;s two coins the ones he met mark 12:41–44 widows mite offering two mites poor widow"><b>10. The Widow's Two Coins</b><small>The Ones He Met &middot; Mark 12:41–44</small></a>
+        <a class="hit" href="#s11" data-find="the running father the ones he told luke 15:11–32 prodigal son lost son the father who ran younger brother pigs"><b>11. The Running Father</b><small>The Ones He Told &middot; Luke 15:11–32</small></a>
+        <a class="hit" href="#s12" data-find="the good samaritan the ones he told luke 10:25–37 good samaritan neighbor neighbor half dead jericho road priest levite"><b>12. The Good Samaritan</b><small>The Ones He Told &middot; Luke 10:25–37</small></a>
+        <a class="hit" href="#s13" data-find="the lost sheep and the lost coin the ones he told luke 15:1–10 lost sheep lost coin ninety-nine shepherd"><b>13. The Lost Sheep and the Lost Coin</b><small>The Ones He Told &middot; Luke 15:1–10</small></a>
+        <a class="hit" href="#s14" data-find="the sower the ones he told mark 4:1–20 parable of the sower seed soil path rocky thorns"><b>14. The Sower</b><small>The Ones He Told &middot; Mark 4:1–20</small></a>
+        <a class="hit" href="#s15" data-find="the mustard seed the ones he told mark 4:30–32 mustard seed smallest seed kingdom parable"><b>15. The Mustard Seed</b><small>The Ones He Told &middot; Mark 4:30–32</small></a>
+        <a class="hit" href="#s16" data-find="the two builders the ones he told matthew 7:24–27 wise and foolish builders rock sand house storm"><b>16. The Two Builders</b><small>The Ones He Told &middot; Matthew 7:24–27</small></a>
+        <a class="hit" href="#s17" data-find="the unforgiving servant the ones he told matthew 18:21–35 unmerciful servant forgive seventy times seven debt"><b>17. The Unforgiving Servant</b><small>The Ones He Told &middot; Matthew 18:21–35</small></a>
+        <a class="hit" href="#s18" data-find="the workers in the vineyard the ones he told matthew 20:1–16 labourers laborers vineyard eleventh hour equal pay denarius"><b>18. The Workers in the Vineyard</b><small>The Ones He Told &middot; Matthew 20:1–16</small></a>
+        <a class="hit" href="#s19" data-find="the pharisee and the tax collector the ones he told luke 18:9–14 two men prayed pharisee tax collector humble justified"><b>19. The Pharisee and the Tax Collector</b><small>The Ones He Told &middot; Luke 18:9–14</small></a>
+        <a class="hit" href="#s20" data-find="the sheep and the goats the ones he told matthew 25:31–46 least of these judgment hungry thirsty stranger prison goats"><b>20. The Sheep and the Goats</b><small>The Ones He Told &middot; Matthew 25:31–46</small></a>
+        <a class="hit" href="#s21" data-find="water into wine the table john 2:1–11 cana wedding first miracle jars"><b>21. Water into Wine</b><small>The Table &middot; John 2:1–11</small></a>
+        <a class="hit" href="#s22" data-find="dinner at levi&#x27;s house the table mark 2:13–17 matthew levi tax collector calling dinner sinners"><b>22. Dinner at Levi's House</b><small>The Table &middot; Mark 2:13–17</small></a>
+        <a class="hit" href="#s23" data-find="the woman with the perfume the table luke 7:36–50 sinful woman anoint feet tears alabaster forgiven simon"><b>23. The Woman with the Perfume</b><small>The Table &middot; Luke 7:36–50</small></a>
+        <a class="hit" href="#s24" data-find="the feeding of the five thousand the table mark 6:30–44 five loaves two fish miracle crowd 5000 five thousand"><b>24. The Feeding of the Five Thousand</b><small>The Table &middot; Mark 6:30–44</small></a>
+        <a class="hit" href="#s25" data-find="take the low seat the table luke 14:1, 7–14 humility banquet places of honour honor invite the poor"><b>25. Take the Low Seat</b><small>The Table &middot; Luke 14:1, 7–14</small></a>
+        <a class="hit" href="#s26" data-find="the great banquet the table luke 14:15–24 wedding banquet parable excuses highways compel"><b>26. The Great Banquet</b><small>The Table &middot; Luke 14:15–24</small></a>
+        <a class="hit" href="#s27" data-find="the towel the table john 13:1–17 washing feet foot washing servant john 13 basin"><b>27. The Towel</b><small>The Table &middot; John 13:1–17</small></a>
+        <a class="hit" href="#s28" data-find="the last supper the table luke 22:14–20 communion bread and wine eucharist upper room passover"><b>28. The Last Supper</b><small>The Table &middot; Luke 22:14–20</small></a>
+        <a class="hit" href="#s29" data-find="the road to emmaus the table luke 24:13–35 emmaus road resurrection stranger burning hearts breaking bread"><b>29. The Road to Emmaus</b><small>The Table &middot; Luke 24:13–35</small></a>
+        <a class="hit" href="#s30" data-find="breakfast on the beach the table john 21:1–19 peter restored fish charcoal fire 153 shore"><b>30. Breakfast on the Beach</b><small>The Table &middot; John 21:1–19</small></a>
+        <a class="hit" href="#s31" data-find="through the roof the power and the mercy mark 2:1–12 paralytic paralysed paralyzed friends roof mat forgive sins"><b>31. Through the Roof</b><small>The Power and the Mercy &middot; Mark 2:1–12</small></a>
+        <a class="hit" href="#s32" data-find="the withered hand on the sabbath the power and the mercy mark 3:1–6 sabbath healing hand synagogue pharisees"><b>32. The Withered Hand on the Sabbath</b><small>The Power and the Mercy &middot; Mark 3:1–6</small></a>
+        <a class="hit" href="#s33" data-find="the storm the power and the mercy mark 4:35–41 calming the storm boat wind waves peace be still fear"><b>33. The Storm</b><small>The Power and the Mercy &middot; Mark 4:35–41</small></a>
+        <a class="hit" href="#s34" data-find="legion the power and the mercy mark 5:1–20 demoniac gerasene pigs tombs demons legion"><b>34. Legion</b><small>The Power and the Mercy &middot; Mark 5:1–20</small></a>
+        <a class="hit" href="#s35" data-find="the woman who touched his robe the power and the mercy mark 5:24–34 bleeding woman hemorrhage twelve years touched his cloak faith"><b>35. The Woman Who Touched His Robe</b><small>The Power and the Mercy &middot; Mark 5:24–34</small></a>
+        <a class="hit" href="#s36" data-find="jairus&#x27;s daughter the power and the mercy mark 5:21–24, 35–43 raising a girl talitha koum synagogue leader daughter dead"><b>36. Jairus's Daughter</b><small>The Power and the Mercy &middot; Mark 5:21–24, 35–43</small></a>
+        <a class="hit" href="#s37" data-find="walking on water the power and the mercy matthew 14:22–33 peter walks on water sinking doubt boat"><b>37. Walking on Water</b><small>The Power and the Mercy &middot; Matthew 14:22–33</small></a>
+        <a class="hit" href="#s38" data-find="the ten lepers the power and the mercy luke 17:11–19 ten lepers one returned thankful samaritan gratitude"><b>38. The Ten Lepers</b><small>The Power and the Mercy &middot; Luke 17:11–19</small></a>
+        <a class="hit" href="#s39" data-find="bartimaeus the power and the mercy mark 10:46–52 blind beggar jericho son of david mercy shouting"><b>39. Bartimaeus</b><small>The Power and the Mercy &middot; Mark 10:46–52</small></a>
+        <a class="hit" href="#s40" data-find="lazarus the power and the mercy john 11:1–44 raising lazarus tomb four days jesus wept martha mary"><b>40. Lazarus</b><small>The Power and the Mercy &middot; John 11:1–44</small></a>
+        <a class="hit" href="#s41" data-find="no room the beginning and the end luke 2:1–20 nativity christmas birth manger shepherds bethlehem inn"><b>41. No Room</b><small>The Beginning and the End &middot; Luke 2:1–20</small></a>
+        <a class="hit" href="#s42" data-find="the baptism the beginning and the end mark 1:9–11 jesus baptised baptized john the baptist dove voice jordan"><b>42. The Baptism</b><small>The Beginning and the End &middot; Mark 1:9–11</small></a>
+        <a class="hit" href="#s43" data-find="the wilderness the beginning and the end matthew 4:1–11 temptation of jesus devil satan forty days fasting desert"><b>43. The Wilderness</b><small>The Beginning and the End &middot; Matthew 4:1–11</small></a>
+        <a class="hit" href="#s44" data-find="the hometown announcement the beginning and the end luke 4:14–30 nazareth synagogue isaiah scroll rejected hometown"><b>44. The Hometown Announcement</b><small>The Beginning and the End &middot; Luke 4:14–30</small></a>
+        <a class="hit" href="#s45" data-find="the tables turned the beginning and the end mark 11:15–18 cleansing the temple money changers whip den of thieves"><b>45. The Tables Turned</b><small>The Beginning and the End &middot; Mark 11:15–18</small></a>
+        <a class="hit" href="#s46" data-find="gethsemane the beginning and the end mark 14:32–42 garden of gethsemane prayer cup sweat sleeping disciples"><b>46. Gethsemane</b><small>The Beginning and the End &middot; Mark 14:32–42</small></a>
+        <a class="hit" href="#s47" data-find="the cross and the thief the beginning and the end luke 23:32–43 crucifixion good thief paradise today calvary golgotha"><b>47. The Cross and the Thief</b><small>The Beginning and the End &middot; Luke 23:32–43</small></a>
+        <a class="hit" href="#s48" data-find="the garden and the name the beginning and the end john 20:1–18 resurrection empty tomb mary magdalene gardener rabboni"><b>48. The Garden and the Name</b><small>The Beginning and the End &middot; John 20:1–18</small></a>
+        <a class="hit" href="#s49" data-find="thomas the beginning and the end john 20:24–29 doubting thomas wounds believe seeing"><b>49. Thomas</b><small>The Beginning and the End &middot; John 20:24–29</small></a>
+        <a class="hit" href="#s50" data-find="&quot;do you love me?&quot; the beginning and the end john 21:15–19 feed my sheep peter three times restoration love"><b>50. "Do You Love Me?"</b><small>The Beginning and the End &middot; John 21:15–19</small></a>
+      </div>
       <p class="beat">In five arcs. Every one prepped: what to know before you tell it, a sample telling, the four questions tuned to that story, and something to do about&nbsp;it.</p>
       <div class="tests">
         <b>Why these fifty</b>
@@ -3335,7 +3480,7 @@ a.ref:hover{color:var(--lamp)}
       <h2 class="sH">Know these five things</h2>
       <ul class="fivec">
         <li><b>Context</b>Jesus is on his way to an emergency — Jairus's dying daughter (the next story) — with a huge crowd pressing in on every side. This story happens <em>inside</em> that one, as an&nbsp;interruption.</li>
-        <li><b>Characters</b>A woman who has bled for twelve years — which under the law made her ceremonially unclean, and made everyone she touched unclean: twelve years untouchable. She has spent everything on doctors and only gotten worse. The oblivious crowd. Jesus,&nbsp;mid-errand.</li>
+        <li><b>Characters</b>A woman who has bled for twelve years — which under the law made her ceremonially unclean, and made everyone she touched unclean: twelve years untouchable. She has spent everything on doctors and only gotten worse. The oblivious crowd. Jesus,&nbsp;mid‑errand.</li>
         <li><b>Conflict</b>She can't ask publicly — her condition is shameful, and her touch technically contaminates. So she plans the smallest possible miracle: come up behind him in the crush, touch just the fringe of his robe, and slip away healed with nobody ever&nbsp;knowing.</li>
         <li><b>Climax</b>The plan works — she touches, the bleeding stops, she can feel it. And then Jesus stops the whole procession: "Who touched my robe?" The disciples think it's absurd — <em>everyone's</em> touching you. He keeps looking. And she comes, trembling, falls at his feet, and tells him the whole truth in front of&nbsp;everyone.</li>
         <li><b>Change</b>The word he chooses is the healing on top of the healing: <em>"Daughter,</em> your faith has made you well. Go in peace. Your suffering is over." Twelve years untouchable, and the first word of her new life is a family word, spoken publicly. He wouldn't let her be healed anonymously — because he wasn't only healing her body. He was giving her back her place among&nbsp;people.</li>
@@ -4257,6 +4402,15 @@ a.ref:hover{color:var(--lamp)}
     </section>
 
     <section class="card">
+      <div class="label">What it looks like at two years</div>
+      <h2 class="line">Nothing you can put in a&nbsp;report.</h2>
+      <p class="line quiet">Six tables you didn&rsquo;t start. A woman who hadn&rsquo;t been inside a church in nine years telling a story about Jesus out loud, badly, to five people who love&nbsp;her.</p>
+      <p class="beat">Somebody in your congregation who was quietly done, and stayed &mdash; not because the preaching improved, but because eight people noticed when she stopped&nbsp;coming.</p>
+      <p class="beat">Two people who found out they could do this, and are now doing it in a town you&rsquo;ve never&nbsp;visited.</p>
+      <p class="beat">None of that shows up in attendance. All of it is the thing you got into this&nbsp;for.</p>
+    </section>
+
+    <section class="card">
       <div class="label">Before you ask anyone</div>
       <h2 class="line">What it costs, and what it won&rsquo;t&nbsp;do.</h2>
       <p class="line quiet">Not money. Two hosts, a few hours of shepherding a month, and years &mdash; tables multiply at the speed of relationship, not a launch&nbsp;calendar.</p>
@@ -4386,6 +4540,10 @@ a.ref:hover{color:var(--lamp)}
       (last ? '  —  ' + (i + 1) + ' of ' + (last + 1) : '');
     showUpto();
     if(dot) dot.classList.toggle('gone', !worksHere(here) || !sheet.hidden);
+    var find = document.getElementById('storyFind');
+    if(find && here !== 'stories' && find.value){
+      find.value = ''; find.dispatchEvent(new Event('input'));
+    }
     var pd = document.getElementById('pastorDoor');
     if(pd) pd.hidden = !(here === 'home' && i === 0);
   }
@@ -4852,6 +5010,61 @@ a.ref:hover{color:var(--lamp)}
       deferred.userChoice.then(function(){ deferred = null; wrap.hidden = true; });
     });
   })(); }catch(err){ /* an install prompt is a nicety; never let it break the deck */ }
+
+
+  // ---------- share ----------
+  // On a phone this opens the system share sheet, which is how anybody actually
+  // sends a link. Everywhere else it copies the message and says so.
+  (function(){
+    var btn = document.getElementById('shareBtn');
+    if(!btn) return;
+    var note = document.getElementById('shareNote');
+    var msg  = "Found this and thought of you. It's a way to have a few people over once a week \u2014 dinner, one story about Jesus, four questions, nothing to sign up for. It's free and nobody's selling anything. You'd be good at it.";
+    var url  = 'https://comehungry.org';
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      if(navigator.share){ navigator.share({title:'come hungry', text:msg, url:url}).catch(function(){}); return; }
+      var full = msg + ' ' + url;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(full).then(function(){
+          btn.textContent = 'Copied \u2014 now paste it to them';
+          note.textContent = 'The message and the link are on your clipboard.';
+        }).catch(function(){ window.location.href = 'mailto:?subject=come%20hungry&body=' + encodeURIComponent(full); });
+      } else { window.location.href = 'mailto:?subject=come%20hungry&body=' + encodeURIComponent(full); }
+    });
+  })();
+
+
+  // ---------- finding a story ----------
+  // Fifty across five arcs is too many to hunt through every week. Typing any
+  // part of a name, an arc, or a reference brings the matches straight up.
+  (function(){
+    var box = document.getElementById('storyFind');
+    if(!box) return;
+    var out  = document.getElementById('storyFound');
+    var hits = document.getElementById('storyHits');
+    var rows = hits.querySelectorAll('.hit');
+    var arcs = document.getElementById('stories').querySelectorAll('.arc');
+    box.addEventListener('input', function(){
+      var q = box.value.trim().toLowerCase();
+      if(!q){
+        hits.hidden = true; out.hidden = true;
+        arcs.forEach(function(a){ a.classList.remove('hide'); });
+        return;
+      }
+      var n = 0;
+      rows.forEach(function(r){
+        var match = r.getAttribute('data-find').indexOf(q) !== -1;
+        r.classList.toggle('hide', !match);
+        if(match) n++;
+      });
+      hits.hidden = false;
+      arcs.forEach(function(a){ a.classList.add('hide'); });
+      out.hidden = false;
+      out.textContent = n === 0 ? 'Nothing matches that \u2014 try part of a name, like "well", "lepers", or "son".'
+                       : n === 1 ? '1 story' : n + ' stories';
+    });
+  })();
 
   var start = {id:'home', n:0};
   try{

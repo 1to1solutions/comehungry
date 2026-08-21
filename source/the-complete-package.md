@@ -240,6 +240,19 @@ After the story, four questions, always the same four, in order:
 **3. Where are you in this story?**
 **4. So what are we going to do about it?**
 
+**Why these four, and not others.** You will ask them every week for years, and they look almost too simple. Each one is doing a specific job.
+
+*What stood out to you?* has no wrong answer, so everybody can speak. A twelve-year-old and a seminary graduate answer this one as equals, and the table finds out early that it is safe to talk.
+
+*What does this show us about Jesus?* is the one that keeps him at the center. Without it a table drifts into a discussion group about being a better person, which is not the same thing and nobody notices it happening.
+
+*Where are you in this story?* is personal without anybody being told what to do. People find themselves in it and say so out loud. This is where the silences get holy.
+
+*So what are we going to do about it?* turns an evening into a life. A table that talks and never acts is a book club, and there is nothing wrong with book clubs, but this is not one.
+
+Don't improve them and don't add a fifth. The moment you write better questions, you have made yourself the teacher again and the table stops being a table.
+
+
 Don't improve them. Don't add a fifth. The questions look almost too simple, and that's their power — everyone at the table already knows them, nobody needs a study guide, and a twelve-year-old and a seminary graduate answer the same questions as equals. Question one has no wrong answer, which teaches people it's safe to talk. Question two keeps Jesus at the center without anyone lecturing. (If your table has people early enough in the journey that "Jesus" lands wrong, it flexes to "about God" — that's the built-in give.) Question three is where it gets personal, and where the silences get holy. And question four turns the whole evening from a discussion into a life.
 
 Which is the point of **Act**: before anyone leaves, the table decides what to do about what it heard — something concrete, before next week. Sometimes it's one shared thing; sometimes each person names their own. Small counts. *Check on the neighbor. Forgive the brother. Have the conversation.* Next week, Share opens with how it went — and that loop, story to action to honesty about the action, is where people actually change. A table that talks and never acts is a book club. Nothing wrong with book clubs. This isn't one.
@@ -472,6 +485,8 @@ And the tables multiply. Each one raises its next leader from inside itself — 
 Now the two questions you're actually asking.
 
 **What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a human to walk your launch with you, that exists too — the founder's professional practice, which lives entirely outside this project, under his own name, at timothyeldred.com — linked, never sold from inside the project. Paid church engagements there fund the same help for churches that can't pay, and no church is ever turned away for money. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
+
+**What does it look like two years in?** Nothing you can put in a report. Six tables you didn't start. A woman who hadn't been inside a church in nine years telling a story about Jesus out loud, badly, to five people who love her. Somebody in your congregation who was quietly done, and stayed — not because the preaching improved, but because eight people noticed when she stopped coming. Two people who found out they could do this, and are now doing it in a town you've never visited. None of that shows up in attendance. All of it is the thing you got into this for.
 
 **What's the catch?** There isn't one, and we know you won't believe that from a letter, so here's the whole arrangement in two sentences: everything here is free because giving it away is the mission, and the founder pays his bills with his own profession, outside this project, so the project never needs to sell you anything. Donations fund the work — plainly non-tax-deductible, and they buy nothing.
 
@@ -2554,7 +2569,7 @@ The man nobody could hold, from the town that asked Jesus to leave, becomes the 
 
 **The 5 Cs**
 - **Context:** Jesus is on his way to an emergency — Jairus's dying daughter (the next story) — with a huge crowd pressing in on every side. This story happens *inside* that one, as an interruption.
-- **Characters:** A woman who has bled for twelve years — which under the law made her ceremonially unclean, and made everyone she touched unclean: twelve years untouchable. She has spent everything on doctors and only gotten worse. The oblivious crowd. Jesus, mid-errand.
+- **Characters:** A woman who has bled for twelve years — which under the law made her ceremonially unclean, and made everyone she touched unclean: twelve years untouchable. She has spent everything on doctors and only gotten worse. The oblivious crowd. Jesus, mid‑errand.
 - **Conflict:** She can't ask publicly — her condition is shameful, and her touch technically contaminates. So she plans the smallest possible miracle: come up behind him in the crush, touch just the fringe of his robe, and slip away healed with nobody ever knowing.
 - **Climax:** The plan works — she touches, the bleeding stops, she can feel it. And then Jesus stops the whole procession: "Who touched my robe?" The disciples think it's absurd — *everyone's* touching you. He keeps looking. And she comes, trembling, falls at his feet, and tells him the whole truth in front of everyone.
 - **Change:** The word he chooses is the healing on top of the healing: *"Daughter,* your faith has made you well. Go in peace. Your suffering is over." Twelve years untouchable, and the first word of her new life is a family word, spoken publicly. He wouldn't let her be healed anonymously — because he wasn't only healing her body. He was giving her back her place among people.

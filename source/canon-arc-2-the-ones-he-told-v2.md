@@ -44,6 +44,19 @@ And the story just... stops. Right there. The older brother standing in the yard
 3. Where are you in this story — the pigpen, the road home, or the yard? (Most of us have been all three. Which one are you in now?)
 4. So what are we going to do about it?
 
+**Why these four, and not others.** You will ask them every week for years, and they look almost too simple. Each one is doing a specific job.
+
+*What stood out to you?* has no wrong answer, so everybody can speak. A twelve-year-old and a seminary graduate answer this one as equals, and the table finds out early that it is safe to talk.
+
+*What does this show us about Jesus?* is the one that keeps him at the center. Without it a table drifts into a discussion group about being a better person, which is not the same thing and nobody notices it happening.
+
+*Where are you in this story?* is personal without anybody being told what to do. People find themselves in it and say so out loud. This is where the silences get holy.
+
+*So what are we going to do about it?* turns an evening into a life. A table that talks and never acts is a book club, and there is nothing wrong with book clubs, but this is not one.
+
+Don't improve them and don't add a fifth. The moment you write better questions, you have made yourself the teacher again and the table stops being a table.
+
+
 **An Act.** If there's a road you should be walking — a relationship where you're the one who left, or the one standing angry in the yard — take one step down it this week. A call. A text. A door left open on purpose.
 
 ---

@@ -5,7 +5,7 @@
 
 // Bumped on every build. A new build gets fresh caches and the old ones are
 // deleted on activate, so nobody is ever served yesterday's page.
-var BUILD = 'ad5e3d';
+var BUILD = '1f0c70';
 var SHELL = 'ch-shell-' + BUILD;
 var DOCS  = 'ch-docs-' + BUILD;
 
@@ -19,7 +19,7 @@ var CORE = ['./', './index.html'];
 var EXTRA = [
   './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png',
   './f/type.css', './f/literata-300.woff2', './f/literata-400.woff2', './f/ibm-400.woff2',
-  './read/hosts-guide', './read/keeping-people-safe', './read/why-this-exists'
+  './read/hosts-guide', './read/keeping-people-safe', './read/why-this-exists', './read/invited', './read/the-table-card'
 ];
 
 
