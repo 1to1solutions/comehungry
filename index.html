@@ -814,6 +814,13 @@ a.ref:hover{color:var(--lamp)}
 .askDot.gone{opacity:0;pointer-events:none}
 
 .pastorDoor[hidden]{display:none}
+.backDoor{
+  display:block;max-width:32rem;margin:1.1rem auto 0;text-align:center;
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.82rem;
+  color:var(--dim);text-decoration:none;padding:.5rem;
+}
+.backDoor[hidden]{display:none}
+@media (hover:hover){.backDoor:hover{color:var(--gold)}}
 .pastorDoor{
   display:block;max-width:32rem;margin:2.6rem auto 0;padding:1rem 1.2rem;
   border:1px solid var(--rule);border-radius:3px;text-decoration:none;
@@ -847,6 +854,7 @@ a.ref:hover{color:var(--lamp)}
 
 
 .label.handStart,.label.spaced{margin-top:2.8rem}
+.quietline{font-size:.92rem;color:var(--dim)}
 
 .finder{margin:2.2rem 0 .6rem}
 .finder input{
@@ -926,7 +934,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 1f0c70 &middot; 2026-08-21 11:27 UTC</p>
+      <p class="stamp">build 0db7ee &middot; 2026-08-21 13:07 UTC</p>
     </div>
   </div>
 </nav>
@@ -1019,19 +1027,21 @@ a.ref:hover{color:var(--lamp)}
   </section>
 
   <section class="card" aria-label="9">
-    <div class="label">So where do you want to start</div>
+    <div class="label">Which one is you</div>
+    <h2 class="line">Pick the one that&nbsp;fits.</h2>
     <div>
-      <a class="door primary" href="#table">Start a&nbsp;table<small>Everything you need to run the first&nbsp;one</small></a>
-      <a class="door" href="#pass">I&rsquo;m not the one to lead&nbsp;it<small>You don&rsquo;t have to. Here&rsquo;s what else you can do.</small></a>
-        <a class="door" href="#hand">Or tell us you're&nbsp;starting<small>A person writes back. Not a newsletter.</small></a>
-      <a class="door" href="#why">Read why this&nbsp;exists<small>The long version, if you want&nbsp;it</small></a>
-      <a class="door" href="#church">I'm a&nbsp;pastor<small>How this works inside a church. Nothing to&nbsp;buy.</small></a>
+      <a class="door primary" href="#table">I want to start a&nbsp;table<small>Everything you need to run the first&nbsp;one</small></a>
+      <a class="door" href="read/invited">Somebody invited me to&nbsp;one<small>What happens, and what doesn&rsquo;t</small></a>
+      <a class="door" href="#pass">I&rsquo;m not the one to lead&nbsp;it<small>You don&rsquo;t have to. Here&rsquo;s what else you can&nbsp;do.</small></a>
+      <a class="door" href="#church">I lead a&nbsp;church<small>What it is, what it costs, what Monday looks&nbsp;like</small></a>
     </div>
+    <p class="beat quietline"><a class="ref" href="#why">Or read why this exists</a> &mdash; the long version, if you want&nbsp;it.</p>
     <div class="fine">
       <p>Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it &mdash; us&nbsp;included.</p>
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. Say it at <a href="mailto:hello@comehungry.org">hello@comehungry.org</a>, or on the page for&nbsp;it.</p>
     </div>
   </section>
+
   </div>
 
   <div class="route" id="pass" data-title="Not the one to lead it" data-parent="home">
@@ -1071,7 +1081,7 @@ a.ref:hover{color:var(--lamp)}
       <p class="beat">People have used these alone, with one friend, at a kitchen table with their kids, and on a commute. None of that requires anybody&rsquo;s&nbsp;permission.</p>
       <div class="files">
         <a class="file" href="#stories"><b>The fifty stories</b><small>Every one prepped for you</small></a>
-        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>Or all fifty as one book</b><small>156 pages, free</small></a>
+        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>Or all fifty as one book</b><small>155 pages, free</small></a>
       </div>
     </section>
 
@@ -1319,8 +1329,8 @@ a.ref:hover{color:var(--lamp)}
       <div class="fine"><p><button class="wipe" id="wipe" type="button">Clear everything saved on this device</button></p></div>
       <a class="onward" href="#hand">
         <span>Next</span>
-        <b>Ask for a hand</b>
-        <small>A person who has hosted one writes&nbsp;back</small>
+        <b>Tell us you&rsquo;re running one</b>
+        <small>A person writes back. Not a&nbsp;newsletter.</small>
       </a>
     </section>
 
@@ -1422,77 +1432,88 @@ a.ref:hover{color:var(--lamp)}
     <p class="beat"><a class="ref" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">Keeping people safe</a> is eight pages and free. Read it before anyone sits&nbsp;down.</p>
   </section>
 
-  <section class="card" aria-label="11">
-          <div class="label spaced">Take it with you</div>
+  <section class="card">
+      <div class="label">One thing to do next</div>
+      <h2 class="line">Pick the story you&rsquo;ll tell&nbsp;first.</h2>
+      <p class="line quiet">Not all fifty. One. Read it a few times this week, tell it out loud to nobody in particular, and you&rsquo;re&nbsp;ready.</p>
+      <div>
+        <a class="door primary" href="#stories">Choose your first story<small>Fifty of them, each one already prepped</small></a>
+      </div>
+
+      <div class="label spaced">And take these with you</div>
       <div class="files">
         <div class="filerow"><a class="file" href="read/hosts-guide"><b>The Host&rsquo;s Guide</b><small>The whole thing &mdash; launching, and the first year</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/hosts-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
         <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>Read this before anyone sits down</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/the-table-card"><b>The table card</b><small>One page for the table itself</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/table-card.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <a class="file" href="downloads/invited.pdf" target="_blank" rel="noopener"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask. What happens, what doesn&rsquo;t, and the honest answers.</small></a>
-        <a class="file" href="downloads/invite-poster.pdf" target="_blank" rel="noopener"><b>An invitation, one page</b><small>For a noticeboard, a staff room, a church foyer. Print and pin&nbsp;it.</small></a>
-        <a class="file" href="downloads/invite-cards.pdf" target="_blank" rel="noopener"><b>Invitation cards, eight to a sheet</b><small>Cut them up. Leave one somewhere, or hand one across a&nbsp;fence.</small></a>
-        <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>Or all of it in one file</b><small>The host pack &mdash; 39 pages, everything above plus the table card</small></a>
-        <a class="file" href="downloads/invited.pdf" target="_blank" rel="noopener"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask. What happens, what doesn&rsquo;t, and the honest answers.</small></a>
-        <a class="file" href="#install"><b>Put this on your phone</b><small>It opens like an app and works with no signal</small></a>
+        <div class="filerow"><a class="file" href="read/invited"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/invited.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>Or all of it in one file</b><small>The host pack &mdash; 37 pages, plus the table card</small></a>
       </div>
-<div class="label spaced">And when you do</div>
-    <div>
-        <a class="door" href="#hand">Tell us you're&nbsp;starting<small>A person writes back. Not a newsletter.</small></a>
-    </div>
-      <a class="onward" href="#stories">
-        <span>Next</span>
-        <b>The fifty stories</b>
-        <small>Pick one and learn it before your first&nbsp;night</small>
-      </a>
-  </section>
+
+      <p class="beat quietline"><a class="ref" href="#hand">Tell us you&rsquo;re starting</a> and a person writes back. <a class="ref" href="#install">Put this on your phone</a> so it works with no&nbsp;signal.</p>
+    </section>
+
   </div>
 
   <div class="route" id="library" data-title="The library" data-parent="home">
     <section class="card on">
-      <div class="label">Start here</div>
+      <div class="label">If you&rsquo;re starting a table</div>
+      <p class="beat">In the order you&rsquo;d read&nbsp;them.</p>
       <div class="files">
-        <div class="filerow"><a class="file" href="read/why-this-exists"><b>Why this exists</b><small>The whole reason this exists, and the guardrails that keep it honest.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/why-this-exists.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/the-table-card"><b>The table card</b><small>One page for the table itself. The four movements and the four questions.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/table-card.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/why-this-exists"><b>Why this exists</b><small>Start here. The whole reason, and the guardrails that keep it&nbsp;honest.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/why-this-exists.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/hosts-guide"><b>The Host&rsquo;s Guide</b><small>Launching a table, and the first year. The one document a host actually&nbsp;needs.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/hosts-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>Before anyone sits down. Two adults, always.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/the-table-card"><b>The table card</b><small>One page for the table itself. Print it and leave it&nbsp;there.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/table-card.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>Or all four in one file</b><small>The host pack &mdash; 37 pages, plus the table&nbsp;card</small></a>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="label">To invite somebody</div>
+      <div class="files">
         <div class="filerow"><a class="file" href="read/invited"><b>You&rsquo;ve been invited to a table</b><small>Hand this to whoever you ask. What happens, what doesn&rsquo;t, and the honest&nbsp;answers.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/invited.pdf" target="_blank" rel="noopener">PDF</a></div>
         <a class="file" href="downloads/invite-poster.pdf" target="_blank" rel="noopener"><b>An invitation, one page</b><small>For a noticeboard, a staff room, a church foyer. Print and pin&nbsp;it.</small></a>
         <a class="file" href="downloads/invite-cards.pdf" target="_blank" rel="noopener"><b>Invitation cards, eight to a sheet</b><small>Cut them up. Leave one somewhere, or hand one across a&nbsp;fence.</small></a>
-        <div class="filerow"><a class="file" href="read/hosts-guide"><b>The Host&rsquo;s Guide</b><small>Launching a table, and the first year. The one document a host actually needs.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/hosts-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>What every table owes the people at it, especially the kids.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
-              </div>
+      </div>
     </section>
+
     <section class="card">
       <div class="label">The stories</div>
+      <p class="beat">All fifty are <a class="ref" href="#stories">searchable here</a> if you just want to find&nbsp;one.</p>
       <div class="files">
-        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>The Fifty Stories</b><small>All five arcs in one volume. A year of tables.</small></a>
-        <a class="file" href="downloads/stories-arc-1.pdf" target="_blank" rel="noopener"><b>Arc 1: The Ones He Met</b><small>Stories 1&ndash;10, fully prepped.</small></a>
-        <a class="file" href="downloads/stories-arc-2.pdf" target="_blank" rel="noopener"><b>Arc 2: The Ones He Told</b><small>Stories 11&ndash;20, fully prepped.</small></a>
-        <a class="file" href="downloads/stories-arc-3.pdf" target="_blank" rel="noopener"><b>Arc 3: The Table</b><small>Stories 21&ndash;30, fully prepped.</small></a>
-        <a class="file" href="downloads/stories-arc-4.pdf" target="_blank" rel="noopener"><b>Arc 4: The Power and the Mercy</b><small>Stories 31&ndash;40, fully prepped.</small></a>
-        <a class="file" href="downloads/stories-arc-5.pdf" target="_blank" rel="noopener"><b>Arc 5: The Beginning and the End</b><small>Stories 41&ndash;50, fully prepped.</small></a>
+        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>The Fifty Stories</b><small>Every one prepped, as one book. 155 pages,&nbsp;free.</small></a>
+        <a class="file" href="downloads/stories-arc-1.pdf" target="_blank" rel="noopener"><b>Arc 1: The Ones He Met</b><small>Ten stories</small></a>
+        <a class="file" href="downloads/stories-arc-2.pdf" target="_blank" rel="noopener"><b>Arc 2: The Ones He Told</b><small>Ten stories</small></a>
+        <a class="file" href="downloads/stories-arc-3.pdf" target="_blank" rel="noopener"><b>Arc 3: The Table</b><small>Ten stories</small></a>
+        <a class="file" href="downloads/stories-arc-4.pdf" target="_blank" rel="noopener"><b>Arc 4: The Power and the Mercy</b><small>Ten stories</small></a>
+        <a class="file" href="downloads/stories-arc-5.pdf" target="_blank" rel="noopener"><b>Arc 5: The Beginning and the End</b><small>Ten stories</small></a>
       </div>
     </section>
+
     <section class="card">
       <div class="label">For churches</div>
+      <p class="beat">In the order you&rsquo;d actually use&nbsp;them.</p>
       <div class="files">
-        <div class="filerow"><a class="file" href="read/a-letter-to-the-pastor"><b>A letter to the pastor</b><small>Forward it to the person who has to say yes.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-1-a-letter-to-the-pastor.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/the-three-postures"><b>The three postures</b><small>Three honest ways to bring tables into a church.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-2-the-three-postures.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/start-money-90-days"><b>Start, money, the first 90 days</b><small>The practical half of bringing this into a church.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-3-start-money-90-days.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/household-and-safeguarding"><b>Household &amp; safeguarding</b><small>Have the template reviewed by a credentialed expert before you rely on it.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-4-household-and-safeguarding.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/the-leadership-team-guide"><b>The leadership team guide</b><small>The questions your board and staff will ask, answered.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-5-the-leadership-team-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
-        <div class="filerow"><a class="file" href="read/shepherding-tables"><b>Shepherding tables</b><small>What the staff actually does once tables are running.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-6-shepherding-tables.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/why-this-exists"><b>Why this exists</b><small>Read this first. The letter assumes you&nbsp;have.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/why-this-exists.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/a-letter-to-the-pastor"><b>A letter to the pastor</b><small>Six pages. Forward it to whoever has to say&nbsp;yes.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-1-a-letter-to-the-pastor.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/the-three-postures"><b>The three postures</b><small>Renew, Rebirth, Reproduce &mdash; three ways a church can bring tables&nbsp;in.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-2-the-three-postures.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/the-leadership-team-guide"><b>The leadership team guide</b><small>The questions your board will&nbsp;ask.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-5-the-leadership-team-guide.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/start-money-90-days"><b>Start, money, the first 90 days</b><small>Where it sits, what it costs, what happens&nbsp;first.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-3-start-money-90-days.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/shepherding-tables"><b>Shepherding tables</b><small>Choosing hosts, and walking the first year with&nbsp;them.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-6-shepherding-tables.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/household-and-safeguarding"><b>Household and safeguarding</b><small>The church-side pack, with a template child-safety&nbsp;policy.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/church-4-household-and-safeguarding.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <div class="filerow"><a class="file" href="read/keeping-people-safe"><b>Keeping people safe</b><small>What every table owes the people at it, church or&nbsp;not.</small><em class="alt">Read here</em></a><a class="pdfalt" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">PDF</a></div>
+        <a class="file" href="downloads/the-church-pack.pdf" target="_blank" rel="noopener"><b>Or all of it in one file</b><small>The church pack &mdash; 53&nbsp;pages</small></a>
       </div>
     </section>
+
     <section class="card">
       <div class="label">Or take the lot</div>
       <div class="files">
-        <a class="file" href="downloads/the-host-pack.pdf" target="_blank" rel="noopener"><b>The host pack</b><small>Four documents in one file: why, how, safety, and the table card &mdash; 39 pages</small></a>
-        <a class="file" href="downloads/the-church-pack.pdf" target="_blank" rel="noopener"><b>The church pack</b><small>Seven documents in one file, in the order you would use them &mdash; 54 pages</small></a>
-        <a class="file" href="#install"><b>Put this on your phone</b><small>It opens like an app and works with no signal</small></a>
-        <a class="file" href="downloads/everything.pdf" target="_blank" rel="noopener"><b>Everything</b><small>Every document above, in one file.</small></a>
+        <a class="file" href="downloads/everything.pdf" target="_blank" rel="noopener"><b>Everything</b><small>Every document in one file. 213 pages, bookmarked so you can jump&nbsp;inside.</small></a>
+        <a class="file" href="#install"><b>Put this on your phone</b><small>It opens like an app and works with no&nbsp;signal</small></a>
       </div>
       <p class="beat">Print it, copy it, translate it, hand it to somebody. No email, no account, no&nbsp;form.</p>
-      <p class="beat">These print like anything else &mdash; standard letter paper, ordinary margins. Read one here in the browser, or take the&nbsp;PDF.</p>
+      <p class="beat">These print like anything else &mdash; standard letter paper, ordinary&nbsp;margins.</p>
     </section>
+
 
   </div>
 
@@ -1570,12 +1591,12 @@ a.ref:hover{color:var(--lamp)}
         <a class="arc" href="#arc5"><b>The Beginning and the End</b><small>Stories 41–50</small></a>
       </div>
       <div class="files" style="margin-top:2.4rem">
-        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>All fifty, as one book</b><small>156 pages, free. Print it, mark it up.</small></a>
+        <a class="file" href="downloads/the-fifty-stories.pdf" target="_blank" rel="noopener"><b>All fifty, as one book</b><small>155 pages, free. Print it, mark it up.</small></a>
       </div>
       <a class="onward" href="#tonight">
         <span>Next</span>
-        <b>Run tonight's table</b>
-        <small>The four movements, and last week&rsquo;s&nbsp;acts</small>
+        <b>Run your table</b>
+        <small>Four movements, walked through while it&nbsp;happens</small>
       </a>
     </section>
   </div>
@@ -4471,6 +4492,7 @@ a.ref:hover{color:var(--lamp)}
   <a class="pastorDoor" id="pastorDoor" href="#church" hidden>
     <b>Do you lead a church?</b><small>There&rsquo;s a whole section for you &rarr;</small>
   </a>
+  <a class="backDoor" id="hostDoor" href="#tonight" hidden>Already hosting? Run tonight&rsquo;s table &rarr;</a>
 
 </div>
 </main>
@@ -4509,7 +4531,9 @@ a.ref:hover{color:var(--lamp)}
     return r.getAttribute('data-title') || 'Home';
   }
   function showUpto(){
-    var on = origin && origin.id !== here;
+    // home is the root. Nothing precedes it, so there is nothing to return to
+    // — and the wordmark that brought you here was a deliberate reset.
+    var on = origin && origin.id !== here && here !== 'home';
     upto.hidden = !on;
     if(on) uptoName.textContent = titleOf(origin.id);
   }
@@ -4546,6 +4570,8 @@ a.ref:hover{color:var(--lamp)}
     }
     var pd = document.getElementById('pastorDoor');
     if(pd) pd.hidden = !(here === 'home' && i === 0);
+    var hd = document.getElementById('hostDoor');
+    if(hd) hd.hidden = !(here === 'home' && i === 0);
   }
 
   var depth = 0;   // how many history entries we own

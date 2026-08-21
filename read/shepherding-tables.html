@@ -94,6 +94,18 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
   font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.78rem;line-height:1.7;color:var(--dim)}
 .foot a{color:var(--dim)}
 .foot .terms{margin-top:1.2rem;font-size:.72rem;color:#6E6355}
+.nextdoc{
+  display:block;margin-top:3rem;padding:1.2rem 2rem 1.3rem 1.2rem;position:relative;
+  border:1px solid var(--rule);border-radius:3px;text-decoration:none;
+  background:rgba(232,169,81,.05);transition:border-color .25s;
+}
+.nextdoc span{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.66rem;
+  font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+.nextdoc b{display:block;font-family:"Literata",Georgia,serif;font-weight:400;font-size:1.15rem;color:var(--lamp)}
+.nextdoc small{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.78rem;color:var(--dim);margin-top:.2rem}
+.nextdoc::after{content:"";position:absolute;right:1rem;top:50%;width:8px;height:8px;margin-top:-4px;
+  border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);transform:rotate(-45deg)}
+@media (hover:hover){.nextdoc:hover{border-color:var(--gold)}}
 .also{margin-top:2.4rem}
 .also a{display:block;padding:.85rem 0;border-bottom:1px solid var(--rule);
   font-family:"Literata",Georgia,serif;font-size:1rem;color:var(--lamp);text-decoration:none}
@@ -170,6 +182,7 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
 <h2>If you want a hand with any of this</h2>
 <p>Write <strong>hello@comehungry.org</strong>, or say you're starting at comehungry.org — name, email, where you are. Somebody who has done this writes back. It can take a week. That is the only reason we ask: so we can help. Nothing is sold, nothing is mailed at you, and nothing here was ever gated behind giving us anything.</p>
 
+  <a class="nextdoc" href="/read/household-and-safeguarding"><span>Next</span><b>Household and safeguarding</b><small>The church-side pack, with a template policy</small></a>
   <div class="also">
     <a href="/" id="back"><b id="backl">Back to comehungry.org</b><small id="backs">The practice, the fifty stories, and everything else</small></a>
     <a href="/downloads/church-6-shepherding-tables.pdf" download><b>Download this as a PDF</b><small>Letter size, prints as it reads</small></a>

@@ -94,6 +94,18 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
   font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.78rem;line-height:1.7;color:var(--dim)}
 .foot a{color:var(--dim)}
 .foot .terms{margin-top:1.2rem;font-size:.72rem;color:#6E6355}
+.nextdoc{
+  display:block;margin-top:3rem;padding:1.2rem 2rem 1.3rem 1.2rem;position:relative;
+  border:1px solid var(--rule);border-radius:3px;text-decoration:none;
+  background:rgba(232,169,81,.05);transition:border-color .25s;
+}
+.nextdoc span{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.66rem;
+  font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+.nextdoc b{display:block;font-family:"Literata",Georgia,serif;font-weight:400;font-size:1.15rem;color:var(--lamp)}
+.nextdoc small{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.78rem;color:var(--dim);margin-top:.2rem}
+.nextdoc::after{content:"";position:absolute;right:1rem;top:50%;width:8px;height:8px;margin-top:-4px;
+  border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);transform:rotate(-45deg)}
+@media (hover:hover){.nextdoc:hover{border-color:var(--gold)}}
 .also{margin-top:2.4rem}
 .also a{display:block;padding:.85rem 0;border-bottom:1px solid var(--rule);
   font-family:"Literata",Georgia,serif;font-size:1rem;color:var(--lamp);text-decoration:none}
@@ -116,7 +128,7 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
   <h1>A letter to the pastor</h1>
   <p class="sub">What this is, and what it will cost you. Nothing.</p>
 
-  <p class="sub-lede">If you haven't read <strong>Why this exists</strong> yet — the founding document, at comehungry.org — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: <em>should my church try this?</em></p>
+  <p class="sub-lede">If you haven't read <a href="https://comehungry.org/read/why-this-exists"><strong>Why this exists</strong></a> yet — the founding document — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: <em>should my church try this?</em></p>
 <p>You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.</p>
 <p>One more thing you should know about who's writing this. I've been a pastor for nearly forty years and I've served the same congregation for thirty. We started tables there, in our own church, ten years ago — before any of this was written down. So none of what follows is theory I'm asking you to try on your people first. We've been giving it away ever since, and it spreads for the least complicated reason there is: it works.</p>
 <div class="said"><p>"I left church years ago. I never stopped missing Jesus. I didn't know those were two different things."</p></div>
@@ -135,6 +147,7 @@ th{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.68rem;font-weight
 <p>— From one pastor to another</p>
 <p>If you want to talk it through with a person, write <strong>hello@comehungry.org</strong>. There is nothing to buy here and never will be — we ask who you are so we can help, and for no other reason.</p>
 
+  <a class="nextdoc" href="/read/the-three-postures"><span>Next</span><b>The three postures</b><small>Three ways a church can bring tables in</small></a>
   <div class="also">
     <a href="/" id="back"><b id="backl">Back to comehungry.org</b><small id="backs">The practice, the fifty stories, and everything else</small></a>
     <a href="/downloads/church-1-a-letter-to-the-pastor.pdf" download><b>Download this as a PDF</b><small>Letter size, prints as it reads</small></a>
