@@ -69,7 +69,7 @@ Deploy.
 
 The site sends to:
 
-    https://comehungry-count.timothyeldred.workers.dev/e
+    https://comhungry-count.timothyeldred.workers.dev/e
 
 If your Worker ended up on a different subdomain, tell me the real one and I
 will change the site to match. It is one line.
@@ -80,7 +80,7 @@ will change the site to match. It is one line.
 
 Open this, with your key where `YOURKEY` is:
 
-    https://comehungry-count.timothyeldred.workers.dev/s?k=YOURKEY
+    https://comhungry-count.timothyeldred.workers.dev/s?k=YOURKEY
 
 You get a page in the same colours as the site: visits, average time, how many
 countries, documents opened, a bar for each day, and lists of where people are,
