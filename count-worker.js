@@ -44,11 +44,15 @@ async function record(env, beacon, country) {
   try { day = JSON.parse(await env.COUNTS.get(key)) || blank(); }
   catch (e) { day = blank(); }
 
-  // a visit, and how long it lasted
+  // a visit, and how long it lasted. The first ping of a visit carries v:1;
+  // later pings from the same visit carry v:0 with only the time that has
+  // passed since the previous ping. Seconds add up; the visit is counted once.
+  const secs = clampInt(beacon.s, 0, 60 * 60 * 4);   // cap at four hours
   if (beacon.v) {
     day.v += 1;
-    const secs = clampInt(beacon.s, 0, 60 * 60 * 4);   // cap at four hours
     if (secs > 0) { day.s += secs; day.n += 1; }
+  } else if (secs > 0) {
+    day.s += secs;
   }
 
   // which sections were reached
@@ -67,14 +71,24 @@ async function record(env, beacon, country) {
     });
   }
 
-  // how deep into the front deck people got, bucketed
+  // how deep into the front deck people got, bucketed. A later ping that
+  // reports a deeper card also names the bucket it reported before (pFrom),
+  // and the visit's entry moves buckets instead of being counted twice.
   if (beacon.p != null) {
     const k = String(clampInt(beacon.p, 0, 20));
+    if (beacon.pFrom != null) {
+      const f = String(clampInt(beacon.pFrom, 0, 20));
+      if (day.p[f] > 0) day.p[f] -= 1;
+      if (day.p[f] === 0) delete day.p[f];
+    }
     day.p[k] = (day.p[k] || 0) + 1;
   }
 
-  const c = safeKey(country, 4) || 'ZZ';
-  day.c[c] = (day.c[c] || 0) + 1;
+  // where, coarsely -- counted once per visit, on the ping that carries v:1
+  if (beacon.v) {
+    const c = safeKey(country, 4) || 'ZZ';
+    day.c[c] = (day.c[c] || 0) + 1;
+  }
 
   await env.COUNTS.put(key, JSON.stringify(day), {
     expirationTtl: DAYS_KEPT * 24 * 60 * 60
