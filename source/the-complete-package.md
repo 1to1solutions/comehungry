@@ -1,7 +1,7 @@
 # THE COMPLETE SET
 ### Everything, in one document. Free, whole, and yours to keep.
 
-*Assembled August 18, 2026. This is every published document in the project. It reads in the order a person meets them: why this exists, how to set a table, how to keep everyone safe, and — for pastors and church leaders — the entire church wing. The fifty story preps are at the back, where reference material belongs; you look things up in them rather than reading them through. Nothing else exists behind a door somewhere. This is all of it.*
+This is every published document in the project. It reads in the order a person meets them: why this exists, how to set a table, how to keep everyone safe, and — for pastors and church leaders — the entire church wing. The fifty story preps are at the back, where reference material belongs; you look things up in them rather than reading them through. Nothing else exists behind a door somewhere. This is all of it.*
 
 *Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it — us included.*
 
@@ -466,7 +466,7 @@ Nobody polices living rooms. Hosts do. These rules are short so that no host can
 
 # A letter to the pastor holding this kit
 
-If you haven't read **Why this exists** yet — the founding document, at comehungry.org — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
+If you haven't read [**Why this exists**](https://comehungry.org/read/why-this-exists) yet — the founding document — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
 
 You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
 

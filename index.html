@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#17130F">
+<meta name="color-scheme" content="dark">
 <title>comehungry™ — a simpler way to follow Jesus</title>
 <meta name="description" content="Free small-group discipleship, no curriculum. A few people, a real meal, one story about Jesus, four honest questions, weekly. Copy it, print it, give it away.">
 <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAADbElEQVR4nO2WT2gcVRzHf7/35u/uZrqbWDZjia7b9iCEKIRapR6qlxINhdhjkV5KJQiCoAdPXgUVaamIJTfpUQvBP/FkDhWpNiDLUlMs67qGpmt3mu0mOzvzZt77eYja/NmZELUg6O80h/d+n/d73+93ZrA4tAfuZ7H72v1/wD8J4Aw5w+3PO5a24wpEAIB2N0KAnK0BwN1uRABORgMAor8HYIgiVlLR8Sfd5w4Vy8NZAKjd6n7+XXPuapMzNDSmUiGYkgNEEDHtyWhvnx6dfGLYtDURxABgWFrYiz/99tbrM9W7fmxomIJIm4AIOIP3X35s4lCx0exdvHTjmx/uAMBTjw6ePDpy4ukHMyY/9e5C+i0lAjjDlTUx/Xz52Hjx+tLaS+e+//qaZ+kcAL642vxy4dcPX3n82HjxxWcf+uCzWiFnSNWfk+giqWjA1qaOuARwfrZ2ueq5g5aT0ZyM5g5al6ve+dkaAUwdcQdsLal7ImBd231D9v7h7E2vN1+5nc/pUaykIqkoilU+p89Xbt/0evuHs/uGbBErhv2NmzgBEZg6N3TmhzIQast2RAiE8kNp6MzUeYoM/QEEpDFsrYZeR7gFa2SvLSLF2e+LOWMiUiN7bbdgeR3RWg01hgS70YAIDJ0te8GVxRUnp5+ZKIlY9cKYMWQMe2EsYnVmouTk9CuLK8teYOgsaYjkKwLQOF6Yq7fa4eRh9+z0WLFg+YH0A1ksWGenxyYPu612eGGurnFMMWpa0DjDdjc6+czIO6dHnYz2U9Ov1jsAMFpyHilmOn782kz14le/5LN6iovSAADAGHa60dGxB16dOjB+MJ/PGQDQXhMLP7bfu3RjvtJysrpK7r4zYH2Ojh8bOhsrOWU3CwC15W6l3hGRcjJpCegPQETOOWywBBFwhoqgF8pIKgDQObNNzhCkos32RSklbZZ706sCEaMourPS7psZ9keWYoDuap+DE8BALqvr+kbGPQAihkKUSw+feOG4EAITkplURGQYxsefzNbqP5uG8SfjHoAxDILg4IHyG2++BRDs/muqAKxKpXpt8bptmVJuAxCRaRiNxtJHM+fCMES2OwApZZpmo7G08fiwReR1DbpdHzEh+MmFAESQzWa2aNDHRWyXZ99YSqk0FwEAEUkp/zJge/1r/ov+w4DfAFbCh4xPUW/iAAAAAElFTkSuQmCC">
@@ -536,13 +537,6 @@ a.ref:hover{color:var(--lamp)}
   font-size:.6875rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
   color:var(--gold);margin-bottom:.7rem;
 }
-#storypick{
-  width:100%;background:rgba(242,234,220,.05);color:var(--lamp);
-  border:1px solid var(--rule);border-radius:3px;padding:.9rem 1rem;
-  font-family:"Literata",Georgia,serif;font-size:1rem;min-height:48px;
-  -webkit-appearance:none;appearance:none;
-}
-#storypick:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .prepLink{
   display:inline-block;margin-top:1rem;font-family:"IBM Plex Sans",system-ui,sans-serif;
   font-size:.85rem;color:var(--gold);text-decoration:none;
@@ -561,6 +555,8 @@ a.ref:hover{color:var(--lamp)}
 }
 .recall li:before{content:"— ";color:var(--dim)}
 .acts{margin-top:1.6rem}
+.lastacts li{padding:.55rem 0;border-bottom:1px solid var(--rule);color:var(--lamp)}
+.lastacts li:last-child{border-bottom:0}
 .acts input{
   display:block;width:100%;margin-bottom:.7rem;min-height:48px;
   background:rgba(242,234,220,.05);color:var(--lamp);
@@ -777,7 +773,7 @@ a.ref:hover{color:var(--lamp)}
 .askLog .a.routed{border-left:2px solid var(--coal);padding-left:1.1rem;background:rgba(196,98,58,.06);padding:1rem 1.1rem}
 .askLog .thinking{color:var(--dim);font-style:italic;margin-top:.8rem}
 .askBox{margin-top:2.4rem}
-.askBox textarea{
+.askBox textarea{color-scheme:dark;
   width:100%;background:rgba(242,234,220,.05);color:var(--lamp);
   border:1px solid var(--rule);border-radius:3px;padding:.85rem 1rem;
   font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.55;resize:vertical;min-height:64px;
@@ -813,16 +809,23 @@ a.ref:hover{color:var(--lamp)}
 .askDot:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .askDot.gone{opacity:0;pointer-events:none}
 
+.whyLink{margin-top:1.15rem}
+.whyLink a{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.84rem;font-weight:500;
+  letter-spacing:.02em;color:var(--gold);text-decoration:none;
+  border-bottom:1px solid rgba(232,169,81,.3);padding-bottom:.2rem;transition:border-color .2s;
+}
+@media (hover:hover){.whyLink a:hover{border-bottom-color:var(--gold)}}
 .pastorDoor[hidden]{display:none}
 .backDoor{
-  display:block;max-width:32rem;margin:1.1rem auto 0;text-align:center;
+  display:block;max-width:32rem;margin:.85rem auto 0;text-align:center;
   font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.82rem;
   color:var(--dim);text-decoration:none;padding:.5rem;
 }
 .backDoor[hidden]{display:none}
 @media (hover:hover){.backDoor:hover{color:var(--gold)}}
 .pastorDoor{
-  display:block;max-width:32rem;margin:2.6rem auto 0;padding:1rem 1.2rem;
+  display:block;max-width:32rem;margin:2.1rem auto 0;padding:1rem 1.2rem;
   border:1px solid var(--rule);border-radius:3px;text-decoration:none;
   background:rgba(242,234,220,.035);transition:border-color .25s,background .25s;
 }
@@ -857,7 +860,7 @@ a.ref:hover{color:var(--lamp)}
 .quietline{font-size:.92rem;color:var(--dim)}
 
 .finder{margin:2.2rem 0 .6rem}
-.finder input{
+.finder input{color-scheme:dark;
   width:100%;background:rgba(242,234,220,.05);color:var(--lamp);
   border:1px solid var(--rule);border-radius:3px;padding:.8rem 1rem;
   font-family:"Literata",Georgia,serif;font-size:1rem;
@@ -881,6 +884,69 @@ a.ref:hover{color:var(--lamp)}
 @media (hover:hover){.hit:hover{color:var(--gold)}.hit:hover::after{border-color:var(--gold)}}
 
 .arc.hide{display:none}
+
+.pick label{display:block;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.6875rem;
+  font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem}
+.pkOpen{
+  width:100%;text-align:left;position:relative;cursor:pointer;
+  background:rgba(242,234,220,.05);color:var(--lamp);
+  border:1px solid var(--rule);border-radius:3px;padding:.9rem 2.6rem .9rem 1rem;
+  font-family:"Literata",Georgia,serif;font-size:1rem;min-height:48px;
+}
+.pkOpen i{position:absolute;right:1.05rem;top:50%;margin-top:-4px;width:8px;height:8px;
+  border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);
+  transform:rotate(45deg);transition:transform .2s}
+.pkOpen[aria-expanded="true"] i{transform:rotate(-135deg);margin-top:-1px}
+.pkOpen:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.pkPanel{
+  margin-top:.5rem;border:1px solid var(--rule);border-radius:3px;
+  background:#1D1813;overflow:hidden;
+}
+.pkPanel[hidden]{display:none}
+.pkPanel #pkFind{
+  width:100%;background:transparent;color:var(--lamp);border:0;
+  border-bottom:1px solid var(--rule);padding:.85rem 1rem;
+  font-family:"Literata",Georgia,serif;font-size:.98rem;color-scheme:dark;
+}
+.pkPanel #pkFind::placeholder{color:var(--dim)}
+.pkPanel #pkFind:focus-visible{outline:none;border-bottom-color:var(--gold)}
+.pkNone{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.8rem;color:var(--dim);padding:1rem}
+.pkList{max-height:20rem;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.pkCount{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.72rem;color:var(--dim);
+  padding:.6rem 1rem .1rem;margin:0;
+}
+.pkClear{
+  background:none;border:0;padding:0;font:inherit;color:var(--gold);
+  text-decoration:underline;cursor:pointer;
+}
+.pkArc{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.64rem;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--gold);
+  padding:.9rem 1rem .4rem;position:sticky;top:0;background:#1D1813;
+}
+.pkArc.hide,.pkRow.hide{display:none}
+.pkRow{
+  display:flex;align-items:baseline;gap:.6rem;width:100%;text-align:left;cursor:pointer;
+  background:none;border:0;border-top:1px solid rgba(58,49,41,.55);
+  padding:.72rem 1rem;color:var(--lamp);
+  font-family:"Literata",Georgia,serif;font-size:.98rem;line-height:1.35;
+}
+.pkRow:first-child{border-top:0}
+.pkTick{flex:none;width:1rem;color:var(--gold);font-size:.85rem}
+.pkName{flex:1}
+.pkUsed{
+  flex:none;font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.62rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);opacity:0;
+}
+.pkRow.told .pkTick::before{content:"\2713"}
+.pkRow.told .pkName{color:var(--dim)}
+.pkRow.told .pkUsed{opacity:1}
+.pkRow.on .pkName{color:var(--gold)}
+@media (hover:hover){.pkRow:hover{background:rgba(232,169,81,.07)}}
+.pkRow:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+
+.cycleNote{color:var(--gold);font-size:.94rem}
 
 /* --- routes --- */
 .route{display:none}
@@ -934,7 +1000,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 943a8e &middot; 2026-08-21 14:38 UTC</p>
+      <p class="stamp">build ef1aaa &middot; 2026-08-21 17:38 UTC</p>
     </div>
   </div>
 </nav>
@@ -966,6 +1032,7 @@ a.ref:hover{color:var(--lamp)}
   <section class="card on" aria-label="1">
     <h2 class="line">You never stopped looking for&nbsp;Jesus.</h2>
     <p class="line quiet">Some of us walked out years ago. Some of us are still there every Sunday. Same hunger either&nbsp;way.</p>
+      <p class="whyLink"><a href="#why">Why this exists &rarr;</a></p>
     <div class="tabletop" aria-hidden="true">
       <svg viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
         <line class="edge" x1="6" y1="66" x2="314" y2="66"/>
@@ -1208,78 +1275,77 @@ a.ref:hover{color:var(--lamp)}
       <div class="label">Tonight</div>
       <h2 class="line">Running your table.</h2>
       <p class="beat">Four movements, in order. It keeps last week's acts so you can open with them &mdash; that follow&ndash;up is the part that changes&nbsp;people.</p>
-      <div id="lastweek"></div>
+      
       <div class="pick">
-        <label for="storypick">Tonight's story</label>
-        <select id="storypick">
-          <option value="">Choose one…</option>
-            <optgroup label="Arc 1 — The Ones He Met">
-            <option value="1">1. The Fishermen Leave Their Nets</option>
-            <option value="2">2. Nicodemus Comes at Night</option>
-            <option value="3">3. The Woman at the Well</option>
-            <option value="4">4. Zacchaeus</option>
-            <option value="5">5. The Rich Young Man</option>
-            <option value="6">6. The Woman Caught in the Middle</option>
-            <option value="7">7. The Mother Who Wouldn&#x27;t Quit</option>
-            <option value="8">8. Mary, Martha, and the One Thing</option>
-            <option value="9">9. The Children They Tried to Block</option>
-            <option value="10">10. The Widow&#x27;s Two Coins</option>
-            </optgroup>
-            <optgroup label="Arc 2 — The Ones He Told">
-            <option value="11">11. The Running Father</option>
-            <option value="12">12. The Good Samaritan</option>
-            <option value="13">13. The Lost Sheep and the Lost Coin</option>
-            <option value="14">14. The Sower</option>
-            <option value="15">15. The Mustard Seed</option>
-            <option value="16">16. The Two Builders</option>
-            <option value="17">17. The Unforgiving Servant</option>
-            <option value="18">18. The Workers in the Vineyard</option>
-            <option value="19">19. The Pharisee and the Tax Collector</option>
-            <option value="20">20. The Sheep and the Goats</option>
-            </optgroup>
-            <optgroup label="Arc 3 — The Table">
-            <option value="21">21. Water into Wine</option>
-            <option value="22">22. Dinner at Levi&#x27;s House</option>
-            <option value="23">23. The Woman with the Perfume</option>
-            <option value="24">24. The Feeding of the Five Thousand</option>
-            <option value="25">25. Take the Low Seat</option>
-            <option value="26">26. The Great Banquet</option>
-            <option value="27">27. The Towel</option>
-            <option value="28">28. The Last Supper</option>
-            <option value="29">29. The Road to Emmaus</option>
-            <option value="30">30. Breakfast on the Beach</option>
-            </optgroup>
-            <optgroup label="Arc 4 — The Power and the Mercy">
-            <option value="31">31. Through the Roof</option>
-            <option value="32">32. The Withered Hand on the Sabbath</option>
-            <option value="33">33. The Storm</option>
-            <option value="34">34. Legion</option>
-            <option value="35">35. The Woman Who Touched His Robe</option>
-            <option value="36">36. Jairus&#x27;s Daughter</option>
-            <option value="37">37. Walking on Water</option>
-            <option value="38">38. The Ten Lepers</option>
-            <option value="39">39. Bartimaeus</option>
-            <option value="40">40. Lazarus</option>
-            </optgroup>
-            <optgroup label="Arc 5 — The Beginning and the End">
-            <option value="41">41. No Room</option>
-            <option value="42">42. The Baptism</option>
-            <option value="43">43. The Wilderness</option>
-            <option value="44">44. The Hometown Announcement</option>
-            <option value="45">45. The Tables Turned</option>
-            <option value="46">46. Gethsemane</option>
-            <option value="47">47. The Cross and the Thief</option>
-            <option value="48">48. The Garden and the Name</option>
-            <option value="49">49. Thomas</option>
-            <option value="50">50. &quot;Do You Love Me?&quot;</option>
-            </optgroup>
-        </select>
-        <div id="picked" hidden>
-          <p class="pickedLine"><b id="pickedTitle"></b>Yours to tell at <em>Grow</em>, the third movement. Its four questions are already tuned to it and waiting&nbsp;there.</p>
-          <a class="door primary" id="prepLink" href="#stories">Read the full prep<small>The five Cs, a sample telling, and the act</small></a>
+        <label id="pkLabel">Tonight&rsquo;s story</label>
+        <button type="button" class="pkOpen" id="pkOpen" aria-haspopup="listbox" aria-expanded="false">
+          <span id="pkCurrent">Choose one&hellip;</span><i aria-hidden="true"></i>
+        </button>
+        <div class="pkPanel" id="pkPanel" role="listbox" aria-labelledby="pkLabel" hidden>
+          <p class="pkCount" id="pkCount" hidden></p>
+          <input type="search" id="pkFind" placeholder="Type a name to find it&hellip;" autocomplete="off">
+          <p class="pkNone" id="pkNone" hidden>Nothing matches that.</p>
+          <div class="pkList" id="pkList">
+            <div class="pkArc">The Ones He Met</div>
+            <button type="button" class="pkRow" data-n="1" data-find="the fishermen leave their nets the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">1. The Fishermen Leave Their Nets</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="2" data-find="nicodemus comes at night the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">2. Nicodemus Comes at Night</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="3" data-find="the woman at the well the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">3. The Woman at the Well</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="4" data-find="zacchaeus the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">4. Zacchaeus</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="5" data-find="the rich young man the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">5. The Rich Young Man</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="6" data-find="the woman caught in the middle the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">6. The Woman Caught in the Middle</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="7" data-find="the mother who wouldn&#x27;t quit the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">7. The Mother Who Wouldn&#x27;t Quit</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="8" data-find="mary, martha, and the one thing the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">8. Mary, Martha, and the One Thing</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="9" data-find="the children they tried to block the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">9. The Children They Tried to Block</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="10" data-find="the widow&#x27;s two coins the ones he met"><span class="pkTick" aria-hidden="true"></span><span class="pkName">10. The Widow&#x27;s Two Coins</span><span class="pkUsed">told</span></button>
+            <div class="pkArc">The Ones He Told</div>
+            <button type="button" class="pkRow" data-n="11" data-find="the running father the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">11. The Running Father</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="12" data-find="the good samaritan the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">12. The Good Samaritan</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="13" data-find="the lost sheep and the lost coin the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">13. The Lost Sheep and the Lost Coin</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="14" data-find="the sower the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">14. The Sower</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="15" data-find="the mustard seed the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">15. The Mustard Seed</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="16" data-find="the two builders the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">16. The Two Builders</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="17" data-find="the unforgiving servant the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">17. The Unforgiving Servant</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="18" data-find="the workers in the vineyard the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">18. The Workers in the Vineyard</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="19" data-find="the pharisee and the tax collector the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">19. The Pharisee and the Tax Collector</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="20" data-find="the sheep and the goats the ones he told"><span class="pkTick" aria-hidden="true"></span><span class="pkName">20. The Sheep and the Goats</span><span class="pkUsed">told</span></button>
+            <div class="pkArc">The Table</div>
+            <button type="button" class="pkRow" data-n="21" data-find="water into wine the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">21. Water into Wine</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="22" data-find="dinner at levi&#x27;s house the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">22. Dinner at Levi&#x27;s House</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="23" data-find="the woman with the perfume the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">23. The Woman with the Perfume</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="24" data-find="the feeding of the five thousand the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">24. The Feeding of the Five Thousand</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="25" data-find="take the low seat the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">25. Take the Low Seat</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="26" data-find="the great banquet the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">26. The Great Banquet</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="27" data-find="the towel the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">27. The Towel</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="28" data-find="the last supper the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">28. The Last Supper</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="29" data-find="the road to emmaus the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">29. The Road to Emmaus</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="30" data-find="breakfast on the beach the table"><span class="pkTick" aria-hidden="true"></span><span class="pkName">30. Breakfast on the Beach</span><span class="pkUsed">told</span></button>
+            <div class="pkArc">The Power and the Mercy</div>
+            <button type="button" class="pkRow" data-n="31" data-find="through the roof the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">31. Through the Roof</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="32" data-find="the withered hand on the sabbath the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">32. The Withered Hand on the Sabbath</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="33" data-find="the storm the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">33. The Storm</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="34" data-find="legion the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">34. Legion</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="35" data-find="the woman who touched his robe the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">35. The Woman Who Touched His Robe</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="36" data-find="jairus&#x27;s daughter the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">36. Jairus&#x27;s Daughter</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="37" data-find="walking on water the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">37. Walking on Water</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="38" data-find="the ten lepers the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">38. The Ten Lepers</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="39" data-find="bartimaeus the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">39. Bartimaeus</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="40" data-find="lazarus the power and the mercy"><span class="pkTick" aria-hidden="true"></span><span class="pkName">40. Lazarus</span><span class="pkUsed">told</span></button>
+            <div class="pkArc">The Beginning and the End</div>
+            <button type="button" class="pkRow" data-n="41" data-find="no room the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">41. No Room</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="42" data-find="the baptism the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">42. The Baptism</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="43" data-find="the wilderness the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">43. The Wilderness</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="44" data-find="the hometown announcement the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">44. The Hometown Announcement</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="45" data-find="the tables turned the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">45. The Tables Turned</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="46" data-find="gethsemane the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">46. Gethsemane</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="47" data-find="the cross and the thief the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">47. The Cross and the Thief</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="48" data-find="the garden and the name the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">48. The Garden and the Name</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="49" data-find="thomas the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">49. Thomas</span><span class="pkUsed">told</span></button>
+            <button type="button" class="pkRow" data-n="50" data-find="&quot;do you love me?&quot; the beginning and the end"><span class="pkTick" aria-hidden="true"></span><span class="pkName">50. &quot;Do You Love Me?&quot;</span><span class="pkUsed">told</span></button>
+          </div>
         </div>
-        <a class="prepLink" id="prepHint" href="#stories">Haven't picked one yet? Browse the fifty&nbsp;&rarr;</a>
       </div>
+        <a class="prepLink" id="prepHint" href="#stories">Haven't picked one yet? Browse the fifty&nbsp;&rarr;</a>
+      <p class="beat cycleNote" id="cycleNote" hidden></p>
     </section>
 
     <section class="card">
@@ -4569,6 +4635,9 @@ a.ref:hover{color:var(--lamp)}
       (last ? '  —  ' + (i + 1) + ' of ' + (last + 1) : '');
     showUpto();
     if(dot) dot.classList.toggle('gone', !worksHere(here) || !sheet.hidden);
+    // the runner's final card means tonight actually happened
+    if(here === 'tonight' && i === last && typeof tellDone === 'function') tellDone();
+    if(here === 'tonight' && i === 0 && typeof paintFollowup === 'function') paintFollowup();
     var find = document.getElementById('storyFind');
     if(find && here !== 'stories' && find.value){
       find.value = ''; find.dispatchEvent(new Event('input'));
@@ -4739,87 +4808,199 @@ a.ref:hover{color:var(--lamp)}
   };
   var mem = null;
 
-  var pick = document.getElementById('storypick');
-  if(pick){
-    var lastwk = document.getElementById('lastweek');
-    var follow = document.getElementById('followup');
-    var tStory = document.getElementById('tonightStory');
-    var tQs    = document.getElementById('tonightQs');
-    var actBox = document.getElementById('acts');
-    var prepLink = document.getElementById('prepLink');
+  // ---------- picking tonight's story ----------
+  // Not a native <select>: on Windows the operating system draws that popup
+  // and browsers there ignore the stylesheet, so it rendered pale-on-pale.
+  // This is ours, which also lets us mark the ones already told.
+  var pkOpen    = document.getElementById('pkOpen');
+  var pkPanel   = document.getElementById('pkPanel');
+  var pkCurrent = document.getElementById('pkCurrent');
+  var pkFind    = document.getElementById('pkFind');
+  var pkNone    = document.getElementById('pkNone');
+  var pkRows    = pkPanel ? pkPanel.querySelectorAll('.pkRow') : [];
+  var pkArcs    = pkPanel ? pkPanel.querySelectorAll('.pkArc') : [];
+  var chosen    = '';
 
-    function recall(){
-      var d = store.read();
-      var html = '';
-      if(d && d.acts && d.acts.length){
-        html = '<div class="recall"><h4>Last week they said they would</h4><ul>' +
-          d.acts.map(function(a){ return '<li>' + a.replace(/[<>]/g,'') + '</li>'; }).join('') +
-          '</ul></div>';
-      }
-      lastwk.innerHTML = html;
-      follow.innerHTML = (d && d.acts && d.acts.length)
-        ? '<div class="recall"><h4>Ask how each of these went</h4><ul>' +
-          d.acts.map(function(a){ return '<li>' + a.replace(/[<>]/g,'') + '</li>'; }).join('') +
-          '</ul></div>'
-        : '';
-    }
-
-    var picked = document.getElementById('picked');
-    var pickedTitle = document.getElementById('pickedTitle');
-    var prepHint = document.getElementById('prepHint');
-
-    function showStory(){
-      var n = pick.value;
-      if(!n || !SD[n]){
-        tStory.innerHTML = 'Tell the story from memory. Eyes up, text&nbsp;down.';
-        prepLink.setAttribute('href', '#stories');
-        picked.hidden = true; prepHint.hidden = false;
-        return;
-      }
-      var d = SD[n];
-      pickedTitle.textContent = d[0];
-      picked.hidden = false; prepHint.hidden = true;
-      tStory.innerHTML = '<strong>' + d[0] + '</strong> — told from memory. Eyes up, text&nbsp;down.';
-      tQs.innerHTML = d.slice(1).map(function(q,x){
-        return '<li><span>0' + (x+1) + '</span>' + q + '</li>';
-      }).join('');
-      prepLink.setAttribute('href', '#s' + n);
-      var cur = store.read() || {};
-      cur.story = n; store.write(cur);
-    }
-    pick.addEventListener('change', showStory);
-
-    function actRow(v){
-      var i = document.createElement('input');
-      i.type = 'text'; i.value = v || '';
-      i.placeholder = 'Who, and what they said they would do';
-      i.addEventListener('input', saveActs);
-      actBox.appendChild(i);
-    }
-    function saveActs(){
-      var vals = [].slice.call(actBox.querySelectorAll('input'))
-        .map(function(i){ return i.value.trim(); }).filter(Boolean);
-      var cur = store.read() || {};
-      cur.acts = vals; cur.when = Date.now();
-      store.write(cur);
-    }
-    document.getElementById('addAct').addEventListener('click', function(e){
-      e.stopPropagation(); actRow('');
-    });
-    document.getElementById('wipe').addEventListener('click', function(e){
-      e.stopPropagation(); store.clear();
-      actBox.innerHTML = ''; actRow(''); actRow(''); actRow('');
-      pick.value = ''; showStory(); recall();
-      e.target.textContent = 'Cleared.';
-      setTimeout(function(){ e.target.textContent = 'Clear everything saved on this device'; }, 2200);
-    });
-
-    // restore
-    var d0 = store.read();
-    actRow(''); actRow(''); actRow('');
-    if(d0 && d0.story){ pick.value = d0.story; }
-    showStory(); recall();
+  function toldList(){
+    var d = store.read() || {};
+    return Array.isArray(d.told) ? d.told : [];
   }
+  function markTold(n){
+    var d = store.read() || {};
+    var t = Array.isArray(d.told) ? d.told : [];
+    if(t.indexOf(n) === -1) t.push(n);
+    d.told = t; store.write(d);
+    paintTold();
+    if(window.paintCycle) window.paintCycle();
+  }
+  function paintTold(){
+    var t = toldList();
+    var cnt = document.getElementById('pkCount');
+    if(cnt){
+      if(!t.length){ cnt.hidden = true; }
+      else {
+        cnt.hidden = false;
+        cnt.innerHTML = t.length + ' of 50 told &nbsp;&middot;&nbsp; <button type="button" class="pkClear" id="pkClear">clear the marks</button>';
+        var cb = document.getElementById('pkClear');
+        if(cb) cb.addEventListener('click', function(e){
+          e.stopPropagation();
+          var d = store.read() || {}; d.told = []; store.write(d); paintTold();
+        });
+      }
+    }
+    [].forEach.call(pkRows, function(r){
+      r.classList.toggle('told', t.indexOf(r.getAttribute('data-n')) !== -1);
+      r.classList.toggle('on', r.getAttribute('data-n') === chosen);
+    });
+  }
+
+  function pkToggle(open){
+    if(!pkPanel) return;
+    pkPanel.hidden = !open;
+    pkOpen.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if(open){ pkFind.value = ''; pkFilter(); setTimeout(function(){ pkFind.focus(); }, 30); }
+  }
+  function pkFilter(){
+    var q = pkFind.value.trim().toLowerCase();
+    var n = 0;
+    [].forEach.call(pkRows, function(r){
+      var hit = !q || r.getAttribute('data-find').indexOf(q) !== -1;
+      r.classList.toggle('hide', !hit);
+      if(hit) n++;
+    });
+    [].forEach.call(pkArcs, function(a){
+      var any = false, el = a.nextElementSibling;
+      while(el && el.classList.contains('pkRow')){ if(!el.classList.contains('hide')) any = true; el = el.nextElementSibling; }
+      a.classList.toggle('hide', !!q && !any);
+    });
+    pkNone.hidden = n !== 0;
+  }
+  var tStory   = document.getElementById('tonightStory');
+  var tQs      = document.getElementById('tonightQs');
+  var picked   = document.getElementById('picked');
+  var pickedTt = document.getElementById('pickedTitle');
+  var prepLink = document.getElementById('prepLink');
+  var prepHint = document.getElementById('prepHint');
+
+  function showStory(){
+    var d = SD[chosen];
+    if(pkCurrent) pkCurrent.textContent = d ? (chosen + '. ' + d[0]) : 'Choose one\u2026';
+    if(!d){
+      if(tStory) tStory.innerHTML = 'Tell the story from memory. Eyes up, text&nbsp;down.';
+      if(prepLink) prepLink.setAttribute('href', '#stories');
+      if(picked) picked.hidden = true;
+      if(prepHint) prepHint.hidden = false;
+      paintTold();
+      return;
+    }
+    if(pickedTt) pickedTt.textContent = d[0];
+    if(picked) picked.hidden = false;
+    if(prepHint) prepHint.hidden = true;
+    if(prepLink) prepLink.setAttribute('href', '#s' + chosen);
+    if(tStory) tStory.innerHTML = nb(d[0]) + ' &mdash; told from memory. Eyes up, text&nbsp;down.';
+    if(tQs){
+      tQs.innerHTML = '';
+      d.slice(1).forEach(function(q, k){
+        var li = document.createElement('li');
+        li.setAttribute('data-n', '0' + (k + 1));
+        li.textContent = q;
+        tQs.appendChild(li);
+      });
+    }
+    paintTold();
+  }
+  function nb(t){ return t.replace(/ (\S+)$/, '&nbsp;$1'); }
+
+  // ---------- what people said they'd do ----------
+  // Written down at the Act movement, read back the following week under
+  // Share. Kept on this phone only — never sent anywhere.
+  var actsBox  = document.getElementById('acts');
+  var addActBtn = document.getElementById('addAct');
+  var followup = document.getElementById('followup');
+
+  function readActs(){
+    var d = store.read() || {};
+    return Array.isArray(d.acts) ? d.acts : [];
+  }
+  function saveActs(){
+    if(!actsBox) return;
+    var vals = [].map.call(actsBox.querySelectorAll('input'), function(el){ return el.value.trim(); })
+                 .filter(function(v){ return v; });
+    var d = store.read() || {};
+    d.acts = vals; store.write(d);
+  }
+  function actRow(v){
+    var el = document.createElement('input');
+    el.type = 'text';
+    el.placeholder = 'Name \u2014 what they said they\u2019d do';
+    el.value = v || '';
+    el.addEventListener('input', saveActs);
+    return el;
+  }
+  function paintActs(){
+    if(!actsBox) return;
+    var have = readActs();
+    actsBox.innerHTML = '';
+    (have.length ? have : ['', '', '']).forEach(function(v){ actsBox.appendChild(actRow(v)); });
+  }
+  function paintFollowup(){
+    if(!followup) return;
+    var have = readActs();
+    followup.innerHTML = '';
+    if(!have.length) return;
+    var h = document.createElement('p');
+    h.className = 'beat';
+    h.textContent = 'Then ask how each of these went \u2014 by name. This is the part that changes people, and the part that gets skipped.';
+    followup.appendChild(h);
+    var ul = document.createElement('ul');
+    ul.className = 'rhythm lastacts';
+    have.forEach(function(v){
+      var li = document.createElement('li');
+      li.textContent = v;
+      ul.appendChild(li);
+    });
+    followup.appendChild(ul);
+  }
+  if(addActBtn){
+    addActBtn.addEventListener('click', function(e){
+      e.stopPropagation();
+      actsBox.appendChild(actRow(''));
+      actsBox.lastChild.focus();
+    });
+  }
+  paintActs(); paintFollowup();
+
+  function tellDone(){ if(chosen) markTold(chosen); }
+
+  function choose(n){
+    chosen = n;
+    var d = store.read() || {}; d.story = n; store.write(d);
+    showStory();
+    pkToggle(false);
+    pkOpen.focus();
+  }
+
+  (function(){
+    var d = store.read() || {};
+    if(d.story){ chosen = d.story; }
+    if(pkOpen) showStory();
+  })();
+
+  if(pkOpen){
+    pkOpen.addEventListener('click', function(e){ e.stopPropagation(); pkToggle(pkPanel.hidden); });
+    pkFind.addEventListener('input', pkFilter);
+    pkFind.addEventListener('click', function(e){ e.stopPropagation(); });
+    [].forEach.call(pkRows, function(r){
+      r.addEventListener('click', function(e){ e.stopPropagation(); choose(r.getAttribute('data-n')); });
+    });
+    document.addEventListener('click', function(e){
+      if(!pkPanel.hidden && !pkPanel.contains(e.target) && e.target !== pkOpen) pkToggle(false);
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && !pkPanel.hidden){ pkToggle(false); pkOpen.focus(); }
+    });
+  }
+
 
 
   // ---------- asking for a hand ----------
@@ -5096,6 +5277,65 @@ a.ref:hover{color:var(--lamp)}
                        : n === 1 ? '1 story' : n + ' stories';
     });
   })();
+
+
+  // ---------- starting the fifty again ----------
+  // A table gets through the canon in about a year. Nothing here should imply
+  // it is finished — the second time round is the point, not a reset button
+  // for a completed task.
+  (function(){
+    var note = document.getElementById('cycleNote');
+    if(!note) return;
+    window.paintCycle = function(){
+      var t = (typeof toldList === 'function') ? toldList() : [];
+      if(t.length < 50){
+        if(t.length >= 45){
+          note.hidden = false;
+          note.innerHTML = 'You&rsquo;ve told ' + t.length + ' of the fifty. When you finish, you start again at the beginning &mdash; the second time round is not a&nbsp;repeat.';
+        } else { note.hidden = true; }
+        return;
+      }
+      note.hidden = false;
+      note.innerHTML = 'That&rsquo;s all fifty &mdash; about a year at the table. Start them again: the same stories land differently on people who have changed. ' +
+        '<a class="ref" href="#" id="cycleAgain">Clear the marks and begin again</a>.';
+      var a = document.getElementById('cycleAgain');
+      if(a) a.addEventListener('click', function(e){
+        e.preventDefault();
+        var d = store.read() || {}; d.told = []; store.write(d);
+        if(typeof paintTold === 'function') paintTold();
+        note.innerHTML = 'Cleared. Fifty again, and the second time round is not a&nbsp;repeat.';
+      });
+    };
+    window.paintCycle();
+  })();
+
+
+  // ---------- clearing the device ----------
+  // The button has always been there. Nothing was ever wired to it, so a host
+  // who asked for their table's notes to be erased kept them.
+  (function(){
+    var btn = document.getElementById('wipe');
+    if(!btn) return;
+    btn.addEventListener('click', function(){
+      store.clear();
+      try{ localStorage.removeItem('ch.table'); }catch(e){}
+      if(typeof paintTold === 'function') paintTold();
+      if(window.paintCycle) window.paintCycle();
+      [].forEach.call(document.querySelectorAll('#acts input'), function(f){ f.value = ''; });
+      var fu = document.getElementById('followup'); if(fu) fu.innerHTML = '';
+      var cur = document.getElementById('pkCurrent'); if(cur) cur.textContent = 'Choose one\u2026';
+      btn.textContent = 'Cleared \u2014 nothing is saved on this device';
+      btn.disabled = true;
+    });
+  })();
+
+  // On the very first paint the deck can land scrolled if the card is taller
+  // than the viewport — you arrive below the headline. Always start at the top.
+  try{
+    var toTop = function(){ deck.scrollTop = 0; };
+    if(window.requestAnimationFrame) requestAnimationFrame(toTop); else setTimeout(toTop, 0);
+    window.addEventListener('load', toTop);
+  }catch(err){ /* starting at the top is a nicety; never let it break the deck */ }
 
   var start = {id:'home', n:0};
   try{

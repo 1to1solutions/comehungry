@@ -1,6 +1,6 @@
 # A letter to the pastor holding this kit
 
-If you haven't read **Why this exists** yet — the founding document, at comehungry.org — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
+If you haven't read [**Why this exists**](https://comehungry.org/read/why-this-exists) yet — the founding document — stop and read it first. It's short, and it's the why underneath everything in this folder. It wasn't written for pastors; it was written for the people who left your building, or never walked in, and still want Jesus. Read it as one of them if any part of you is one of them. Then come back, because this letter answers the one question only you carry: *should my church try this?*
 
 You've been sold things before. Group curriculum with a launch video. A discipleship pathway with a licensing tier. A campaign in a box that promised to change your church's culture in forty days and left you with banners to recycle. You bought some of it because you love your people and you keep hoping the next tool is the one that finally works. We know, because we've been where you're standing — on both sides of the sale.
 
