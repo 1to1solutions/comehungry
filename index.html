@@ -123,7 +123,7 @@ body.tapped .glow b{opacity:.72;transition:opacity .35s}
 #deck{
   position:fixed;inset:0;z-index:2;overflow-anchor:none;
   display:flex;align-items:flex-start;
-  padding:calc(max(0.9rem,env(safe-area-inset-top)) + 5rem) 1.5rem calc(max(1.1rem,env(safe-area-inset-bottom)) + 4.6rem);
+  padding:calc(max(0.9rem,env(safe-area-inset-top)) + 5rem) 1.5rem calc(max(1.1rem,env(safe-area-inset-bottom)) + 5.4rem);
   overflow-y:auto;
 }
 .stack{width:100%;max-width:32rem;margin:auto}
@@ -537,6 +537,7 @@ a.ref:hover{color:var(--lamp)}
   font-size:.6875rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
   color:var(--gold);margin-bottom:.7rem;
 }
+.prepLink[hidden]{display:none}
 .prepLink{
   display:inline-block;margin-top:1rem;font-family:"IBM Plex Sans",system-ui,sans-serif;
   font-size:.85rem;color:var(--gold);text-decoration:none;
@@ -817,12 +818,58 @@ a.ref:hover{color:var(--lamp)}
 }
 @media (hover:hover){.whyLink a:hover{border-bottom-color:var(--gold)}}
 .pastorDoor[hidden]{display:none}
+body.isHosting .pastorDoor{display:none}
 .backDoor{
   display:block;max-width:32rem;margin:.85rem auto 0;text-align:center;
   font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.82rem;
   color:var(--dim);text-decoration:none;padding:.5rem;
 }
+/* once somebody is hosting, this is the reason they opened the app */
+.backDoor.returning{
+  text-align:left;padding:1rem 2rem 1.05rem 1.15rem;margin:0 0 2.2rem;max-width:32rem;
+  border:1px solid var(--gold);border-radius:4px;position:relative;
+  background:rgba(232,169,81,.06);
+}
+.backDoor.returning b{
+  display:block;font-family:"Literata",Georgia,serif;font-weight:400;
+  font-size:1.12rem;color:var(--lamp);letter-spacing:-.01em;
+}
+.backDoor.returning small{
+  display:block;font-size:.8rem;color:var(--gold);margin-top:.18rem;
+}
+.backDoor.returning::after{
+  content:"";position:absolute;right:1rem;top:50%;width:7px;height:7px;margin-top:-4px;
+  border-right:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);transform:rotate(-45deg);
+}
 .backDoor[hidden]{display:none}
+
+.startPill{
+  position:fixed;z-index:7;
+  left:max(1.1rem,env(safe-area-inset-left));
+  bottom:calc(max(1.1rem,env(safe-area-inset-bottom)) + .4rem);
+  min-height:46px;padding:0 1.05rem;border-radius:26px;
+  display:inline-flex;align-items:center;
+  border:1px solid var(--gold);background:var(--gold);
+  color:#17130F;text-decoration:none;
+  box-shadow:0 6px 22px rgba(0,0,0,.35);
+  transition:transform .18s cubic-bezier(.16,.8,.3,1),opacity .3s;
+  animation:arrive .5s cubic-bezier(.16,.8,.3,1) both .9s;
+}
+.startPill b{
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-weight:600;
+  font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+}
+.startPill[hidden]{display:none}
+@media (hover:hover){.startPill:hover{transform:translateY(-2px)}}
+@media (max-width:340px){
+  .startPill{padding:0 .78rem}
+  .startPill b,.askDot b{font-size:.68rem;letter-spacing:.1em}
+  .askDot{padding:0 .8rem 0 .68rem}
+}}
+@media (max-width:359px){
+  .startPill{padding:.62rem .9rem}
+  .startPill b{font-size:.76rem}
+}
 @media (hover:hover){.backDoor:hover{color:var(--gold)}}
 .pastorDoor{
   display:block;max-width:32rem;margin:2.1rem auto 0;padding:1rem 1.2rem;
@@ -981,7 +1028,7 @@ a.ref:hover{color:var(--lamp)}
     <div class="wayGroup">
       <h3>If you're hosting</h3>
       <a class="way" href="#tonight">Run tonight's table<small>The four movements, and last week's acts</small></a>
-      <a class="way" href="#table">Start a table<small>Walk through the first one, screen by screen</small></a>
+      <a class="way" href="#table">How to run one<small>Walk through the first table, screen by screen</small></a>
     <a class="way" href="read/hosts-guide">The Host&rsquo;s Guide<small>The whole thing, read it here</small></a>
       <a class="way" href="#stories">The fifty stories<small>Every one prepped for you</small></a>
       <a class="way" href="#ask">Questions<small>Answered from the documents, right now</small></a>
@@ -1000,7 +1047,7 @@ a.ref:hover{color:var(--lamp)}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 10ae2f &middot; 2026-08-21 18:51 UTC</p>
+      <p class="stamp">build 6dd222 &middot; 2026-08-22 00:00 UTC</p>
     </div>
   </div>
 </nav>
@@ -1344,7 +1391,8 @@ a.ref:hover{color:var(--lamp)}
           </div>
         </div>
       </div>
-        <a class="prepLink" id="prepHint" href="#stories">Haven't picked one yet? Browse the fifty&nbsp;&rarr;</a>
+        <a class="prepLink" id="prepHint" href="#stories">Haven&rsquo;t picked one yet? Browse the fifty&nbsp;&rarr;</a>
+      <a class="prepLink" id="newHere" href="#home" hidden>New here? Start at the beginning&nbsp;&rarr;</a>
       <p class="beat cycleNote" id="cycleNote" hidden></p>
     </section>
 
@@ -1403,7 +1451,7 @@ a.ref:hover{color:var(--lamp)}
 
   </div>
 
-  <div class="route" id="table" data-title="Start a table" data-parent="home">
+  <div class="route" id="table" data-title="How to run one" data-parent="home">
 <section class="card on" aria-label="1">
     <h2 class="line">You're more qualified than you&nbsp;think.</h2>
     <p class="line quiet">If you can have friends over for dinner, you have every skill this&nbsp;takes.</p>
@@ -4448,8 +4496,8 @@ a.ref:hover{color:var(--lamp)}
       </div>
       <a class="onward" href="#table">
         <span>Next</span>
-        <b>Start a table</b>
-        <small>How to run the first&nbsp;one</small>
+        <b>How to run one</b>
+        <small>The first table, screen by&nbsp;screen</small>
       </a>
     </section>
   </div>
@@ -4568,6 +4616,9 @@ a.ref:hover{color:var(--lamp)}
 </div>
 </main>
 
+  <a class="startPill" id="startPill" href="#home/8" hidden>
+    <b>Get started</b>
+  </a>
 <a class="askDot" id="askDot" href="#ask">
   <i aria-hidden="true">?</i><b>Questions</b>
 </a>
@@ -4634,7 +4685,7 @@ a.ref:hover{color:var(--lamp)}
     if(ann) ann.textContent = (say ? say.textContent.trim() : '') +
       (last ? '  —  ' + (i + 1) + ' of ' + (last + 1) : '');
     showUpto();
-    if(dot) dot.classList.toggle('gone', !worksHere(here) || !sheet.hidden);
+    if(dot) dot.classList.toggle('gone', !worksHere(here) || !sheet.hidden || (here === 'home' && i === 0));
     if(window.chSeen) try{ window.chSeen(here, i); }catch(e){}
     // the runner's final card means tonight actually happened
     if(here === 'tonight' && i === last && typeof tellDone === 'function') tellDone();
@@ -4646,7 +4697,9 @@ a.ref:hover{color:var(--lamp)}
     var pd = document.getElementById('pastorDoor');
     if(pd) pd.hidden = !(here === 'home' && i === 0);
     var hd = document.getElementById('hostDoor');
-    if(hd) hd.hidden = !(here === 'home' && i === 0);
+    if(hd && !hd.classList.contains('returning')) hd.hidden = !(here === 'home' && i === 0);
+    var sp = document.getElementById('startPill');
+    if(sp) sp.hidden = !(here === 'home' && i > 0 && i < 8);
   }
 
   var depth = 0;   // how many history entries we own
@@ -5352,17 +5405,7 @@ a.ref:hover{color:var(--lamp)}
       var seen  = {};
       var docs  = {};
       var deepest = 0;
-
-      // The first ping counts the visit. Later pings carry only what is new
-      // since the last one -- extra time, newly reached sections, newly
-      // opened documents, a deeper card -- so putting the tab down and coming
-      // back does not lose the rest of the visit, and nothing is counted
-      // twice.
-      var first = true;
-      var lastAt = began;
-      var sentSeen = {};
-      var sentDocs = {};
-      var sentDeep = -1;
+      var sent = false;
 
       window.chSeen = function(routeId, cardIndex){
         if(routeId) seen[routeId] = 1;
@@ -5377,31 +5420,81 @@ a.ref:hover{color:var(--lamp)}
       }, true);
 
       function send(){
-        var now  = Date.now();
-        var secs = Math.round((now - lastAt) / 1000);
-        var newR = Object.keys(seen).filter(function(k){ return !sentSeen[k]; });
-        var newD = Object.keys(docs).filter(function(k){ return !sentDocs[k]; });
-        var i;
-        if(!first && !newR.length && !newD.length && deepest <= sentDeep && secs < 5) return;
-        var body = { v: first ? 1 : 0, s: secs, r: newR, d: newD };
-        if(first){ body.p = deepest; }
-        else if(deepest > sentDeep){ body.p = deepest; body.pFrom = sentDeep; }
+        if(sent) return; sent = true;
+        var body = JSON.stringify({
+          v: 1,
+          s: Math.round((Date.now() - began) / 1000),
+          r: Object.keys(seen),
+          d: Object.keys(docs),
+          p: deepest
+        });
         try{
-          var out = JSON.stringify(body);
-          if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT, new Blob([out], {type:'text/plain'}));
-          else fetch(ENDPOINT, {method:'POST', body:out, keepalive:true});
+          if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT, new Blob([body], {type:'text/plain'}));
+          else fetch(ENDPOINT, {method:'POST', body:body, keepalive:true});
         }catch(e){}
-        for(i = 0; i < newR.length; i++) sentSeen[newR[i]] = 1;
-        for(i = 0; i < newD.length; i++) sentDocs[newD[i]] = 1;
-        if(body.p != null) sentDeep = deepest;
-        lastAt = now;
-        first = false;
       }
       window.addEventListener('pagehide', send);
       document.addEventListener('visibilitychange', function(){
         if(document.visibilityState === 'hidden') send();
       });
     }catch(err){ /* counting is a nicety; never let it break the deck */ }
+  })();
+
+
+  // ---------- a host opening the app ----------
+  // The front deck is written for somebody arriving for the first time. A host
+  // who installed this opens it every week for years, and should not have to
+  // walk past the welcome each time. Anyone who has chosen a story, written
+  // down an act, or marked a story told is demonstrably hosting.
+  (function(){
+    try{
+      var raw = null;
+      try{ raw = localStorage.getItem('ch.table'); }catch(e){}
+      var d = null;
+      try{ d = raw ? JSON.parse(raw) : null; }catch(e){}
+      var hosting = !!(d && (d.story || (d.acts && d.acts.length) || (d.told && d.told.length)));
+      if(!hosting) return;
+
+      // installed, launched cold, no particular destination asked for
+      // iOS gives an installed app its own storage, separate from Safari, so
+      // the history below will be empty on first launch there. The manifest
+      // start_url handles that case; this covers Android and desktop, where
+      // the same install can arrive without a hash.
+      var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches)
+                       || window.navigator.standalone || false;
+      if(standalone && (!location.hash || location.hash === '#' || location.hash === '#home')){
+        location.replace('#tonight');
+      }
+
+      // and in a browser, the way back in stops being a footnote
+      var hd = document.getElementById('hostDoor');
+      var first = document.querySelector('#home .card');
+      if(hd && first){
+        hd.className = 'backDoor returning';
+        hd.innerHTML = '<b>Welcome back</b><small>Run tonight&rsquo;s table &rarr;</small>';
+        hd.hidden = false;
+        // at the top, because it is why they opened the app
+        first.insertBefore(hd, first.firstChild);
+      }
+      // and somebody already hosting does not need the church door every week
+      document.body.classList.add('isHosting');
+    }catch(err){ /* never let this break the deck */ }
+  })();
+
+
+  // ---------- landing on the runner without having hosted ----------
+  // The installed app opens here. Somebody who has never run a table needs a
+  // way back to the front; a host does not, and should not see the clutter.
+  (function(){
+    var nh = document.getElementById('newHere');
+    if(!nh) return;
+    var used = false;
+    try{
+      var raw = localStorage.getItem('ch.table');
+      var d = raw ? JSON.parse(raw) : null;
+      used = !!(d && (d.story || (d.acts && d.acts.length) || (d.told && d.told.length)));
+    }catch(e){}
+    nh.hidden = used;
   })();
 
   var start = {id:'home', n:0};
