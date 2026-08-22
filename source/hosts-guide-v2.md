@@ -193,7 +193,7 @@ You haven't. This is what week two is. Almost every table has one, and the ones 
 
 Three things that help, none of them impressive. Cook something easier than you did the first week, so you are not exhausted before anyone arrives. Ask about last week's acts by name, even if only one person did theirs, because that is the moment people learn this is real. And let the silence be long. Count to ten. What somebody says after a real silence is almost always the truest thing said that night.
 
-If it is still flat at week five, that is information rather than failure — write hello@comehungry.org and somebody who has been there will talk it through with you.
+If it is still flat at week five, that is information rather than failure — ask at comehungry.org/ask and somebody who has been there will talk it through with you.
 
 ## When a table ends
 
@@ -207,7 +207,7 @@ Then tell them plainly that any one of them can set a table themselves, and that
 
 A word about you, because hosts burn quietly. You'll notice it in small ways first: relief when somebody cancels, dread on the afternoon of table night, the feeling that the evening is something you produce instead of something you're part of. None of that means you're failing or that the table is dying. It usually means one thing: you've been carrying too much of it alone, which — you may notice — is the exact disease this whole thing exists to cure. Hosts are not exempt from the cure.
 
-And you can ask for help from outside the table. Write **hello@comehungry.org**, or say you're hosting at comehungry.org, and somebody who has hosted one will write back — it can take a week; there are only a few of us. Not a form letter and not a sales call — that's the entire reason we ask who you are.
+And you can ask for help from outside the table. Ask at **comehungry.org/ask** and say what you need, and somebody who has hosted one will write back — it can take a week; there are only a few of us. Not a form letter and not a sales call — that's the entire reason we ask who you are.
 
 The fix is almost always the same: give pieces away. The meal rotates. The gathering moves to somebody else's house for a month. Somebody else tells the story — which you were doing anyway if you've been developing your future host. A table where the host does everything isn't a healthier table; it's a fragile one with a tired person at the center. The table gets stronger every time you hand something over, and so do you.
 

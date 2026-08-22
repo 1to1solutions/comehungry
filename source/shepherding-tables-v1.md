@@ -124,4 +124,4 @@ Your calendar has fewer meetings and more coffees. Problems reach you earlier an
 
 ## If you want a hand with any of this
 
-Write **hello@comehungry.org**, or say you're starting at comehungry.org — name, email, where you are. Somebody who has done this writes back. It can take a week. That is the only reason we ask: so we can help. Nothing is sold, nothing is mailed at you, and nothing here was ever gated behind giving us anything.
+Ask at **comehungry.org/ask**, or say you're starting at comehungry.org — name, email, where you are. Somebody who has done this writes back. It can take a week. That is the only reason we ask: so we can help. Nothing is sold, nothing is mailed at you, and nothing here was ever gated behind giving us anything.

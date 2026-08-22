@@ -5,7 +5,7 @@
 
 // Bumped on every build. A new build gets fresh caches and the old ones are
 // deleted on activate, so nobody is ever served yesterday's page.
-var BUILD = '6dd222';
+var BUILD = 'f82540';
 var SHELL = 'ch-shell-' + BUILD;
 var DOCS  = 'ch-docs-' + BUILD;
 

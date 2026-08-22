@@ -43,9 +43,9 @@ Say it out loud at your first gathering, so it's never a surprise later: *what's
 
 **Your first bench is local, and you build it before you need it.** In your first month — while nothing is wrong — write down your table's short list: a counselor or two somebody at the table can vouch for, the local crisis line (988 in the US, or your country's crisis line), and any trusted pastor or elder your table has a relationship with. Ten minutes of work. The night somebody's world caves in is the wrong night to start looking.
 
-**Behind your list is a second bench: real people.** The project keeps a small team you can reach when your local list isn't enough or you don't know where to start. Reach them at **hello@comehungry.org**, or tell us you're hosting at comehungry.org and you'll have a name before you need one. You are not doing this alone, and you were never supposed to.
+**Behind your list is a second bench: real people.** The project keeps a small team you can reach when your local list isn't enough or you don't know where to start. Reach them at **comehungry.org/ask** and you'll have a name before you need one. You are not doing this alone, and you were never supposed to.
 
-**For ordinary hosting questions — story prep, table dynamics, what-do-I-do-when — write hello@comehungry.org.** It can take a week; there are only a few of us. But hear the line clearly, because it doesn't move: anything involving safety, harm, or a person in real trouble goes to people, now, not to us. Your local list first, then emergency services. Always people, always immediately.
+**For ordinary hosting questions — story prep, table dynamics, what-do-I-do-when — ask at comehungry.org/ask.** It can take a week; there are only a few of us. But hear the line clearly, because it doesn't move: anything involving safety, harm, or a person in real trouble goes to people, now, not to us. Your local list first, then emergency services. Always people, always immediately.
 
 ## If your table is part of a church
 

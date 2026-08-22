@@ -353,7 +353,7 @@ You haven't. This is what week two is. Almost every table has one, and the ones 
 
 Three things that help, none of them impressive. Cook something easier than you did the first week, so you are not exhausted before anyone arrives. Ask about last week's acts by name, even if only one person did theirs, because that is the moment people learn this is real. And let the silence be long. Count to ten. What somebody says after a real silence is almost always the truest thing said that night.
 
-If it is still flat at week five, that is information rather than failure — write hello@comehungry.org and somebody who has been there will talk it through with you.
+If it is still flat at week five, that is information rather than failure — ask at comehungry.org/ask and somebody who has been there will talk it through with you.
 
 ## When a table ends
 
@@ -448,9 +448,9 @@ Say it out loud at your first gathering, so it's never a surprise later: *what's
 
 **Your first bench is local, and you build it before you need it.** In your first month — while nothing is wrong — write down your table's short list: a counselor or two somebody at the table can vouch for, the local crisis line (988 in the US, or your country's crisis line), and any trusted pastor or elder your table has a relationship with. Ten minutes of work. The night somebody's world caves in is the wrong night to start looking.
 
-**Behind your list is a second bench: real people.** The project keeps a small team you can reach when your local list isn't enough or you don't know where to start. Reach them at **hello@comehungry.org**, or tell us you're hosting at comehungry.org and you'll have a name before you need one. You are not doing this alone, and you were never supposed to.
+**Behind your list is a second bench: real people.** The project keeps a small team you can reach when your local list isn't enough or you don't know where to start. Reach them at **comehungry.org/ask** and you'll have a name before you need one. You are not doing this alone, and you were never supposed to.
 
-**For ordinary hosting questions — story prep, table dynamics, what-do-I-do-when — write hello@comehungry.org.** It can take a week; there are only a few of us. But hear the line clearly, because it doesn't move: anything involving safety, harm, or a person in real trouble goes to people, now, not to us. Your local list first, then emergency services. Always people, always immediately.
+**For ordinary hosting questions — story prep, table dynamics, what-do-I-do-when — ask at comehungry.org/ask.** It can take a week; there are only a few of us. But hear the line clearly, because it doesn't move: anything involving safety, harm, or a person in real trouble goes to people, now, not to us. Your local list first, then emergency services. Always people, always immediately.
 
 ## If your table is part of a church
 
@@ -484,7 +484,7 @@ And the tables multiply. Each one raises its next leader from inside itself — 
 
 Now the two questions you're actually asking.
 
-**What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a human to walk your launch with you, that exists too — the founder's professional practice, which lives entirely outside this project, under his own name, at timothyeldred.com — linked, never sold from inside the project. Paid church engagements there fund the same help for churches that can't pay, and no church is ever turned away for money. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
+**What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a person to walk your launch with you, that exists too. Ask at comehungry.org and say what you need. Some of that help is paid work, and the churches that pay for it fund the same help for churches that can't — no church is ever turned away for money, and nobody is sold anything from inside this project. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
 
 **What does it look like two years in?** Nothing you can put in a report. Six tables you didn't start. A woman who hadn't been inside a church in nine years telling a story about Jesus out loud, badly, to five people who love her. Somebody in your congregation who was quietly done, and stayed — not because the preaching improved, but because eight people noticed when she stopped coming. Two people who found out they could do this, and are now doing it in a town you've never visited. None of that shows up in attendance. All of it is the thing you got into this for.
 
@@ -540,7 +540,7 @@ This is the deepest posture and the slowest. Rebirth means the congregation reor
 
 **What dies and what doesn't.** Programs that exist to manufacture the connection tables now provide will fade — let them, gently, on their own schedule. What doesn't die: your worship gathering (it gets warmer — celebration is different when the family already knows each other), your teaching (tables run on it), your governance (this kit has no opinion about your polity), and your identity (Rebirth makes your church more itself, not something else wearing its name).
 
-**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when the structure has to catch up with what is actually happening. Staffing, budget, what to stop doing, what Sunday becomes. Those are hard calls to make on your own, so get through a healthy year one and then write hello@comehungry.org — somebody who has been through it will talk it over with you.
+**Your first year, honestly.** Months 1–6 look exactly like Renew — a handful of tables, quiet, no announcements. Months 6–12: multiply hosts, start folding table stories into your Sunday celebration (let people hear what's happening in living rooms without turning it into promotion), and begin the leadership conversation with your board — not asking permission for a restructure, just showing them what's growing. Year two is when the structure has to catch up with what is actually happening. Staffing, budget, what to stop doing, what Sunday becomes. Those are hard calls to make on your own, so get through a healthy year one and then ask at comehungry.org/ask — somebody who has been through it will talk it over with you.
 
 **The two ways Rebirth fails.**
 1. *The language changes and the tables don't.* A church that adopts the vocabulary — starts saying "tables," puts "church of small groups" on the website — without the slow work of actual living rooms has just renamed its decline. The words are the last thing to change, not the first.
@@ -654,7 +654,7 @@ Friends, neighbors, coworkers, church people, not-church people. The hosts invit
 Food kept simple, ninety minutes, the rhythm in the guide: Meet, Share, Grow, Act. The guide walks them through the first four gatherings story by story.
 
 **5. Tell us it happened.**
-One line to hello@comehungry.org: "A table met." That's the only report we'll ever want, and even it is optional.
+One line to comehungry.org/ask: "A table met." That's the only report we'll ever want, and even it is optional.
 
 That's the launch. No banners, no sermon series, no kickoff Sunday. Two tables, started quietly, and your congregation finds out the way neighbors found out about the early church — they catch people talking.
 
@@ -685,7 +685,7 @@ That's the launch. No banners, no sermon series, no kickoff Sunday. Two tables, 
 The model. This kit. The Host's Guide. The Canon of Fifty and every story prep. The safeguarding guide. Updates to all of it. No license, no membership, no subscription, no tiers, no revenue share, no "free trial." If you were ever asked to pay for any of these, something has gone wrong — and you should say so, loudly.
 
 **So how does anyone afford to build this? Here's the honest answer.**
-The founder has been a pastor for nearly forty years and has served the same church for thirty. He started tables there, in his own congregation, before any of this was written down — so none of it is theory he is asking you to test on your people first. He also has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want his professional help, it lives at timothyeldred.com. Paid church engagements there fund equivalent help for churches that can't pay. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
+The founder has been a pastor for nearly forty years and has served the same church for thirty. He started tables there, in his own congregation, before any of this was written down — so none of it is theory he is asking you to test on your people first. He also has a profession: he coaches churches and leaders, under his own name, completely outside this project. That work pays his bills; this project is his calling, and the two never funnel into each other. The project will never sell you anything and never turn the free things paid. Nothing here is gated: take every document without telling us who you are. If you do tell us you're starting a table — a name, an email, where you are — that is so a person can help you, and nothing else. It is never sold, never rented, never mailed at, and never handed to anyone. Ask us to delete it and we will. If you want a person to help you set it up, ask at comehungry.org and say what you need. Some of that is paid work, and the churches that pay fund equivalent help for churches that can't. No church is turned away for money. If yours is a church that can't pay, say so — that's the whole reason the commitment exists, and nobody will ask you to prove it.
 
 **Donations.**
 The project accepts them, and they fund the work. They're plainly non-tax-deductible, and they buy nothing — no influence, no naming rights, no thanks beyond these words.

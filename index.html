@@ -42,7 +42,7 @@
  "publisher":{"@id":"https://comehungry.org/#org"}},
 {"@type":"Organization","@id":"https://comehungry.org/#org","name":"come hungry",
  "url":"https://comehungry.org/","logo":"https://comehungry.org/icon-512.png",
- "email":"hello@comehungry.org",
+ "email":"comehungry.org/#hand",
  "description":"A practice for small groups that gather around a real meal, hear one story about Jesus told from memory, discuss it with four honest questions, and act on it before the next week. All material is free."},
 {"@type":"HowTo","name":"How to start a table",
  "description":"Gather a few people around a real meal, tell one story about Jesus from memory, ask four honest questions, and each name one thing to do before next week.",
@@ -995,6 +995,26 @@ body.isHosting .pastorDoor{display:none}
 
 .cycleNote{color:var(--gold);font-size:.94rem}
 
+.field select{
+  width:100%;color-scheme:dark;
+  background:rgba(242,234,220,.05);color:var(--lamp);
+  border:1px solid var(--rule);border-radius:3px;padding:.9rem 2.4rem .9rem 1rem;
+  font-family:"Literata",Georgia,serif;font-size:1rem;min-height:48px;
+  -webkit-appearance:none;appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--gold) 50%),linear-gradient(135deg,var(--gold) 50%,transparent 50%);
+  background-position:calc(100% - 1.1rem) 1.35rem,calc(100% - .75rem) 1.35rem;
+  background-size:6px 6px,6px 6px;background-repeat:no-repeat;
+}
+.field select:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-color:var(--gold)}
+.field select option{background:#221C16;color:#F2EADC}
+
+.done{margin-top:1.4rem;padding:1.4rem 1.3rem;border:1px solid var(--gold);border-radius:4px;
+  background:rgba(232,169,81,.06)}
+.done[hidden]{display:none}
+.done h3{font-family:"Literata",Georgia,serif;font-weight:400;font-size:1.3rem;margin:0 0 .5rem;color:var(--lamp)}
+.done p{font-size:.95rem;line-height:1.65;color:var(--dim);margin:0 0 .6rem}
+.done p:last-child{margin-bottom:0}
+
 /* --- routes --- */
 .route{display:none}
 .route.live{display:block}
@@ -1044,10 +1064,10 @@ body.isHosting .pastorDoor{display:none}
 
     <div class="sheetfine">
       <p>Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it &mdash; us&nbsp;included.</p>
-      <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="mailto:hello@comehungry.org">hello@comehungry.org</a></p>
+      <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="#hand">ask for help</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build 6dd222 &middot; 2026-08-22 00:00 UTC</p>
+      <p class="stamp">build f82540 &middot; 2026-08-22 10:37 UTC</p>
     </div>
   </div>
 </nav>
@@ -1065,7 +1085,7 @@ body.isHosting .pastorDoor{display:none}
       <li><a href="downloads/the-host-pack.pdf">The host pack</a> &mdash; the four a host needs, one file</li>
       <li><a href="downloads/the-church-pack.pdf">The church pack</a> &mdash; everything for a church, one file</li>
     </ul>
-    <p>Or write <a href="mailto:hello@comehungry.org">hello@comehungry.org</a> and a person will answer.</p>
+    <p>Or write <a href="#hand">ask for help</a> and a person will answer.</p>
   </div>
 </noscript>
 <main id="deck" aria-label="come hungry">
@@ -1153,7 +1173,7 @@ body.isHosting .pastorDoor{display:none}
     <p class="beat quietline"><a class="ref" href="#why">Or read why this exists</a> &mdash; the long version, if you want&nbsp;it.</p>
     <div class="fine">
       <p>Free forever. Copy it, translate it, print it, put your own church's name on it. The one thing nobody may do is sell it &mdash; us&nbsp;included.</p>
-      <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. Say it at <a href="mailto:hello@comehungry.org">hello@comehungry.org</a>, or on the page for&nbsp;it.</p>
+      <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. Say it at <a href="#hand">ask for help</a>, or on the page for&nbsp;it.</p>
     </div>
   </section>
 
@@ -1217,7 +1237,7 @@ body.isHosting .pastorDoor{display:none}
         <textarea id="askInput" rows="2" placeholder="How long should a table run?"></textarea>
         <button class="send" id="askSend" type="button">Ask it</button>
       </div>
-      <p class="beat askNote">Nothing you type is stored or logged. If it can't help, write <a class="ref" href="mailto:hello@comehungry.org">hello@comehungry.org</a> &mdash; it can take a week; there are only a few of&nbsp;us.</p>
+      <p class="beat askNote">Nothing you type is stored or logged. If it can't help, write <a class="ref" href="#hand">comehungry.org/#hand</a> &mdash; it can take a week; there are only a few of&nbsp;us.</p>
       <div class="files">
         <a class="file" href="#library"><b>The library</b><small>Every document, free, no email</small></a>
         <a class="file" href="#hand"><b>Ask for a hand</b><small>A person writes back. It can take a week.</small></a>
@@ -1257,15 +1277,28 @@ body.isHosting .pastorDoor{display:none}
     </section>
   </div>
 
-  <div class="route" id="hand" data-title="Starting a table" data-parent="home">
-
+  <div class="route" id="hand" data-title="Ask for help" data-parent="home">
     <section class="card on">
-      <h2 class="line">Tell us, and a person will write&nbsp;back.</h2>
-      <p class="line quiet">Not a newsletter, not a sequence, not a sales call. Somebody who has hosted a table reading your name and answering&nbsp;you.</p>
-      <p class="beat">Fair warning: this is a small number of people who host tables themselves, not a support desk. A reply can take a week. If something is urgent or somebody is in danger, don't wait on us &mdash; call your local emergency number or a crisis line, and read <a class="ref" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">Keeping people safe</a>&nbsp;first.</p>
-      <p class="beat">You don't have to do this. Everything here is yours already &mdash; every document, all fifty stories, no account, no gate. This is only for people who want a human on the other&nbsp;end.</p>
-      <div class="label handStart">Three things</div>
+      <h2 class="line">Ask, and a person will write&nbsp;back.</h2>
+      <p class="line quiet">Not a newsletter, not a sequence, not a sales call. Somebody who has hosted a table reading what you wrote and answering&nbsp;it.</p>
+      <p class="beat">Fair warning: this is a small number of people who host tables themselves, not a support desk. A reply can take a week. If something is urgent or somebody is in danger, don&rsquo;t wait on us &mdash; call your local emergency number or a crisis line, and read <a class="ref" href="read/keeping-people-safe">Keeping people safe</a>&nbsp;first.</p>
+      <p class="beat">You don&rsquo;t have to do this. Everything here is yours already &mdash; every document, all fifty stories, no account, no gate. This is only for people who want a human on the other&nbsp;end.</p>
+
+      <div class="label handStart">What do you need</div>
       <form id="handForm" novalidate>
+        <div class="field">
+          <label for="fNeed">I&rsquo;m asking about</label>
+          <select id="fNeed" name="need">
+            <option value="">Choose one&hellip;</option>
+            <option>Starting a table &mdash; I&rsquo;m about to, or just have</option>
+            <option>Running one &mdash; something isn&rsquo;t working</option>
+            <option>Bringing this into a church</option>
+            <option>Help setting it up in our church</option>
+            <option>Safeguarding, or something that happened</option>
+            <option>Translating it, or using it somewhere else</option>
+            <option>Something else</option>
+          </select>
+        </div>
         <div class="field">
           <label for="fName">Your name</label>
           <input id="fName" name="name" type="text" autocomplete="name" placeholder="What people call you">
@@ -1275,12 +1308,16 @@ body.isHosting .pastorDoor{display:none}
           <input id="fMail" name="email" type="email" autocomplete="email" inputmode="email" placeholder="Where a reply can reach you">
         </div>
         <div class="field">
-          <label for="fPlace">City and country</label>
-          <input id="fPlace" name="place" type="text" autocomplete="address-level2" placeholder="So we know what time zone you're in">
+          <label for="fPhone">Phone <em>&mdash; optional</em></label>
+          <input id="fPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Only if you&rsquo;d rather be called than written to">
         </div>
         <div class="field">
-          <label for="fNote">Anything you want to say <em>&mdash; optional</em></label>
-          <textarea id="fNote" name="note" rows="3" placeholder="Where you're at, what you're worried about, nothing at all"></textarea>
+          <label for="fPlace">City and country</label>
+          <input id="fPlace" name="place" type="text" autocomplete="address-level2" placeholder="So we know what time zone you&rsquo;re in">
+        </div>
+        <div class="field">
+          <label for="fNote">What&rsquo;s going on <em>&mdash; optional</em></label>
+          <textarea id="fNote" name="note" rows="3" placeholder="Where you&rsquo;re at, what you&rsquo;re worried about, nothing at all"></textarea>
         </div>
         <div class="nope" aria-hidden="true">
           <label for="fWebsite">Leave this empty</label>
@@ -1288,22 +1325,15 @@ body.isHosting .pastorDoor{display:none}
         </div>
         <p class="formErr" id="fErr" role="alert" hidden></p>
         <button class="send" id="fSend" type="submit">Send it</button>
-        <p class="beat formNote">Your name and email are used to write back to you and to send the safety guide. They are never sold, never rented, never added to a mailing list, and never given to anyone else. Ask us to delete them and we&nbsp;will.</p>
+        <p class="beat formNote">What you put here is used to answer you, and for nothing else. It is never sold, never rented, never shared, never added to a list, and never handed to anybody. Ask us to delete it and we&nbsp;will.</p>
       </form>
-      <div id="fFall" hidden>
-        <h2 class="line">Something on our end didn't&nbsp;work.</h2>
-        <p class="line quiet">Your email app should have opened with everything already filled in &mdash; send that and we have&nbsp;you.</p>
-        <p class="beat">If it didn't open, write to <strong>hello@comehungry.org</strong> and say you're starting a table. That address is a person, and it always&nbsp;works.</p>
+
+      <div class="done" id="fDone" hidden>
+        <h3>That&rsquo;s with us.</h3>
+        <p>A person will read it and write back &mdash; usually within a week, sometimes sooner. Nothing else will&nbsp;arrive.</p>
+        <p>In the meantime everything here is already yours. <a class="ref" href="read/hosts-guide">The Host&rsquo;s Guide</a> is the one to&nbsp;read.</p>
       </div>
-      <div id="fDone" hidden>
-        <p class="line">That's&nbsp;it.</p>
-        <p class="line quiet">A person will write back. It may take a week &mdash; there are only a few of us, and we all have tables of our&nbsp;own.</p>
-        <p class="beat">While you wait, prep a story. That's the actual&nbsp;work.</p>
-        <div>
-          <a class="door primary" href="#stories">The fifty stories<small>Pick one and start learning it</small></a>
-          <a class="door" href="downloads/keeping-people-safe.pdf" target="_blank" rel="noopener">Keeping people safe<small>Read this before anyone sits down</small></a>
-        </div>
-      </div>
+
       <div class="label spaced">What happens now</div>
       <ul class="setting">
         <li data-n="01">A person reads it. Not a system, and not a sequence &mdash; somebody who hosts a table&nbsp;themselves.</li>
@@ -1313,6 +1343,7 @@ body.isHosting .pastorDoor{display:none}
       </ul>
       <p class="beat">Meanwhile you don&rsquo;t have to wait on us for anything. Everything is already yours, and the guide is one tap&nbsp;away.</p>
     </section>
+
 
   </div>
 
@@ -5062,7 +5093,7 @@ body.isHosting .pastorDoor{display:none}
   var SUPABASE_URL = '';   // e.g. https://abcdefgh.supabase.co
   var SUPABASE_KEY = '';   // the anon/public key — insert-only by policy
   var SUPABASE_TABLE = 'starting_a_table';
-  var FALLBACK_EMAIL = 'hello@comehungry.org';
+  var FALLBACK_EMAIL = 'comehungry.org/#hand';
 
   // ActiveCampaign — hosted form endpoint only. NEVER put an AC API key here:
   // it is a full-access secret and this file is public. See SETUP-email.md.
@@ -5188,7 +5219,7 @@ body.isHosting .pastorDoor{display:none}
       var parts = text.split(/(\bhttps?:\/\/\S+|\bhello@comehungry\.org\b)/g);
       parts.forEach(function(p){
         if(!p) return;
-        if(/^https?:\/\//.test(p) || p === 'hello@comehungry.org'){
+        if(/^https?:\/\//.test(p) || p === 'comehungry.org/#hand'){
           var a = document.createElement('a');
           a.href = p.indexOf('@') > -1 ? 'mailto:' + p : p;
           a.textContent = p; a.rel = 'noopener';
@@ -5210,7 +5241,7 @@ body.isHosting .pastorDoor{display:none}
       if(!ASK_URL){
         think.remove();
         var el = line('a routed', '');
-        linkify(el, "The assistant isn't switched on yet. Write hello@comehungry.org and a person will answer — it can take a week; there are only a few of us.");
+        linkify(el, "The assistant isn't switched on yet. Ask for help at comehungry.org and a person will answer — it can take a week; there are only a few of us.");
         askSend.disabled = false;
         return;
       }
@@ -5221,7 +5252,7 @@ body.isHosting .pastorDoor{display:none}
         body: JSON.stringify({messages: turns})
       }).then(function(r){ return r.json(); }).then(function(d){
         think.remove();
-        var text = d.reply || "I don't know. Write hello@comehungry.org and a person will answer.";
+        var text = d.reply || "I don't know. Write comehungry.org/#hand and a person will answer.";
         var el = line('a' + (d.routed === 'human' ? ' routed' : ''), '');
         linkify(el, text);
         turns.push({role:'assistant', content:text});
@@ -5230,7 +5261,7 @@ body.isHosting .pastorDoor{display:none}
       }).catch(function(){
         think.remove();
         var el = line('a routed', '');
-        linkify(el, "I couldn't reach the answer service. Write hello@comehungry.org and a person will answer.");
+        linkify(el, "I couldn't reach the answer service. Write comehungry.org/#hand and a person will answer.");
         askSend.disabled = false;
       });
     }

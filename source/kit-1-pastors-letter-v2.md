@@ -22,7 +22,7 @@ And the tables multiply. Each one raises its next leader from inside itself — 
 
 Now the two questions you're actually asking.
 
-**What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a human to walk your launch with you, that exists too — the founder's professional practice, which lives entirely outside this project, under his own name, at timothyeldred.com — linked, never sold from inside the project. Paid church engagements there fund the same help for churches that can't pay, and no church is ever turned away for money. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
+**What does it cost?** Nothing. The model, this kit, the Host's Guide, the fifty-story canon, the safeguarding guide — free, to any church, forever. No license, no membership, no tiers, no revenue share. If you ever want a person to walk your launch with you, that exists too. Ask at comehungry.org and say what you need. Some of that help is paid work, and the churches that pay for it fund the same help for churches that can't — no church is ever turned away for money, and nobody is sold anything from inside this project. But hear the main thing: you can take everything in this folder and start Tuesday without ever speaking to anyone.
 
 **What does it look like two years in?** Nothing you can put in a report. Six tables you didn't start. A woman who hadn't been inside a church in nine years telling a story about Jesus out loud, badly, to five people who love her. Somebody in your congregation who was quietly done, and stayed — not because the preaching improved, but because eight people noticed when she stopped coming. Two people who found out they could do this, and are now doing it in a town you've never visited. None of that shows up in attendance. All of it is the thing you got into this for.
 
@@ -36,4 +36,4 @@ Grace and peace to you and your church. You've been carrying a lot. This is ligh
 
 ---
 
-If you want to talk it through with a person, write **hello@comehungry.org**. There is nothing to buy here and never will be — we ask who you are so we can help, and for no other reason.
+If you want to talk it through with a person, ask at **comehungry.org/ask**. There is nothing to buy here and never will be — we ask who you are so we can help, and for no other reason.
