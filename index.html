@@ -1067,7 +1067,7 @@ body.isHosting .pastorDoor{display:none}
       <p>Take any of it without telling us who you are. If you want a person alongside you, ask &mdash; that's a choice, never a&nbsp;price. <a href="#hand">ask for help</a></p>
       <p class="fineLink"><a href="#install">Put this on your home screen &rarr;</a></p>
       <p class="rights">&copy; 2026 1:1 Solutions Group LLC. come hungry&trade;.</p>
-      <p class="stamp">build ca11f9 &middot; 2026-08-22 12:00 UTC</p>
+      <p class="stamp">build dbed2b &middot; 2026-08-22 12:05 UTC</p>
     </div>
   </div>
 </nav>
@@ -1237,7 +1237,7 @@ body.isHosting .pastorDoor{display:none}
         <textarea id="askInput" rows="2" placeholder="How long should a table run?"></textarea>
         <button class="send" id="askSend" type="button">Ask it</button>
       </div>
-      <p class="beat askNote">Nothing you type is stored or logged. If it can't help, write <a class="ref" href="#hand">comehungry.org/#hand</a> &mdash; it can take a week; there are only a few of&nbsp;us.</p>
+      <p class="beat askNote">Nothing you type is stored or logged. If it can't help, <a class="ref" href="#hand">ask a person</a> &mdash; a reply can take a week; there are only a few of&nbsp;us.</p>
       <div class="files">
         <a class="file" href="#library"><b>The library</b><small>Every document, free, no email</small></a>
         <a class="file" href="#hand"><b>Ask for a hand</b><small>A person writes back. It can take a week.</small></a>
@@ -5230,7 +5230,7 @@ body.isHosting .pastorDoor{display:none}
       if(!ASK_URL){
         think.remove();
         var el = line('a routed', '');
-        linkify(el, "The assistant isn't switched on yet. Ask for help at comehungry.org and a person will answer — it can take a week; there are only a few of us.");
+        linkify(el, "The assistant isn't switched on yet. Ask a person at comehungry.org and somebody will answer — it can take a week; there are only a few of us.");
         askSend.disabled = false;
         return;
       }
@@ -5241,7 +5241,7 @@ body.isHosting .pastorDoor{display:none}
         body: JSON.stringify({messages: turns})
       }).then(function(r){ return r.json(); }).then(function(d){
         think.remove();
-        var text = d.reply || "I don't know. Write comehungry.org/#hand and a person will answer.";
+        var text = d.reply || "I don't know. Ask a person at comehungry.org and somebody will answer.";
         var el = line('a' + (d.routed === 'human' ? ' routed' : ''), '');
         linkify(el, text);
         turns.push({role:'assistant', content:text});
@@ -5250,7 +5250,7 @@ body.isHosting .pastorDoor{display:none}
       }).catch(function(){
         think.remove();
         var el = line('a routed', '');
-        linkify(el, "I couldn't reach the answer service. Write comehungry.org/#hand and a person will answer.");
+        linkify(el, "I couldn't reach the answer service. Ask a person at comehungry.org and somebody will answer.");
         askSend.disabled = false;
       });
     }
